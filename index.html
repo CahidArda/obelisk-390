@@ -135,6 +135,10 @@ html[lang=ja] .txt .note{font-size:14.5px;line-height:1.7}
 .sidehd + .p{padding-top:6px}
 .sub{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-top:16px;padding-top:8px;border-top:.5px dotted var(--hair)}
 .eng{display:block;width:100%;margin:10px 0 8px}
+.acts{display:flex;gap:22px;flex-wrap:wrap}
+.about.pm .box{max-width:880px;padding:26px 26px 20px}
+.about.pm .ph{margin:12px 0 0}
+.about.pm .ph img{max-height:70vh;width:auto;max-width:100%;margin:0 auto}
 .ph{margin:0 0 10px}
 .ph img{display:block;width:100%;height:auto;border:.5px solid var(--hair)}
 .ph figcaption{font-size:12px;color:var(--muted);margin-top:4px;line-height:1.4}
@@ -168,6 +172,7 @@ html[lang=ja] .insen{font-style:normal;font-size:15.5px;line-height:1.8}
 <div id="loader">…</div>
 <div class="lang" id="lang"><button id="langBtn" aria-haspopup="true"></button><div class="menu" id="langMenu"></div><button id="aboutBtn" aria-haspopup="dialog"></button></div>
 <div class="about" id="about" role="dialog" aria-modal="true" aria-labelledby="aboutT"><div class="box" id="aboutBox"></div></div>
+<div class="about pm" id="pm" role="dialog" aria-modal="true" aria-labelledby="pmT"><div class="box" id="pmBox"></div></div>
 <div id="app">
   <section id="model">
     <div class="plate">
@@ -278,7 +283,16 @@ const about = $('#about');
 const setAbout = on => { about.classList.toggle('open', on); if (on) about.querySelector('.x').focus(); else ($('#aboutBtn').offsetParent ? $('#aboutBtn') : $('#langBtn')).focus(); };
 $('#aboutBtn').onclick = e => { e.stopPropagation(); $('#lang').classList.remove('open'); setAbout(true); };
 about.onclick = e => { if (e.target === about || e.target.closest('.x')) setAbout(false); };
-addEventListener('keydown', e => { if (e.key === 'Escape' && about.classList.contains('open')) setAbout(false); });
+const pm = $('#pm'); let pmFrom = null;
+const openPhoto = (key, from) => {
+  const [side, part] = key.split('-'); pmFrom = from;
+  $('#pmBox').innerHTML = `<button class="x" aria-label="${U('close')}">✕</button><div class="n" id="pmT">${U(side)} · ${U(part)}</div>${photo(key)}`;
+  const img = $('#pmBox img'); img.loading = 'eager';
+  pm.classList.add('open'); pm.querySelector('.x').focus();
+};
+const closePhoto = () => { pm.classList.remove('open'); $('#pmBox').innerHTML = ''; if (pmFrom) pmFrom.focus(); };
+pm.onclick = e => { if (e.target === pm || e.target.closest('.x')) closePhoto(); };
+addEventListener('keydown', e => { if (e.key !== 'Escape') return; if (pm.classList.contains('open')) closePhoto(); else if (about.classList.contains('open')) setAbout(false); });
 if (location.hash === '#about') about.classList.add('open');
 $('#langBtn').onclick = e => { e.stopPropagation(); $('#lang').classList.toggle('open'); };
 document.addEventListener('click', () => $('#lang').classList.remove('open'));
@@ -302,6 +316,8 @@ const PHOTOS = { 'south-upper': "Dado_di_teodosio,_390_ca.,_lato_sud,_teodosio_c
   'west-lower': "Dado_di_teodosio,_390_ca.,_lato_ovest,_iscrizione_dedicatoria_a_teodosio.jpg" };
 const photo = key => `<figure class="ph"><img src="photos/${key}.jpg" alt="" loading="lazy"><figcaption>${U('photo')}: <a href="https://commons.wikimedia.org/wiki/File:${encodeURIComponent(PHOTOS[key]).replace(/%2C/g, ',')}" target="_blank" rel="noopener">Francesco Bini</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>, Wikimedia Commons (${U('resized')})</figcaption></figure>`;
 const seeBtn = attrs => `<button class="see" ${attrs}>${EYE}<span>${U('see')}</span></button>`;
+const CAM = `<svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M3 7.5h4l1.6-2.2h6.8L17 7.5h4v11H3z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><circle cx="12" cy="12.8" r="3.4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>`;
+const phBtn = key => `<button class="see phb" data-ph="${key}" aria-haspopup="dialog">${CAM}<span>${U('photo')}</span></button>`;
 function glyphCol(s){
   if (s.kind === 'scene') return `<div class="col scene">${s.glyphs.map(g => `<span>${g[0]}</span>`).join('')}</div>`;
   const rows = rowsFor(s.glyphs).map(r => `<div class="row${r.h < 1 ? ' f' : ''}">${r.chars.join('')}</div>`).join('');
@@ -337,20 +353,18 @@ function renderRead(){
           <div class="txt">
             <div class="ref">${U('upper')}</div>
             <img class="eng" src="${S.upImg}" alt="">
-            ${photo(S.k + '-upper')}
             <h3>${esc(L(S.up.t))}</h3><p class="note">${esc(L(S.up.d))}</p>
-            ${seeBtn(`data-slot="${i * 2}"`)}
+            <div class="acts">${seeBtn(`data-slot="${i * 2}"`)}${phBtn(S.k + '-upper')}</div>
           </div>
         </article>
         <article class="p ps pad" id="ps${i * 2 + 1}" data-slot="${i * 2 + 1}">
           <div class="txt">
             <div class="ref">${U('lower')}</div>
             <img class="eng" src="${S.loImg}" alt="">
-            ${photo(S.k + '-lower')}
             ${S.lo.ins
               ? `<h3>${U(S.lo.key)}</h3><div class="orig">${S.lo.ins.lines.map(esc).join('<br>')}</div><div class="insen">${esc(L(S.lo.ins.en))}</div><p class="note">${esc(L(S.lo.ins.note))}</p>`
               : `<h3>${esc(L(S.lo.t))}</h3><p class="note">${esc(L(S.lo.d))}</p>`}
-            ${seeBtn(`data-slot="${i * 2 + 1}"`)}
+            <div class="acts">${seeBtn(`data-slot="${i * 2 + 1}"`)}${phBtn(S.k + '-lower')}</div>
           </div>
         </article>`).join('')}
     </section>
@@ -733,6 +747,7 @@ $('#tabs').addEventListener('click', e => {
   scrollToEl(el, true);
 });
 $('#readBody').addEventListener('click', e => {
+  const ph = e.target.closest('.phb'); if (ph){ openPhoto(ph.dataset.ph, ph); return; }
   const b = e.target.closest('.see'); if (!b) return;
   stopAuto();
   if (!isWide()) setMode('model');
@@ -834,7 +849,7 @@ function endPointer(e){
   }
 }
 canvas.addEventListener('pointerup', endPointer);
-document.addEventListener('touchmove', e => { if (!e.target.closest('#rs, #card, #aboutBox')) e.preventDefault(); }, { passive: false });
+document.addEventListener('touchmove', e => { if (!e.target.closest('#rs, #card, #aboutBox, #pmBox')) e.preventDefault(); }, { passive: false });
 canvas.addEventListener('pointercancel', endPointer);
 canvas.addEventListener('pointerleave', () => { if (!pts.size){ showTip(null); highlightModel(act.f, act.s, act.side); } });
 canvas.addEventListener('wheel', e => {
