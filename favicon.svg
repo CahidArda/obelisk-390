@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <!-- The Bosphore 1819 plate (dark ground, gold rule, mirrored scrollwork), with the obelisk
-       standing in it as the app draws it: two flat granite faces, a faint column of signs,
-       the marble pedestal. -->
+  <!-- The Bosphore 1819 plate (dark ground, gold rule, mirrored scrollwork) carrying the
+       wedjat, the Eye of Horus: brow, eye, the falcon cheek mark and the spiral. -->
   <defs>
     <g id="q">
       <path d="M32 32 C 26 30, 20 30, 14 34 C 10 37, 9 43, 13 46 C 16 48, 20 46, 19 42 C 18 39, 14 39, 14 42" fill="none" stroke="#c9a978" stroke-width="1.4" stroke-linecap="round"/>
@@ -11,7 +10,13 @@
       <circle cx="24" cy="10" r="0.9" fill="#b8864f"/>
       <circle cx="10" cy="24" r="0.9" fill="#b8864f"/>
     </g>
-    <path id="ob" d="M25 46.5 L27.8 15 L32.6 7 L36.6 15 L39 46.5 H42.5 V51.5 H45.5 V56 H18.5 V51.5 H21.5 V46.5 Z"/>
+    <g id="eye" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M13.5 20.5 C 20 15.5, 36 13.5, 49.5 17"/>
+      <path d="M13 31 C 19 23.5, 34 22, 46 27.5 C 39.5 33.5, 23 35.5, 13 31 Z"/>
+      <path d="M46 27.5 L 52.5 27.5"/>
+      <path d="M24 34 L 22.6 47.5"/>
+      <path d="M33.5 34 C 34.5 39, 37 43.2, 41 43.8 C 44.2 44.3, 45.8 41.2, 43.8 39.4 C 42.2 38, 39.8 39.2, 40.8 41"/>
+    </g>
   </defs>
   <rect width="64" height="64" rx="12" fill="#1c1814"/>
   <rect x="3.5" y="3.5" width="57" height="57" rx="9" fill="none" stroke="#b8864f" stroke-width="1" opacity="0.9"/>
@@ -21,24 +26,9 @@
     <use href="#q" transform="translate(0 64) scale(1 -1)"/>
     <use href="#q" transform="translate(64 64) scale(-1 -1)"/>
   </g>
-  <!-- dark halo so the scrollwork stops short of the stone -->
-  <use href="#ob" fill="#1c1814" stroke="#1c1814" stroke-width="7" stroke-linejoin="round" opacity="0.92"/>
-  <g stroke="#1c1814" stroke-width="1.2" stroke-linejoin="round">
-    <path d="M21.5 46.5 H42.5 V51.5 H21.5 Z" fill="#e4ddcf"/>
-    <path d="M18.5 51.5 H45.5 V56 H18.5 Z" fill="#d8cfbd"/>
-    <path d="M25 46.5 L27.8 15 L34 15 L35.6 46.5 Z" fill="#d9a690"/>
-    <path d="M35.6 46.5 L34 15 L36.6 15 L39 46.5 Z" fill="#b57f69"/>
-    <path d="M27.8 15 L32.6 7 L34 15 Z" fill="#dfb19c"/>
-    <path d="M34 15 L32.6 7 L36.6 15 Z" fill="#bd8873"/>
-  </g>
-  <g fill="#5a2c20" opacity="0.6">
-    <rect x="29.2" y="19" width="2.8" height="1.1"/>
-    <rect x="29.6" y="22.6" width="2" height="2.8" rx="1"/>
-    <rect x="29.1" y="27.8" width="3" height="1.1"/>
-    <rect x="29.4" y="31.2" width="2.4" height="2.3"/>
-    <rect x="29" y="36" width="3.2" height="1.1"/>
-    <rect x="29.5" y="39.4" width="2.2" height="2.9" rx="1"/>
-  </g>
-  <!-- a thin gold edge on the lit side of the shaft -->
-  <path d="M25 46.5 L27.8 15 L32.6 7" fill="none" stroke="#c9a978" stroke-width="0.6" stroke-linejoin="round" opacity="0.7"/>
+  <!-- dark halo so the scrollwork stops short of the eye -->
+  <use href="#eye" stroke="#1c1814" stroke-width="8" opacity="0.94"/>
+  <path d="M13 31 C 19 23.5, 34 22, 46 27.5 C 39.5 33.5, 23 35.5, 13 31 Z" fill="#1c1814"/>
+  <use href="#eye" stroke="#e2c58f" stroke-width="2.4"/>
+  <circle cx="30.5" cy="28.6" r="4.1" fill="#e2c58f"/>
 </svg>
