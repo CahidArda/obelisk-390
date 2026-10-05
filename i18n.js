@@ -24,7 +24,8 @@ window.I18N = {
       foot2: "Pedestal inscriptions after B. Kiilerich, <i>American Journal of Archaeology</i> 105 (2001). The proportions of the model are approximate.",
       photo: "Photo", resized: "resized",
       foot3: "Pedestal photographs by Francesco Bini on Wikimedia Commons (CC BY-SA 4.0), shown resized; the line drawings follow them, with simplified figures.",
-      loading: "Preparing the plate…", fit: "Show the whole obelisk", lang: "Language"
+      loading: "Preparing the plate…", fit: "Show the whole obelisk", lang: "Language",
+      about: "About", close: "Close", aboutMade: "Made by <a>Cahid Arda Öz</a> with Claude Opus 5.5.", aboutBlog: "How it was made (blog post)", aboutCode: "Source code and data on GitHub", aboutIntro: "A 3D model of the obelisk and its pedestal, drawn flat like a printed plate. Turn it, tap a line of hieroglyphs and read it; the reading page sets each face’s column beside its transliteration and translation.", aboutFix: "Corrections are welcome on GitHub.", aboutPhotos: "Pedestal photographs, and the photographs the relief drawings were measured on: Francesco Bini, Wikimedia Commons, CC BY-SA 4.0."
     },
     tr: {
       maker: "III. Thutmosis, Karnak, MÖ y. 1450",
@@ -49,7 +50,8 @@ window.I18N = {
       foot2: "Kaide yazıtları B. Kiilerich’e göre, <i>American Journal of Archaeology</i> 105 (2001). Modelin oranları yaklaşıktır.",
       photo: "Fotoğraf", resized: "yeniden boyutlandırıldı",
       foot3: "Kaide fotoğrafları Wikimedia Commons’ta Francesco Bini’ye aittir (CC BY-SA 4.0) ve yeniden boyutlandırılarak gösterilmiştir; çizimler bu fotoğrafları izler, figürler sadeleştirilmiştir.",
-      loading: "Levha hazırlanıyor…", fit: "Dikilitaşın tamamını göster", lang: "Dil"
+      loading: "Levha hazırlanıyor…", fit: "Dikilitaşın tamamını göster", lang: "Dil",
+      about: "Hakkında", close: "Kapat", aboutMade: "Bu uygulama <a>Cahid Arda Öz</a> tarafından Claude Opus 5.5 ile yapıldı.", aboutBlog: "Nasıl yapıldı (blog yazısı)", aboutCode: "Kaynak kod ve veriler GitHub’da", aboutIntro: "Dikilitaş’ın ve kaidesinin, basılı bir levha gibi düz çizilmiş 3B modeli. Çevirin, bir hiyeroglif satırına dokunun ve okuyun; okuma sayfası her yüzün sütununu transliterasyonu ve çevirisiyle yan yana verir.", aboutFix: "Düzeltmeler GitHub üzerinden beklenir.", aboutPhotos: "Kaide fotoğrafları ve kabartma çizimlerinin ölçüldüğü fotoğraflar: Francesco Bini, Wikimedia Commons, CC BY-SA 4.0."
     },
     fr: {
       maker: "Thoutmôsis III, Karnak, v. 1450 av. J.-C.",
@@ -74,7 +76,8 @@ window.I18N = {
       foot2: "Inscriptions du socle d’après B. Kiilerich, <i>American Journal of Archaeology</i> 105 (2001). Les proportions du modèle sont approximatives.",
       photo: "Photo", resized: "redimensionnée",
       foot3: "Photographies du socle par Francesco Bini sur Wikimedia Commons (CC BY-SA 4.0), redimensionnées ; les dessins les suivent, avec des figures simplifiées.",
-      loading: "Préparation de la planche…", fit: "Afficher tout l’obélisque", lang: "Langue"
+      loading: "Préparation de la planche…", fit: "Afficher tout l’obélisque", lang: "Langue",
+      about: "À propos", close: "Fermer", aboutMade: "Application réalisée par <a>Cahid Arda Öz</a> avec Claude Opus 5.5.", aboutBlog: "Comment elle a été faite (article de blog)", aboutCode: "Code source et données sur GitHub", aboutIntro: "Un modèle 3D de l’obélisque et de son socle, dessiné à plat comme une planche imprimée. Faites-le tourner, touchez une ligne de hiéroglyphes et lisez-la ; la page de lecture place la colonne de chaque face à côté de sa translittération et de sa traduction.", aboutFix: "Les corrections sont les bienvenues sur GitHub.", aboutPhotos: "Photographies du socle, et photographies sur lesquelles les dessins des reliefs ont été mesurés : Francesco Bini, Wikimedia Commons, CC BY-SA 4.0."
     },
     ja: {
       maker: "トトメス3世・カルナック・紀元前1450年頃",
@@ -99,7 +102,8 @@ window.I18N = {
       foot2: "台座の磑文はB. Kiilerich, <i>American Journal of Archaeology</i> 105 (2001) による。模型の比率はおおよそのもの。",
       photo: "写真", resized: "縮小表示",
       foot3: "台座の写真はWikimedia Commons上のFrancesco Biniによるもの（CC BY-SA 4.0、縮小表示）。線画はこれらの写真に基づき、人物を簡略化して描いている。",
-      loading: "図版を準備中…", fit: "オベリスク全体を表示", lang: "言語"
+      loading: "図版を準備中…", fit: "オベリスク全体を表示", lang: "言語",
+      about: "このアプリについて", close: "閉じる", aboutMade: "制作：<a>Cahid Arda Öz</a>（Claude Opus 5.5 を使用）", aboutBlog: "制作の経緯（ブログ記事）", aboutCode: "ソースコードとデータ（GitHub）", aboutIntro: "オベリスクと台座を、刷り物の図版のように平面的に描いた3Dモデルです。回して、ヒエログリフの行をタップすると読めます。読む画面では、各面の碑文を翻字と訳文と並べています。", aboutFix: "誤りのご指摘はGitHubで歓迎します。", aboutPhotos: "台座の写真、およびレリーフ線画の計測に用いた写真：Francesco Bini（Wikimedia Commons、CC BY-SA 4.0）。"
     }
   },
   t: {
