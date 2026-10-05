@@ -2,6 +2,8 @@
 (() => {
   let vt = 0, rafQ = [], rafId = 1, tid = 1; const timers = new Map(), anims = new Map();
   const D0 = Date.now();
+  const RRAF = window.requestAnimationFrame.bind(window);
+  window.__present = () => new Promise(r => RRAF(() => RRAF(r)));   // a real frame, so the WebGL canvas is on screen
   performance.now = () => vt; Date.now = () => D0 + vt;
   window.requestAnimationFrame = cb => { const id = rafId++; rafQ.push([id, cb]); return id; };
   window.cancelAnimationFrame = id => { rafQ = rafQ.filter(x => x[0] !== id); };

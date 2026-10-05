@@ -38,6 +38,7 @@ for (let i = 0; i < FPS * DUR; i++) {
     await p.evaluate(y => { document.getElementById('rs').scrollTop = y; }, sFrom + DIST * e);
   }
   await step(1);
+  await p.evaluate(() => window.__present());
   await p.screenshot({ path: `${OUT}/f${String(i).padStart(4, '0')}.jpg`, type: 'jpeg', quality: 93 });
   if (i % 30 === 0) console.log(`frame ${i} ${((Date.now() - t0) / 1000).toFixed(0)}s`);
 }
