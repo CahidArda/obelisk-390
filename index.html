@@ -1,0 +1,848 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f2ecdf">
+<title>Dikilitaş</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Noto+Sans+Egyptian+Hieroglyphs&family=Noto+Serif+JP:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f2ecdf;--ink:#2b2420;--muted:#7a6d61;--hair:rgba(43,36,32,.22);--glyph:#5a2c20;--hl:rgba(238,192,70,.28)}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;overscroll-behavior:none}
+body{background:var(--paper);color:var(--ink);font-family:"EB Garamond","Noto Serif JP",Georgia,serif;-webkit-font-smoothing:antialiased;overflow:hidden;-webkit-tap-highlight-color:transparent}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;-webkit-appearance:none;appearance:none}
+.frame{position:fixed;inset:7px;border:1px solid var(--ink);pointer-events:none;z-index:9}
+.frame::after{content:"";position:absolute;inset:3px;border:.5px solid var(--hair)}
+#app{position:fixed;inset:0;display:flex}
+#model{position:relative;flex:1;min-width:0;display:flex;flex-direction:column;padding-bottom:calc(env(safe-area-inset-bottom) + 70px)}
+.plate{text-align:center;padding:calc(env(safe-area-inset-top) + 26px) 24px 0}
+.plate h1{font-weight:500;font-size:15px;letter-spacing:.26em;text-transform:uppercase}
+.plate .maker{font-style:italic;font-size:15.5px;margin-top:3px}
+.plate .no{font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;margin-top:3px;color:var(--muted)}
+.plate .r{width:110px;height:.5px;background:var(--ink);opacity:.5;margin:8px auto 0}
+#stage{position:relative;flex:1;min-height:0}
+#c{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:none;cursor:grab}
+#c.pt{cursor:pointer}
+.cap{text-align:center;pointer-events:none;padding-top:6px}
+.cap .f{font-size:11px;letter-spacing:.22em;text-transform:uppercase}
+.cap .h{font-style:italic;font-size:13.5px;color:var(--muted);margin-top:1px;transition:opacity .6s}
+.zb{position:absolute;top:6px;right:18px;display:flex;flex-direction:column;gap:6px;z-index:2}
+.zb button{width:34px;height:34px;border:1px solid var(--ink);background:var(--paper);font-size:17px;line-height:1}
+.zb button:disabled{opacity:.3;cursor:default}
+#fit{display:none;font-size:15px}
+#fit.show{display:block}
+#card{position:relative;margin:6px 16px 0;background:var(--paper);border:1px solid var(--ink);padding:9px 40px 10px 14px;display:none}
+body.carded .cap{display:none}
+body.carded .specs{display:none}
+.info{flex:none}
+@media (max-width:959px){
+  .info{height:140px;position:relative;z-index:4}
+  .info .cap,.info .specs{overflow:hidden}
+  /* the card sits at the bottom of the slot and grows upward over the model, so long labels show in full without moving the model */
+  #card{position:absolute;left:16px;right:16px;bottom:8px;margin:0;max-height:min(60vh,calc(100dvh - 120px));overflow-y:auto;box-shadow:0 -4px 0 var(--paper),3px 3px 0 rgba(43,36,32,.1)}
+}
+@media (max-width:959px) and (max-height:640px){.info{height:118px}}
+#card.show{display:block}
+#card .ref{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+#card .t{font-size:18px;font-weight:500;line-height:1.25;margin-top:2px}
+#card .tr{font-style:italic;color:var(--muted);font-size:14.5px;margin-top:2px}
+#card .tr:empty{display:none}
+#card .more{margin-top:7px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;border-bottom:.5px solid var(--ink);padding:2px 0}
+#card .x{position:absolute;top:6px;right:6px;width:30px;height:30px;font-size:14px;color:var(--muted)}
+@media (min-width:960px){#card{display:none!important}}
+#tip{position:absolute;pointer-events:none;max-width:min(260px,calc(100% - 20px));background:var(--paper);border:1px solid var(--ink);padding:7px 10px 8px;font-size:15.5px;line-height:1.3;max-width:260px;opacity:0;transition:opacity .15s;box-shadow:3px 3px 0 rgba(43,36,32,.1);z-index:3}
+#tip.show{opacity:1}
+#tip small{display:block;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
+.specs{display:grid;grid-template-columns:1fr 1fr;column-gap:24px;padding:10px 28px 0;max-width:520px;margin:0 auto;width:100%}
+.specs div{display:flex;justify-content:space-between;gap:10px;border-top:.5px solid var(--hair);padding:3px 0 2px;font-size:12px;line-height:1.35}
+.specs .k{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);padding-top:2px;white-space:nowrap}
+.specs .v{text-align:right}
+.toggle{position:fixed;bottom:calc(env(safe-area-inset-bottom) + 18px);left:50%;transform:translateX(-50%);display:flex;border:1px solid var(--ink);background:var(--paper);z-index:10}
+.toggle button{font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;padding:10px 20px;white-space:nowrap}
+.toggle button.on{background:var(--ink);color:var(--paper)}
+.lang{position:fixed;top:calc(env(safe-area-inset-top) + 15px);left:16px;z-index:11}
+.lang>button{font-size:11px;letter-spacing:.16em;padding:6px 8px;color:var(--muted);display:flex;align-items:center;gap:5px}
+.lang>button:hover{color:var(--ink)}
+.lang .menu{display:none;position:absolute;top:100%;left:4px;background:var(--paper);border:1px solid var(--ink);box-shadow:3px 3px 0 rgba(43,36,32,.1);min-width:120px}
+.lang.open .menu{display:block}
+.lang .menu button{display:block;width:100%;text-align:left;padding:8px 12px;font-size:15px}
+.lang .menu button.on{background:var(--hl)}
+/* reading panel */
+#read{position:fixed;inset:0;z-index:5;background:var(--paper);opacity:0;visibility:hidden;transition:opacity .25s,visibility .25s}
+body.reading #read{opacity:1;visibility:visible}
+#rs{position:absolute;inset:11px;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:rgba(43,36,32,.28) transparent}
+#rs::-webkit-scrollbar{width:9px}
+#rs::-webkit-scrollbar-track{background:transparent}
+#rs::-webkit-scrollbar-thumb{background:rgba(43,36,32,.22);border-radius:9px;border:3px solid var(--paper)}
+#rs::-webkit-scrollbar-thumb:hover{background:rgba(43,36,32,.4)}
+.tabs{position:sticky;top:0;z-index:2;background:var(--paper);display:flex;justify-content:center;gap:2px;padding:calc(env(safe-area-inset-top) + 9px) 14px 0;border-bottom:.5px solid var(--hair)}
+.tabs button{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);padding:6px 10px 8px;border-bottom:1.5px solid transparent;margin-bottom:-.5px}
+.tabs button.on{color:var(--ink);border-color:var(--ink)}
+.face{padding:30px 0 6px}
+.face>header{text-align:center;margin-bottom:16px;padding:0 18px}
+.face>header .n{font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:var(--muted)}
+.face>header h2{font-weight:400;font-style:italic;font-size:24px;margin-top:2px}
+.face>header .r{width:80px;height:.5px;background:var(--ink);opacity:.5;margin:10px auto 0}
+.pad{padding-left:max(18px,calc((100% - 620px)/2));padding-right:max(18px,calc((100% - 620px)/2))}
+.p{display:grid;grid-template-columns:76px 1fr;gap:14px;padding-top:16px;padding-bottom:14px;border-top:.5px solid var(--hair);transition:background .25s;scroll-margin-top:60px}
+.p.on{background:var(--hl)}
+.p.ps{display:block}
+.col{display:flex;flex-direction:column;align-items:center;font-family:"Noto Sans Egyptian Hieroglyphs";font-size:31px;line-height:1.12;color:var(--glyph);padding-top:2px}
+.col .row{white-space:nowrap;text-align:center}
+.col .row.f{font-size:26px;line-height:.85}
+.col.scene{flex-direction:row;font-size:24px;gap:1px;justify-content:center}
+.cart{border:1.5px solid currentColor;border-radius:999px;padding:9px 5px;display:flex;flex-direction:column;align-items:center;position:relative;margin-bottom:8px}
+.cart::after{content:"";position:absolute;bottom:-7px;left:-5px;right:-5px;height:2px;background:currentColor}
+.serekh{border:1.5px solid currentColor;padding:7px 5px 0;display:flex;flex-direction:column;align-items:center}
+.serekh .fac{height:15px;align-self:stretch;margin:6px -5px 0;border-top:1.5px solid currentColor;background:repeating-linear-gradient(90deg,currentColor 0 1.5px,transparent 1.5px 7px)}
+.txt .ref{font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.txt h3{font-weight:500;font-size:20.5px;line-height:1.26;margin-top:2px}
+.txt .tr{font-style:italic;color:var(--muted);font-size:15.5px;margin-top:3px}
+.txt .note{font-size:15.5px;line-height:1.5;margin-top:7px;color:#463c35}
+html[lang=ja] .txt h3{font-size:18.5px;line-height:1.45}
+html[lang=ja] .txt .note{font-size:14.5px;line-height:1.7}
+.see{display:inline-flex;align-items:center;gap:6px;margin-top:9px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);padding:3px 0;transition:color .15s}
+.see:hover{color:var(--ink)}
+.see svg{flex:none}
+.break{text-align:center;font-style:italic;color:var(--muted);font-size:15px;padding-top:16px;padding-bottom:4px;border-top:.5px dashed var(--ink)}
+.intro{font-size:16px;line-height:1.55;margin-bottom:12px}
+.sidehd{font-size:13px;letter-spacing:.24em;text-transform:uppercase;color:var(--ink);margin-top:26px;padding-top:12px;padding-bottom:2px;border-top:.5px solid var(--hair)}
+.sidehd + .p{padding-top:6px}
+.sub{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-top:16px;padding-top:8px;border-top:.5px dotted var(--hair)}
+.eng{display:block;width:100%;margin:10px 0 8px}
+.ph{margin:0 0 10px}
+.ph img{display:block;width:100%;height:auto;border:.5px solid var(--hair)}
+.ph figcaption{font-size:12px;color:var(--muted);margin-top:4px;line-height:1.4}
+.ph a{color:inherit}
+.orig{font-size:13px;letter-spacing:.1em;line-height:1.75;text-align:center;margin:10px 0;color:#4a3f37}
+.insen{font-size:17px;line-height:1.5;font-style:italic;margin-top:4px}
+html[lang=ja] .insen{font-style:normal;font-size:15.5px;line-height:1.8}
+.foot{margin-top:26px;padding-top:14px;padding-bottom:calc(env(safe-area-inset-bottom) + 110px);border-top:.5px solid var(--ink);font-size:14px;line-height:1.55;color:var(--muted)}
+.foot p+p{margin-top:8px}
+#loader{position:fixed;inset:0;display:grid;place-items:center;font-style:italic;color:var(--muted);z-index:8;background:var(--paper);transition:opacity .4s}
+@media (min-width:960px){
+  #model{padding-bottom:22px}
+  #read{position:relative;inset:auto;flex:none;width:min(46%,660px);opacity:1;visibility:visible;border-left:1px solid var(--ink);margin:7px 7px 7px 0}
+  #rs{inset:4px 4px 4px 0}
+  .tabs{padding-top:22px}
+  .toggle{display:none}
+  .foot{padding-bottom:40px}
+  .plate{padding-top:34px}.plate h1{font-size:17px}
+  .lang{top:20px;left:20px}
+}
+@media (max-height:640px){.specs{display:none}}
+</style>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js"}}</script>
+<script src="data.js"></script>
+<script src="i18n.js"></script>
+<script src="reliefs.js"></script>
+<script>addEventListener("error",e=>{const l=document.getElementById("loader");if(l){l.style.opacity=1;l.textContent="Something went wrong: "+e.message}});</script>
+</head>
+<body>
+<div class="frame"></div>
+<div id="loader">…</div>
+<div class="lang" id="lang"><button id="langBtn" aria-haspopup="true"></button><div class="menu" id="langMenu"></div></div>
+<div id="app">
+  <section id="model">
+    <div class="plate">
+      <h1>Dikilitaş</h1>
+      <div class="maker" id="maker"></div>
+      <div class="no" id="reerected"></div>
+      <div class="r"></div>
+    </div>
+    <div id="stage">
+      <canvas id="c"></canvas>
+      <div class="zb"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button><button id="fit">⤢</button></div>
+      <div id="tip"></div>
+    </div>
+    <div class="info">
+    <div class="cap"><div class="f" id="faceCap"></div><div class="h" id="hint"></div></div>
+      <div id="card"><button class="x" aria-label="Close">✕</button><div class="ref"></div><div class="t"></div><div class="tr"></div><button class="more"></button></div>
+    <div class="specs" id="specs"></div>
+    </div>
+  </section>
+  <section id="read"><div id="rs">
+    <nav class="tabs" id="tabs"></nav>
+    <div id="readBody"></div>
+  </div></section>
+</div>
+<div class="toggle"><button data-m="model" class="on"></button><button data-m="read"></button></div>
+
+<script type="module">
+import * as THREE from 'three';
+const D = window.OBELISK, I = window.I18N, $ = s => document.querySelector(s);
+const HF = '"Noto Sans Egyptian Hieroglyphs"';
+const wideMQ = matchMedia('(min-width: 960px)');
+const isWide = () => wideMQ.matches;
+const touch = matchMedia('(hover: none)').matches;
+const R = ['I','II','III','IV'];
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+/* ---------- language ---------- */
+let lang = (() => {
+  try { const s = localStorage.getItem('obelisk-lang'); if (s && I.ui[s]) return s; } catch {}
+  const n = (navigator.language || 'en').slice(0, 2).toLowerCase();
+  return I.ui[n] ? n : 'en';
+})();
+const U = k => I.ui[lang][k] ?? I.ui.en[k];
+const L = s => lang === 'en' ? s : (I.t[lang]?.[s] ?? s);
+$('#loader').textContent = U('loading');
+
+await Promise.race([
+  Promise.all([
+    document.fonts.load('64px ' + HF, '\u{13143}\u{1302D}\u{131F3}'),
+    document.fonts.load('500 20px "EB Garamond"', 'AΑΚ'),
+    document.fonts.load('italic 20px "EB Garamond"', 'A'),
+  ]),
+  new Promise(r => setTimeout(r, 6000)),
+]).catch(() => {});
+
+/* ---------- pedestal sides (index matches obelisk face direction: 0 +z, 1 +x, 2 -z, 3 -x) ---------- */
+const latin = D.base.find(b => b.kind === 'latin'), greek = D.base.find(b => b.kind === 'greek');
+const SIDES = [
+  { k: 'south', up: { t: 'Theodosius and the imperial family', d: 'The emperor sits with the imperial family in the box, flanked by guards. Below: spectators and soldiers.' },
+    lo: { t: 'The Hippodrome during the games', d: 'A chariot race around the spina, the central barrier on which this obelisk stood.' } },
+  { k: 'east', up: { t: 'Theodosius offers the victor’s wreath', d: 'In the imperial box the emperor holds out the laurel wreath for the winner of the races. Below: spectators, musicians and dancers, with a water organ.' },
+    lo: { ins: latin, key: 'latin' } },
+  { k: 'north', up: { t: 'Theodosius and his court', d: 'The emperor stands with his court and guards, holding the labarum, the Chi-Rho standard. Below: spectators of the races. A later vertical channel cuts through this side.' },
+    lo: { t: 'Transport and raising of the obelisk', d: 'The obelisk being moved and hauled upright: one of the few ancient depictions of how such a monolith was raised.' } },
+  { k: 'west', up: { t: 'Submission of the barbarians', d: 'Kneeling foreigners bring tribute to the emperor and his co-emperors in the imperial box.' },
+    lo: { ins: greek, key: 'greek' } },
+];
+
+/* ---------- shared glyph layout ---------- */
+function rowsFor(glyphs){
+  const rows = [];
+  for (let i = 0; i < glyphs.length; i++){
+    const [ch, k] = glyphs[i], nx = glyphs[i+1];
+    if (k !== 'f' && nx && nx[1] !== 'f'){ rows.push({ chars: [ch, nx[0]], h: 1, wide: k === 'w' || nx[1] === 'w' }); i++; }
+    else rows.push({ chars: [ch], h: k === 'f' ? .58 : 1 });
+  }
+  return rows;
+}
+
+/* ---------- static UI text ---------- */
+const toggleBtns = [...document.querySelectorAll('.toggle button')];
+function applyUI(){
+  document.documentElement.lang = lang;
+  $('#maker').textContent = U('maker');
+  $('#reerected').textContent = U('reerected');
+  $('#hint').textContent = touch ? U('hintTouch') : U('hintMouse');
+  $('#fit').title = $('#fit').ariaLabel = U('fit');
+  toggleBtns[0].textContent = U('model'); toggleBtns[1].textContent = U('read');
+  $('#specs').innerHTML = [['material','graniteV'],['height',null,'18.5 m'],['original','origV'],['withBase',null,'25.6 m'],['carved','carvedV'],['raised','raisedV']]
+    .map(([k, v, raw]) => `<div><span class="k">${U(k)}</span><span class="v">${raw || U(v)}</span></div>`).join('');
+  const cur = I.langs.find(l => l[0] === lang);
+  $('#langBtn').innerHTML = `<svg width="13" height="13" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M2.5 12h19M12 2.5c3 3.2 3 15.8 0 19M12 2.5c-3 3.2-3 15.8 0 19" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>${cur[1]}`;
+  $('#langBtn').ariaLabel = U('lang');
+  $('#langMenu').innerHTML = I.langs.map(([c, n]) => `<button data-l="${c}" class="${c === lang ? 'on' : ''}">${{en:'English',tr:'Türkçe',fr:'Français',ja:'日本語'}[c]}</button>`).join('');
+}
+$('#langBtn').onclick = e => { e.stopPropagation(); $('#lang').classList.toggle('open'); };
+document.addEventListener('click', () => $('#lang').classList.remove('open'));
+$('#langMenu').onclick = e => {
+  const b = e.target.closest('button'); if (!b) return;
+  lang = b.dataset.l; try { localStorage.setItem('obelisk-lang', lang); } catch {}
+  const keep = rs.scrollTop;
+  applyUI(); renderRead(); rs.scrollTop = keep; restoreActiveClass();
+};
+
+/* ---------- reading page ---------- */
+const EYE = `<svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M1.8 12S5.6 5.5 12 5.5 22.2 12 22.2 12 18.4 18.5 12 18.5 1.8 12 1.8 12z" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="12" cy="12" r="3.1" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>`;
+const PHOTOS = { 'south-upper': "Dado_di_teodosio,_390_ca.,_lato_sud,_teodosio_con_la_famiglia_imperiale,_01.jpg",
+  'south-lower': "Dado_di_teodosio,_390_ca.,_lato_sud,_veduta_dell'ippodromo_durante_i_giochi,_01.jpg",
+  'east-upper': "Dado_di_teodosio,_390_ca.,_lato_est,_teodosio_dal_palco_imperiale_offre_la_corona_d'alloro_al_vincitore_dei_giochi,_01.jpg",
+  'east-lower': "Dado_di_teodosio,_390_ca.,_lato_est,_iscrizione_latina_dedicatoria_a_Teodosio_I_e_ai_suoi_discendenti_01.jpg",
+  'north-upper': "Dado_di_teodosio,_390_ca.,_lato_nord,_teodosio_col_labaro_del_chrismon_e_la_sua_corte,_01.jpg",
+  'north-lower': "Dado_di_teodosio,_390_ca.,_lato_nord,_trasporto_dell'obelisco_a_costantinopoli,_010.jpg",
+  'west-upper': "Dado_di_teodosio,_390_ca.,_lato_ovest,_sottomissione_dei_barbari_a_teodosio,_01.jpg",
+  'west-lower': "Dado_di_teodosio,_390_ca.,_lato_ovest,_iscrizione_dedicatoria_a_teodosio.jpg" };
+const photo = key => `<figure class="ph"><img src="photos/${key}.jpg" alt="" loading="lazy"><figcaption>${U('photo')}: <a href="https://commons.wikimedia.org/wiki/File:${encodeURIComponent(PHOTOS[key]).replace(/%2C/g, ',')}" target="_blank" rel="noopener">Francesco Bini</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>, Wikimedia Commons (${U('resized')})</figcaption></figure>`;
+const seeBtn = attrs => `<button class="see" ${attrs}>${EYE}<span>${U('see')}</span></button>`;
+function glyphCol(s){
+  if (s.kind === 'scene') return `<div class="col scene">${s.glyphs.map(g => `<span>${g[0]}</span>`).join('')}</div>`;
+  const rows = rowsFor(s.glyphs).map(r => `<div class="row${r.h < 1 ? ' f' : ''}">${r.chars.join('')}</div>`).join('');
+  if (s.frame === 'cartouche') return `<div class="col"><div class="cart">${rows}</div></div>`;
+  if (s.frame === 'serekh') return `<div class="col"><div class="serekh">${rows}<div class="fac"></div></div></div>`;
+  return `<div class="col">${rows}</div>`;
+}
+let arts = [];
+function renderRead(){
+  $('#tabs').innerHTML = R.map((r, i) => `<button data-t="face${i}" data-f="${i}">${r}</button>`).join('') + `<button data-t="ped">${U('base')}</button>`;
+  $('#readBody').innerHTML = D.faces.map((f, fi) => `
+    <section class="face" id="face${fi}">
+      <header><div class="n">${U('face')} ${R[fi]}</div><h2>${esc(L(f.subtitle))}</h2><div class="r"></div></header>
+      ${f.segs.map((s, si) => `
+        <article class="p pad" id="p${fi}-${si}" data-f="${fi}" data-s="${si}">
+          ${glyphCol(s)}
+          <div class="txt">
+            <div class="ref">${R[fi]}.${si + 1}</div>
+            <h3>${esc(L(s.en))}</h3>
+            ${s.tr ? `<div class="tr">${esc(s.tr)}</div>` : ''}
+            ${s.note ? `<p class="note">${esc(L(s.note))}</p>` : ''}
+            ${seeBtn(`data-f="${fi}" data-s="${si}"`)}
+          </div>
+        </article>`).join('')}
+      <div class="break pad">${esc(U('brk'))}</div>
+    </section>`).join('') + `
+    <section class="face" id="ped">
+      <header><div class="n">${U('pedN')}</div><h2>${esc(U('pedH'))}</h2><div class="r"></div></header>
+      <p class="intro pad">${esc(U('pedIntro'))}</p>
+      ${SIDES.map((S, i) => `
+        <div class="sidehd pad">${U(S.k)}</div>
+        <article class="p ps pad" id="ps${i * 2}" data-slot="${i * 2}">
+          <div class="txt">
+            <div class="ref">${U('upper')}</div>
+            <img class="eng" src="${S.upImg}" alt="">
+            ${photo(S.k + '-upper')}
+            <h3>${esc(L(S.up.t))}</h3><p class="note">${esc(L(S.up.d))}</p>
+            ${seeBtn(`data-slot="${i * 2}"`)}
+          </div>
+        </article>
+        <article class="p ps pad" id="ps${i * 2 + 1}" data-slot="${i * 2 + 1}">
+          <div class="txt">
+            <div class="ref">${U('lower')}</div>
+            <img class="eng" src="${S.loImg}" alt="">
+            ${photo(S.k + '-lower')}
+            ${S.lo.ins
+              ? `<h3>${U(S.lo.key)}</h3><div class="orig">${S.lo.ins.lines.map(esc).join('<br>')}</div><div class="insen">${esc(L(S.lo.ins.en))}</div><p class="note">${esc(L(S.lo.ins.note))}</p>`
+              : `<h3>${esc(L(S.lo.t))}</h3><p class="note">${esc(L(S.lo.d))}</p>`}
+            ${seeBtn(`data-slot="${i * 2 + 1}"`)}
+          </div>
+        </article>`).join('')}
+    </section>
+    <footer class="foot pad"><p>${U('foot1')}</p><p>${U('foot2')}</p><p>${U('foot3')}</p></footer>`;
+  arts = [...document.querySelectorAll('#readBody .p')];
+}
+
+/* ---------- 3D: flat, print-like ---------- */
+const INK = '#2b2420', GLYPH = '#331a13', GRANITE = '#d6a48f', MARBLE = '#e4ddcf';
+const TW = 512, TH = 4096, SCENE_END = 330, BOTTOM = 3990;
+const mk = (w, h) => { const c = document.createElement('canvas'); c.width = w; c.height = h; return c; };
+const texOf = c => { const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 8; return t; };
+
+function buildFace(face, idx){
+  const base = mk(TW, TH), x = base.getContext('2d');
+  x.fillStyle = GRANITE; x.fillRect(0, 0, TW, TH);
+  x.fillStyle = x.strokeStyle = GLYPH; x.textBaseline = 'middle'; x.textAlign = 'left';
+  // centre each sign by its ink, not its advance width
+  const put = (ch, size, cx, cy) => {
+    x.font = `${Math.round(size)}px ${HF}`;
+    const m = x.measureText(ch), l = m.actualBoundingBoxLeft, r = m.actualBoundingBoxRight;
+    x.fillText(ch, cx - (r - l) / 2, cy);
+  };
+  // scale each sign by its ink to fill its box, the way a carver fills a quadrat
+  const fit = (ch, bw, bh, cx, cy) => {
+    x.font = `100px ${HF}`; x.textBaseline = 'alphabetic';
+    const m = x.measureText(ch), l = m.actualBoundingBoxLeft, r = m.actualBoundingBoxRight, a = m.actualBoundingBoxAscent, d = m.actualBoundingBoxDescent;
+    const k = Math.min(bw / Math.max(1, l + r), bh / Math.max(1, a + d));
+    x.font = `${(100 * k).toFixed(1)}px ${HF}`;
+    x.fillText(ch, cx - (r - l) / 2 * k, cy + (a - d) / 2 * k);
+    x.textBaseline = 'middle';
+  };
+  // runs of flat signs stack into one square block, as on the stone
+  const quads = g => { const out = []; for (let i = 0; i < g.length; i++){ if (g[i][1] === 'f'){ const st = [g[i][0]]; while (st.length < 3 && g[i+1] && g[i+1][1] === 'f') st.push(g[++i][0]); out.push(st.length > 1 ? { chars: st, h: st.length === 2 ? .82 : 1, stack: true } : { chars: st, h: .58 }); } else { const nx = g[i+1]; if (nx && nx[1] !== 'f'){ out.push({ chars: [g[i][0], nx[0]], h: 1, wide: g[i][1] === 'w' || nx[1] === 'w' }); i++; } else out.push({ chars: [g[i][0]], h: 1 }); } } return out; };
+  const segs = face.segs.map(s => ({ ...s, rows: s.kind === 'scene' ? [] : quads(s.glyphs) }));
+  const GAP = .2, extra = s => s.frame === 'cartouche' ? .55 : s.frame === 'serekh' ? 1.05 : 0;
+  let units = 0;
+  segs.forEach(s => { if (s.kind !== 'scene') units += s.rows.reduce((a, r) => a + r.h, 0) + GAP + extra(s); });
+  const fs = Math.min(205, (BOTTOM - SCENE_END - 70) / units);
+  const sc = segs[0];
+  put(sc.glyphs[2][0], 170, 150, 160); put(sc.glyphs[1][0], 96, 262, 185); put(sc.glyphs[0][0], 190, 372, 150);
+  x.fillRect(70, SCENE_END - 46, TW - 140, 6);
+  sc.y0 = 20; sc.y1 = SCENE_END - 40;
+  let y = SCENE_END + 40;
+  for (const s of segs.slice(1)){
+    s.y0 = y; if (s.frame) y += fs * .25;
+    for (const r of s.rows){
+      const rh = r.h * fs, cy = y + rh / 2;
+      const CW = s.frame === 'cartouche' ? fs * 1.5 * .74 : s.frame === 'serekh' ? fs * 1.3 * .74 : Math.min(TW * .56, fs * 1.5);
+      if (r.stack){
+        const n = r.chars.length, sh = rh / n;
+        r.chars.forEach((c, j) => fit(c, CW * .95, sh * .86, TW/2, y + sh * (j + .5)));
+      } else if (r.chars.length === 2){
+        const hw = CW / 2 - fs * .04;
+        fit(r.chars[0], hw, rh * .94, TW/2 - CW / 4, cy); fit(r.chars[1], hw, rh * .94, TW/2 + CW / 4, cy);
+      } else fit(r.chars[0], CW, rh * (r.h < 1 ? .86 : .96), TW/2, cy);
+      y += rh;
+    }
+    x.lineWidth = 7;
+    if (s.frame === 'cartouche'){
+      y += fs * .15; const w = fs * 1.5, top = s.y0 + 4;
+      x.beginPath(); x.roundRect(TW/2 - w/2, top, w, y - top, w/2); x.stroke();
+      x.fillRect(TW/2 - w * .62, y + 4, w * 1.24, 9); y += fs * .15;
+    } else if (s.frame === 'serekh'){
+      const w = fs * 1.3, top = s.y0 + 4, fac = fs * .7;
+      x.strokeRect(TW/2 - w/2, top, w, y - top + fac);
+      for (let k = 0; k < 7; k++) x.fillRect(TW/2 - w/2 + 10 + k * (w - 20) / 6.5, y + fac * .15, 6, fac * .75);
+      x.fillRect(TW/2 - w/2, y, w, 6); y += fac;
+    }
+    s.y1 = y; y += GAP * fs;
+  }
+  for (let i = 1; i < segs.length; i++){
+    const s = segs[i], n = segs[i+1];
+    s.h0 = i === 1 ? SCENE_END : segs[i-1].h1;
+    s.h1 = n ? (s.y1 + n.y0) / 2 : s.y1 + 20;
+  }
+  segs[0].h0 = 0; segs[0].h1 = SCENE_END;
+  const display = mk(TW, TH), tex = texOf(display);
+  const F = { ...face, segs, base, display, tex, idx, hi: -2 };
+  paint(F, -1); return F;
+}
+function paint(F, hi){
+  if (F.hi === hi) return; F.hi = hi;
+  const x = F.display.getContext('2d'); x.drawImage(F.base, 0, 0);
+  if (hi >= 0){
+    const s = F.segs[hi], top = hi === 0 ? 12 : s.y0 - 18, bot = hi === 0 ? SCENE_END - 26 : s.y1 + 16;
+    x.globalCompositeOperation = 'multiply'; x.fillStyle = 'rgba(246,208,110,.5)'; x.fillRect(0, top, TW, bot - top);
+    x.globalCompositeOperation = 'source-over'; x.fillStyle = '#9a6a10';
+    x.fillRect(0, top, TW, 6); x.fillRect(0, bot - 6, TW, 6);
+  }
+  F.tex.needsUpdate = true;
+}
+const faces = D.faces.map(buildFace);
+
+/* ---------- pedestal drawings (reliefs.js): measured on F. Bini's photographs ---------- */
+const UPPER_REL = [0, 1, 2, 3].map(i => RELIEF.upper(i));
+const LOWER_REL = { 0: RELIEF.lower(0), 2: RELIEF.lower(2) };
+const FACE = { 1: RELIEF.face(SIDES[1].lo.ins.lines, 'latin'), 3: RELIEF.face(SIDES[3].lo.ins.lines, 'greek') };
+const relURL = c => { const s = mk(c.width / 2, c.height / 2); s.getContext('2d').drawImage(c, 0, 0, s.width, s.height); return s.toDataURL('image/png'); };
+SIDES.forEach((S, i) => { S.upImg = relURL(UPPER_REL[i]); S.loImg = relURL(LOWER_REL[i] || FACE[i]); });
+
+// pedestal panels are highlighted like passages on the obelisk; slot = side * 2 + (0 upper | 1 lower)
+const PED = {};
+function pedTex(slot, base, rect){
+  const display = mk(base.width, base.height), o = { base, display, rect, tex: texOf(display), hi: null };
+  PED[slot] = o; paintPed(o, false); return o.tex;
+}
+function paintPed(o, on){
+  if (o.hi === on) return; o.hi = on;
+  const x = o.display.getContext('2d'); x.drawImage(o.base, 0, 0);
+  if (on){
+    const [a, b, w, h] = o.rect, t = 7;
+    x.globalCompositeOperation = 'multiply'; x.fillStyle = 'rgba(246,208,110,.5)'; x.fillRect(a, b, w, h);
+    x.globalCompositeOperation = 'source-over'; x.fillStyle = '#9a6a10';
+    x.fillRect(a, b, w, t); x.fillRect(a, b + h - t, w, t); x.fillRect(a, b, t, h); x.fillRect(a + w - t, b, t, h);
+  }
+  o.tex.needsUpdate = true;
+}
+function upperTex(i){
+  const c = mk(1200, 860), x = c.getContext('2d');
+  x.fillStyle = MARBLE; x.fillRect(0, 0, 1200, 860);
+  x.drawImage(UPPER_REL[i], 26, 72, 1148, 684);
+  x.strokeStyle = INK; x.lineWidth = 2; [34, 52, 782, 806].forEach(yy => { x.beginPath(); x.moveTo(0, yy); x.lineTo(1200, yy); x.stroke(); });
+  return pedTex(i * 2, c, [14, 60, 1172, 708]);
+}
+function lowerTex(i){
+  if (FACE[i]) return pedTex(i * 2 + 1, FACE[i], [12, 14, 1376, 398]);
+  const c = mk(1400, 460), x = c.getContext('2d');
+  x.fillStyle = MARBLE; x.fillRect(0, 0, 1400, 460);
+  x.strokeStyle = INK; x.lineWidth = 2; [8, 418, 446].forEach(yy => { x.beginPath(); x.moveTo(0, yy); x.lineTo(1400, yy); x.stroke(); });
+  x.fillStyle = 'rgba(43,36,32,.06)'; x.fillRect(0, 418, 1400, 28);
+  x.drawImage(LOWER_REL[i], 28, 52, 1344, 320);
+  return pedTex(i * 2 + 1, c, [12, 14, 1376, 398]);
+}
+function arcadeTex(){
+  const c = mk(1024, 244), x = c.getContext('2d');
+  x.fillStyle = MARBLE; x.fillRect(0, 0, 1024, 244);
+  x.strokeStyle = INK; x.lineWidth = 2.5;
+  const n = 13, w = 1024 / n;
+  for (let i = 0; i < n; i++){
+    const cx = w * (i + .5), r = w * .34;
+    x.beginPath(); x.moveTo(cx - r, 222); x.lineTo(cx - r, 104); x.arc(cx, 104, r, Math.PI, 0); x.lineTo(cx + r, 222); x.stroke();
+    x.fillStyle = 'rgba(43,36,32,.09)'; x.fill();
+  }
+  [14, 30, 222, 236].forEach(yy => { x.beginPath(); x.moveTo(0, yy); x.lineTo(1024, yy); x.stroke(); });
+  return texOf(c);
+}
+
+/* ---------- scene ---------- */
+const stage = $('#stage'), canvas = $('#c');
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.setClearColor(0x000000, 0);
+const scene = new THREE.Scene();
+const cam = new THREE.OrthographicCamera(-1, 1, 1, -1, -200, 200);
+const pivot = new THREE.Group(); scene.add(pivot);
+const tinted = [];
+const flat = opts => new THREE.MeshBasicMaterial({ polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 1, ...opts });
+const tmat = (opts, n) => { const m = flat(opts); m.userData.base = m.color.clone(); m.userData.n = n.clone(); tinted.push(m); return m; };
+const inkLine = new THREE.LineBasicMaterial({ color: INK });
+const BN = [[1,0,0],[-1,0,0],[0,1,0],[0,-1,0],[0,0,1],[0,0,-1]].map(v => new THREE.Vector3(...v));
+const SIDE_OF_MAT = { 0: 1, 1: 3, 4: 0, 5: 2 };  // box material index -> side index
+const MAT_OF_SIDE = [4, 0, 5, 1];
+function box(w, h, d, x, y, z, mats, info){
+  const g = new THREE.BoxGeometry(w, h, d), m = new THREE.Mesh(g, mats);
+  m.position.set(x, y + h / 2, z); m.userData.info = info;
+  const e = new THREE.LineSegments(new THREE.EdgesGeometry(g), inkLine); e.position.copy(m.position);
+  pivot.add(m, e); return m;
+}
+
+// pedestal dimensions in metres (approximate, from photographs)
+const LW = 3.5, LH = 1.15, MH = .62, UW = 3.0, UH = 2.15, PC = .62, CUBE = .5;
+const PED_TOP = LH + MH + UH;
+// ground: a round plaza, so its outline never runs parallel to the pedestal's edges at any view angle
+{ const g = new THREE.CylinderGeometry(3.7, 3.7, .06, 128), up = new THREE.Vector3(0, 1, 0), m = new THREE.Mesh(g, [tmat({ color: '#e2dccf' }, new THREE.Vector3(0, 0, 1)), tmat({ color: '#ebe5d8' }, up), tmat({ color: '#ebe5d8' }, up.clone().negate())]);
+  m.position.y = -.03; const e = new THREE.LineSegments(new THREE.EdgesGeometry(g, 20), inkLine); e.position.copy(m.position); pivot.add(m, e); }
+const lowerMats = BN.map((n, i) => { const s = SIDE_OF_MAT[i]; if (s == null) return tmat({ color: MARBLE }, n); return tmat({ map: lowerTex(s) }, n); });
+lowerMats.forEach(m => { if (m.map) m.userData.base = new THREE.Color(1,1,1); });
+const lower = box(LW, LH, LW, 0, 0, 0, lowerMats, 'lower');
+const arcT = arcadeTex();
+const arcMats = BN.map((n, i) => SIDE_OF_MAT[i] == null ? tmat({ color: MARBLE }, n) : (() => { const m = tmat({ map: arcT }, n); m.userData.base = new THREE.Color(1,1,1); return m; })());
+const arc = box(UW - .5, MH, UW - .5, 0, LH, 0, arcMats, 'arc');
+const porMats = BN.map(n => tmat({ color: '#8d5247' }, n));
+const pors = [[-1,1],[1,1],[1,-1],[-1,-1]].map(([sx, sz]) => box(PC, MH, PC, sx * (UW/2 - PC/2), LH, sz * (UW/2 - PC/2), porMats, 'por'));
+const upperMats = BN.map((n, i) => { const s = SIDE_OF_MAT[i]; if (s == null) return tmat({ color: MARBLE }, n); const m = tmat({ map: upperTex(s) }, n); m.userData.base = new THREE.Color(1,1,1); return m; });
+const upper = box(UW, UH, UW, 0, LH + MH, 0, upperMats, 'upper');
+
+// obelisk: faces subdivided into horizontal strips so the texture is not skewed by the taper
+const Y0 = PED_TOP + CUBE, H = 17.2, WB = 1.25, WT = .88, PH = 1.35, TOP = Y0 + H + PH;
+const corners = [[-1,1],[1,1],[1,-1],[-1,-1]], NS = 48;
+const pos = [], uv = [], geo = new THREE.BufferGeometry(), normals = [];
+const nrm = (a, b, c) => new THREE.Vector3(...b).sub(new THREE.Vector3(...a)).cross(new THREE.Vector3(...c).sub(new THREE.Vector3(...a))).normalize();
+for (let i = 0; i < 4; i++){
+  const L0 = corners[i], R0 = corners[(i+1)%4], start = pos.length / 3;
+  for (let j = 0; j < NS; j++){
+    const v0 = j / NS, v1 = (j + 1) / NS, w0 = WB + (WT - WB) * v0, w1 = WB + (WT - WB) * v1, y0 = Y0 + H * v0, y1 = Y0 + H * v1;
+    const BL = [L0[0]*w0, y0, L0[1]*w0], BR = [R0[0]*w0, y0, R0[1]*w0], TR = [R0[0]*w1, y1, R0[1]*w1], TL = [L0[0]*w1, y1, L0[1]*w1];
+    pos.push(...BL, ...BR, ...TR, ...BL, ...TR, ...TL); uv.push(0,v0, 1,v0, 1,v1, 0,v0, 1,v1, 0,v1);
+    if (j === 0) normals.push(nrm(BL, BR, TR));
+  }
+  geo.addGroup(start, NS * 6, i);
+}
+for (let i = 0; i < 4; i++){
+  const L0 = corners[i], R0 = corners[(i+1)%4], a = [L0[0]*WT, Y0+H, L0[1]*WT], b = [R0[0]*WT, Y0+H, R0[1]*WT], c = [0, TOP, 0];
+  geo.addGroup(pos.length / 3, 3, 4 + i);
+  pos.push(...a, ...b, ...c); uv.push(0,0, 1,0, .5,1); normals.push(nrm(a, b, c));
+}
+geo.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
+geo.setAttribute('uv', new THREE.Float32BufferAttribute(uv, 2));
+const obMats = [];
+for (let i = 0; i < 4; i++){ const m = tmat({ map: faces[i].tex }, normals[i]); m.userData.base = new THREE.Color(1,1,1); obMats.push(m); }
+for (let i = 0; i < 4; i++) obMats.push(tmat({ color: GRANITE }, normals[4 + i]));
+const obelisk = new THREE.Mesh(geo, obMats); pivot.add(obelisk);
+pivot.add(new THREE.LineSegments(new THREE.EdgesGeometry(geo, 1), inkLine));
+const cubeMats = BN.map(n => tmat({ color: '#56705f' }, n));
+const cubes = corners.map(([sx, sz]) => box(.55, CUBE, .55, sx * (WB - .3), PED_TOP, sz * (WB - .3), cubeMats, 'cube'));
+const pickables = [obelisk, upper, lower, arc, ...pors, ...cubes];
+
+/* ---------- camera / view state ---------- */
+let yaw = .5, tilt = .2, zoom = 1, ty = TOP / 2 - .4, vel = 0, anim = null, auto = true;
+const Lcam = new THREE.Vector3(-.55, .5, 1).normalize(), Lw = new THREE.Vector3(), nW = new THREE.Vector3();
+const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+const viewH = () => TOP * 1.1 / zoom;
+const HOME_Y = TOP / 2 - .4, PED_Y = 2.6;
+// zoom/pan are eased toward targets; an anchor keeps the point under the cursor/pinch fixed while zooming
+let zoomT = 1, tyT = HOME_Y, anchor = null, tiltT = null;
+const FULL = TOP * 1.1, C_LO = HOME_Y - FULL / 2, C_HI = HOME_Y + FULL / 2;
+const tyBounds = z => { const vh = FULL / z; return [C_LO + vh / 2 - .6 * (1 - 1 / z), C_HI - vh / 2 + .6 * (1 - 1 / z)]; };
+const clampTy = (y, z) => { const [a, b] = tyBounds(z); return clamp(y, a, b); };
+function place(){
+  const w = stage.clientWidth, h = stage.clientHeight, vh = viewH(), a = w / h;
+  cam.left = -vh * a / 2; cam.right = vh * a / 2; cam.top = vh / 2; cam.bottom = -vh / 2; cam.updateProjectionMatrix();
+  cam.position.set(0, ty + Math.sin(tilt) * 60, Math.cos(tilt) * 60); cam.lookAt(0, ty, 0);
+  pivot.rotation.y = yaw;
+  pivot.updateMatrixWorld(); cam.updateMatrixWorld();
+  Lw.copy(Lcam).applyQuaternion(cam.quaternion);
+  for (const m of tinted){
+    nW.copy(m.userData.n).applyQuaternion(pivot.quaternion);
+    m.color.copy(m.userData.base).multiplyScalar(.7 + .36 * Math.max(0, nW.dot(Lw)));
+  }
+}
+function resize(){ renderer.setSize(stage.clientWidth, stage.clientHeight, false); if (typeof place === 'function' && pivot.children.length){ place(); renderer.render(scene, cam); } }
+new ResizeObserver(resize).observe(stage); resize();
+const frontFace = () => (((Math.round(-yaw / (Math.PI / 2))) % 4) + 4) % 4;
+function stopAuto(){ auto = false; $('#hint').style.opacity = 0; }
+function goTo(f, z = null, y = null){
+  let t = -f * Math.PI / 2;
+  while (t - yaw > Math.PI) t -= 2 * Math.PI;
+  while (t - yaw < -Math.PI) t += 2 * Math.PI;
+  vel = 0; anim = { yaw: t };
+  if (z != null){ zoomT = z; anchor = null; }
+  if (y != null){ tyT = y; anchor = null; }
+}
+const passageY = (f, s) => { const S = faces[f].segs[s], yt = (S.y0 + S.y1) / 2; return Y0 + H * (1 - yt / TH); };
+
+/* ---------- picking ---------- */
+const ray = new THREE.Raycaster(), ndc = new THREE.Vector2();
+function pick(cx, cy){
+  const r = canvas.getBoundingClientRect();
+  ndc.set(((cx - r.left) / r.width) * 2 - 1, -((cy - r.top) / r.height) * 2 + 1);
+  ray.setFromCamera(ndc, cam);
+  const h = ray.intersectObjects(pickables, false)[0];
+  if (!h) return null;
+  const o = h.object, mi = h.face.materialIndex;
+  if (o === obelisk){
+    if (mi >= 4) return { k: U('pyrT'), en: U('pyrD') };
+    const F = faces[mi], yt = (1 - h.uv.y) * TH;
+    const s = F.segs.findIndex(S => yt >= S.h0 && yt < S.h1);
+    if (s < 0) return { k: `${U('face')} ${R[mi]}`, en: U('brkTip') };
+    return { f: mi, s, k: `${U('face')} ${R[mi]} · ${R[mi]}.${s + 1}`, en: L(F.segs[s].en) };
+  }
+  const info = o.userData.info;
+  if (info === 'cube') return { k: U('cubesT'), en: U('cubesD') };
+  if (info === 'por') return { k: U('porT'), en: U('porD') };
+  if (info === 'arc') return { k: U('arcT'), en: U('arcD') };
+  const side = SIDE_OF_MAT[mi];
+  if (side == null) return null;
+  const S = SIDES[side];
+  if (info === 'upper') return { slot: side * 2, k: `${U(S.k)} · ${U('upper')}`, en: L(S.up.t) };
+  return { slot: side * 2 + 1, k: `${U(S.k)} · ${U('lower')}`, en: S.lo.ins ? U(S.lo.key) : L(S.lo.t) };
+}
+
+/* ---------- active item, shared by both views ---------- */
+let act = { f: -1, s: -1, side: -1 }, region = 'ob';
+const rs = $('#rs');
+function highlightModel(f, s, slot = -1){ faces.forEach((F, i) => paint(F, i === f ? s : -1)); for (const k in PED) paintPed(PED[k], +k === slot); }
+function restoreActiveClass(){
+  arts.forEach(a => a.classList.toggle('on', a.dataset.slot != null ? +a.dataset.slot === act.side : (+a.dataset.f === act.f && +a.dataset.s === act.s)));
+}
+function setActive(f, s, side, src){
+  if (act.f === f && act.s === s && act.side === side) return;
+  act = { f, s, side };
+  restoreActiveClass();
+  highlightModel(f, s, side);
+  updateCard();
+  if ((src === 'read' || src === 'hover') && isWide()){
+    stopAuto();
+    if (side >= 0){ if (region !== 'ped' || frontFace() !== side >> 1){ goTo(side >> 1, 2.6, PED_Y); region = 'ped'; } }
+    else if (f >= 0){
+      if (region === 'ped'){ goTo(f, 1, HOME_Y); region = 'ob'; }
+      else {
+        if (frontFace() !== f) goTo(f);
+        // zoomed in (pinch, wheel or buttons): keep the passage being read in view
+        if (zoomT > 1.05){ tyT = clampTy(passageY(f, s), zoomT); anchor = null; }
+      }
+    }
+  }
+}
+// programmatic scrolls must not re-select whatever lands under the trigger line
+let progScroll = false, progTimer = 0;
+const armIdle = ms => { clearTimeout(progTimer); progTimer = setTimeout(() => progScroll = false, ms); };
+function scrollToEl(el, smooth){
+  if (!el) return;
+  if (el.previousElementSibling?.classList.contains('sidehd')) el = el.previousElementSibling;
+  progScroll = true; armIdle(400);
+  rs.scrollTo({ top: el.offsetTop - 56, behavior: smooth ? 'smooth' : 'auto' });
+}
+
+const card = $('#card');
+function updateCard(){
+  const { f, s, side } = act;
+  const on = !(f < 0 && side < 0) && !isWide();
+  document.body.classList.toggle('carded', on);
+  if (!on){ card.classList.remove('show'); return; }
+  if (f >= 0){
+    const S = faces[f].segs[s];
+    card.querySelector('.ref').textContent = `${U('face')} ${R[f]} \u00b7 ${R[f]}.${s + 1}`;
+    card.querySelector('.t').textContent = L(S.en);
+    card.querySelector('.tr').textContent = S.tr || '';
+  } else {
+    const S = SIDES[side >> 1], lo = side & 1;
+    card.querySelector('.ref').textContent = `${U(S.k)} \u00b7 ${U(lo ? 'lower' : 'upper')}`;
+    card.querySelector('.t').textContent = lo ? (S.lo.ins ? U(S.lo.key) : L(S.lo.t)) : L(S.up.t);
+    card.querySelector('.tr').textContent = '';
+  }
+  card.querySelector('.more').textContent = `${U('read')} \u2192`;
+  card.classList.add('show');
+}
+card.querySelector('.x').onclick = () => setActive(-1, -1, -1, 'model');
+card.querySelector('.more').onclick = () => {
+  const el = act.f >= 0 ? document.getElementById(`p${act.f}-${act.s}`) : document.getElementById(`ps${act.side}`);
+  setMode('read'); requestAnimationFrame(() => scrollToEl(el, false));
+};
+
+/* ---------- mode switch (mobile) ---------- */
+function setMode(m){
+  document.body.classList.toggle('reading', m === 'read');
+  toggleBtns.forEach(b => b.classList.toggle('on', b.dataset.m === m));
+  stopAuto();
+  if (m === 'model'){
+    if (act.side >= 0) goTo(act.side >> 1, 2.6, PED_Y);
+    else if (act.f >= 0 && frontFace() !== act.f) goTo(act.f);
+  }
+}
+toggleBtns.forEach(b => b.onclick = () => setMode(b.dataset.m));
+function openPassage(f, s){
+  setActive(f, s, -1, 'model');
+  if (!isWide()) setMode('read');
+  requestAnimationFrame(() => scrollToEl(document.getElementById(`p${f}-${s}`), isWide()));
+}
+function openSide(i){
+  setActive(-1, -1, i, 'model');
+  if (!isWide()) setMode('read');
+  requestAnimationFrame(() => scrollToEl(document.getElementById(`ps${i}`), isWide()));
+}
+
+/* ---------- read view: tabs, scroll, hover, eye buttons ---------- */
+let readTouched = false, mouseY = null;
+const touchRead = () => { if (!readTouched){ readTouched = true; stopAuto(); } };
+['wheel', 'touchstart', 'keydown', 'mousedown'].forEach(ev => rs.addEventListener(ev, touchRead, { passive: true }));
+rs.addEventListener('mousemove', e => { mouseY = e.clientY; });
+rs.addEventListener('mouseleave', () => { mouseY = null; });
+$('#tabs').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  touchRead();
+  const el = document.getElementById(b.dataset.t);
+  if (b.dataset.f != null) setActive(+b.dataset.f, 0, -1, 'read');
+  else setActive(-1, -1, 0, 'read');
+  scrollToEl(el, true);
+});
+$('#readBody').addEventListener('click', e => {
+  const b = e.target.closest('.see'); if (!b) return;
+  stopAuto();
+  if (!isWide()) setMode('model');
+  if (b.dataset.slot != null){ const i = +b.dataset.slot; setActive(-1, -1, i, 'loc'); region = 'ped'; goTo(i >> 1, 2.6, PED_Y); }
+  else { const f = +b.dataset.f, s = +b.dataset.s; setActive(f, s, -1, 'loc'); region = 'ob'; goTo(f, 2.8, passageY(f, s)); }
+});
+$('#readBody').addEventListener('pointerover', e => {
+  if (e.pointerType !== 'mouse' || progScroll) return;
+  const a = e.target.closest('.p'); if (!a) return;
+  touchRead();
+  if (a.dataset.slot != null) setActive(-1, -1, +a.dataset.slot, 'hover');
+  else setActive(+a.dataset.f, +a.dataset.s, -1, 'hover');
+});
+let scrollRaf = 0;
+rs.addEventListener('scroll', () => {
+  if (progScroll) armIdle(180);
+  cancelAnimationFrame(scrollRaf);
+  scrollRaf = requestAnimationFrame(() => {
+    const r = rs.getBoundingClientRect();
+    const secs = ['face0','face1','face2','face3','ped'].map(id => document.getElementById(id));
+    let on = 0; secs.forEach((s, i) => { if (s.getBoundingClientRect().top <= r.top + 90) on = i; });
+    document.querySelectorAll('.tabs button').forEach((b, i) => b.classList.toggle('on', i === on));
+    if (progScroll || !readTouched) return;
+    if (!isWide() && !document.body.classList.contains('reading')) return;
+    const line = mouseY ?? (r.top + r.height * .32);
+    const cur = arts.find(a => { const b = a.getBoundingClientRect(); return b.top <= line && b.bottom > line; });
+    if (!cur) return;
+    if (cur.dataset.slot != null) setActive(-1, -1, +cur.dataset.slot, 'read');
+    else setActive(+cur.dataset.f, +cur.dataset.s, -1, 'read');
+  });
+}, { passive: true });
+
+/* ---------- pointer input on the model ---------- */
+const tip = $('#tip');
+let tipTimer = 0;
+function showTip(info, cx, cy, ms){
+  if (!info){ tip.classList.remove('show'); return; }
+  tip.innerHTML = `<small>${esc(info.k)}</small>${esc(info.en)}`;
+  tip.style.left = '0px'; tip.style.top = '0px';
+  const r = stage.getBoundingClientRect(), w = tip.offsetWidth, h = tip.offsetHeight;
+  let x = cx - r.left + 16, y = cy - r.top + 14;
+  if (x + w > r.width - 10) x = cx - r.left - w - 16;
+  x = clamp(x, 10, Math.max(10, r.width - w - 10)); y = clamp(y, 10, Math.max(10, r.height - h - 10));
+  tip.style.left = x + 'px'; tip.style.top = y + 'px';
+  tip.classList.add('show');
+  clearTimeout(tipTimer); if (ms) tipTimer = setTimeout(() => tip.classList.remove('show'), ms);
+}
+const pts = new Map(); let down = null, pinch = null, moved = false;
+canvas.addEventListener('pointerdown', e => {
+  canvas.setPointerCapture(e.pointerId);
+  pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  if (pts.size === 2){
+    const [a, b] = [...pts.values()], r = stage.getBoundingClientRect(), f = ((a.y + b.y) / 2 - r.top) / r.height;
+    pinch = { d: Math.hypot(a.x - b.x, a.y - b.y), z: zoomT };
+    anchor = { f, y: ty + (.5 - f) * viewH() };
+  }
+  down = { x: e.clientX, y: e.clientY, t: performance.now() }; moved = false; vel = 0; anim = null; tiltT = null;
+  stopAuto();
+});
+canvas.addEventListener('pointermove', e => {
+  if (!pts.has(e.pointerId)){
+    if (e.pointerType === 'mouse'){
+      const info = pick(e.clientX, e.clientY);
+      canvas.classList.toggle('pt', !!info);
+      showTip(info, e.clientX, e.clientY);
+      if (info && info.f != null) highlightModel(info.f, info.s); else if (info && info.slot != null) highlightModel(-1, -1, info.slot); else highlightModel(act.f, act.s, act.side);
+    }
+    return;
+  }
+  const p = pts.get(e.pointerId), dx = e.clientX - p.x, dy = e.clientY - p.y;
+  p.x = e.clientX; p.y = e.clientY;
+  if (pts.size === 2 && pinch){
+    const [a, b] = [...pts.values()];
+    zoomT = clamp(pinch.z * Math.hypot(a.x - b.x, a.y - b.y) / pinch.d, 1, 5); moved = true; return;
+  }
+  if (Math.hypot(e.clientX - down.x, e.clientY - down.y) > 6) moved = true;
+  if (!moved) return;
+  yaw += dx * .011; vel = dx * .011;
+  if (zoom > 1.05){ ty = clampTy(ty + dy * viewH() / stage.clientHeight, zoom); tyT = ty; anchor = null; }
+  else tilt = clamp(tilt + dy * .004, .06, .55);
+  showTip(null);
+});
+function endPointer(e){
+  if (!pts.has(e.pointerId)) return;
+  pts.delete(e.pointerId);
+  if (pts.size < 2) pinch = null;
+  if (pts.size === 0 && !moved && down && performance.now() - down.t < 500){
+    const info = pick(e.clientX, e.clientY);
+    if (isWide()){
+      if (info && info.f != null) openPassage(info.f, info.s);
+      else if (info && info.slot != null) openSide(info.slot);
+      else if (info) showTip(info, e.clientX, e.clientY, 2600);
+    } else {
+      if (info && info.f != null) setActive(info.f, info.s, -1, 'model');
+      else if (info && info.slot != null) setActive(-1, -1, info.slot, 'model');
+      else if (info) showTip(info, e.clientX, e.clientY, 2600);
+      else setActive(-1, -1, -1, 'model');
+    }
+  }
+}
+canvas.addEventListener('pointerup', endPointer);
+document.addEventListener('touchmove', e => { if (!e.target.closest('#rs, #card')) e.preventDefault(); }, { passive: false });
+canvas.addEventListener('pointercancel', endPointer);
+canvas.addEventListener('pointerleave', () => { if (!pts.size){ showTip(null); highlightModel(act.f, act.s, act.side); } });
+canvas.addEventListener('wheel', e => {
+  e.preventDefault(); stopAuto();
+  const r = stage.getBoundingClientRect(), f = (e.clientY - r.top) / r.height;
+  const dy = e.deltaY * (e.deltaMode === 1 ? 33 : e.deltaMode === 2 ? 400 : 1);
+  const rate = (e.ctrlKey || e.metaKey) ? .012 : .0022;        // ctrlKey = trackpad pinch
+  if (!e.ctrlKey && !e.metaKey && zoomT > 1.02){   // zoomed in: scrolling moves along the obelisk
+    tyT = clampTy(tyT - dy * viewH() / stage.clientHeight * .9, zoomT); anchor = null; return;
+  }
+  if (!e.ctrlKey && !e.metaKey && dy > 0) return; // full view: scrolling up zooms in, nothing to scroll down to
+  anchor = { f, y: ty + (.5 - f) * viewH() };
+  zoomT = clamp(zoomT * Math.exp(-clamp(dy, -120, 120) * rate), 1, 5);
+}, { passive: false });
+// back to the opening view: whole obelisk, default tilt, slow turn resumed
+$('#fit').onclick = () => { zoomT = 1; tyT = HOME_Y; anchor = null; region = 'ob'; anim = null; vel = 0; tiltT = .2; auto = true; };
+const stepZoom = k => { stopAuto(); const f = .5; anchor = { f, y: ty }; zoomT = clamp(zoomT * k, 1, 5); if (zoomT === 1) anchor = null, tyT = HOME_Y; };
+$('#zin').onclick = () => stepZoom(1.6); $('#zout').onclick = () => stepZoom(1 / 1.6);
+
+/* ---------- loop ---------- */
+const faceCap = $('#faceCap'), fitBtn = $('#fit'), zinBtn = $('#zin'), zoutBtn = $('#zout');
+let last = performance.now();
+function loop(now){
+  const dt = Math.min(.05, (now - last) / 1000); last = now;
+  // zoom: exponential ease in log space so steps feel even at every scale
+  const kz = 1 - Math.exp(-dt * (pinch ? 28 : 11));
+  zoom = Math.exp(Math.log(zoom) + (Math.log(zoomT) - Math.log(zoom)) * kz);
+  if (Math.abs(zoomT - zoom) < 5e-4) zoom = zoomT;
+  if (anchor){
+    ty = anchor.y - (.5 - anchor.f) * viewH();
+    if (zoom === zoomT && !pinch){ tyT = ty; anchor = null; }
+  } else ty += (tyT - ty) * (1 - Math.exp(-dt * 7));
+  ty = clampTy(ty, zoom); tyT = clampTy(tyT, zoomT);
+  if (tiltT != null){ tilt += (tiltT - tilt) * (1 - Math.exp(-dt * 6)); if (Math.abs(tiltT - tilt) < 1e-3){ tilt = tiltT; tiltT = null; } }
+  if (anim){
+    const k = 1 - Math.pow(.0012, dt), d = anim.yaw - yaw; yaw += d * k;
+    if (Math.abs(d) < .002) anim = null;
+  } else if (auto && !pts.size) yaw -= dt * .14;
+  else if (!pts.size && Math.abs(vel) > 1e-4){ yaw += vel; vel *= .92; }
+  place();
+  renderer.render(scene, cam);
+  const ff = frontFace(), lowView = zoom > 1.3 && ty < 7;
+  faceCap.textContent = lowView ? `${U(SIDES[ff].k)} · ${U('pedN')}` : `${U('face')} ${R[ff]} · ${L(faces[ff].subtitle)}`;
+  fitBtn.classList.toggle('show', zoom > 1.05);
+  zinBtn.disabled = zoomT >= 4.99; zoutBtn.disabled = zoomT <= 1.001;
+  requestAnimationFrame(loop);
+}
+applyUI(); renderRead();
+requestAnimationFrame(loop);
+$('#loader').style.opacity = 0; setTimeout(() => $('#loader').remove(), 450);
+</script>
+</body>
+</html>
