@@ -1,3 +1,8 @@
 node_modules/
 .DS_Store
 *.log
+scripts/video/frames/
+scripts/video/raw.mp4
+scripts/video/node_modules/
+scripts/video/*.sprites/
+scripts/video/*.filter.txt

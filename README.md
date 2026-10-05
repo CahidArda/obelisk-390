@@ -1,11 +1,14 @@
 # obelisk-390
 
-An interactive plate of the **Obelisk of Theodosius** (Dikilitaş) in Istanbul's Hippodrome: the red granite obelisk of Thutmose III, carved for Karnak c. 1450 B.C. and raised here by Theodosius I in A.D. 390.
+An interactive, print-style reading of the **Obelisk of Theodosius** (Dikilitaş) in Istanbul's Hippodrome: the red granite obelisk of Thutmose III, carved for Karnak c. 1450 B.C. and raised here by Theodosius I in A.D. 390.
+
+**Live:** [obelisk-390.vercel.app](https://obelisk-390.vercel.app) · **Demo:** [10-second video](docs/demo-10s-en.mp4) · **How it was made:** [blog post](https://cahidarda.github.io/articles/dikilitas)
 
 The obelisk and its pedestal are a rotatable 3D model drawn in the flat, ink-outlined style of a printed technical plate. Next to it, a reading page sets each face's hieroglyphic column beside its transliteration, translation and notes.
 
 - **Model**: drag to turn; pinch, Ctrl-scroll or the +/− buttons to zoom; scroll or drag to move along the shaft once zoomed. Hover or tap a line of hieroglyphs to read it.
-- **Read**: one scrolling page per face, plus the pedestal with its Latin and Greek inscriptions. On wide screens the model follows what you read.
+- **Read**: one scrolling page per face, plus the pedestal with its Latin and Greek inscriptions. On wide screens the model follows what you read. **See it** takes the model to a passage; on the pedestal, **Photo** opens the real relief.
+- **About**: credits, links and sources (the About button, or `#about` in the URL).
 - **Languages**: English, Türkçe, Français, 日本語.
 
 ## Running it
@@ -25,10 +28,27 @@ Three.js, EB Garamond, Noto Serif JP and Noto Sans Egyptian Hieroglyphs load fro
 | `index.html` | The whole app: layout, 3D model, reading page, interaction |
 | `data.js` | Hieroglyph sequences, transliterations and English text for each face, plus the pedestal inscriptions |
 | `reliefs.js` | Line drawings of the pedestal reliefs and inscribed faces, every figure placed from measurements on the photographs |
-| `photos/` | Photographs of the pedestal shown in the reading page (see below) |
+| `photos/` | Photographs of the pedestal, opened from the Photo buttons (see below) |
 | `i18n.js` | Interface strings and translations (tr, fr, ja), keyed by the English text |
 | `scripts/gen-data.py` | Regenerates `data.js` from Gardiner sign codes (needs Python 3 with Unicode 14+ data) |
 | `server.js` | Minimal static server for local use |
+| `favicon.svg`, `apple-touch-icon.png` | The Eye of Horus icon, on the same plate as bosphore-1819's |
+| `docs/demo-10s-en.mp4` | The 10-second demo video (2560x1600, 60 fps) |
+| `scripts/video/` | How the demo video was made (see below) |
+
+## The demo video
+
+`docs/demo-10s-en.mp4` was recorded in a headless browser with software WebGL, which draws only a few frames a second in real time. To get smooth 60 fps anyway, `scripts/video/vclock.js` replaces the page's clock (`performance.now`, `requestAnimationFrame`, timers, smooth scrolling and CSS transitions) with a virtual one, and `record.mjs` advances it by exactly 1/60 s before each screenshot, so the take is frame-perfect however slow the machine is.
+
+```sh
+node server.js &                                  # the app on :8080
+cd scripts/video && npm i puppeteer-core          # uses the system Chromium
+node record.mjs                                   # 600 frames at 1280x800, device scale 2
+ffmpeg -framerate 60 -i frames/f%04d.jpg -vf 'scale=in_range=jpeg:out_range=tv,format=yuv420p' -c:v libx264 -crf 14 raw.mp4
+python3 render.py spec.json                       # captions, cursor, click ripples, URL pill
+```
+
+`render.py` and the cursor sprites come from bosphore-1819. Captions must not contain apostrophes (ffmpeg `drawtext` quoting).
 
 ## Sources and caveats
 

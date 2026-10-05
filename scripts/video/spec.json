@@ -1,0 +1,95 @@
+{
+ "output": "demo-10s-en.mp4",
+ "width": 2560,
+ "height": 1600,
+ "fps": 60,
+ "ui_scale": 2,
+ "crf": 18,
+ "fonts": {
+  "sans": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+  "mono": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf"
+ },
+ "sprites": {
+  "cursor": "sprites/cursor.png",
+  "press": "sprites/cursor-press.png",
+  "ripple": "sprites/ripple/r%02d.png"
+ },
+ "segments": [
+  {
+   "src": "raw.mp4",
+   "start": 0.0,
+   "end": 10.0,
+   "pill": "obelisk-390.vercel.app",
+   "captions": [
+    {
+     "text": "Dikilita\u015f \u00b7 the Obelisk of Theodosius, Istanbul",
+     "start": 0.0,
+     "end": 1.85
+    },
+    {
+     "text": "Tap a line of hieroglyphs to read it",
+     "start": 1.95,
+     "end": 4.15
+    },
+    {
+     "text": "See it on the stone",
+     "start": 4.3,
+     "end": 5.55
+    },
+    {
+     "text": "The stone follows what you read",
+     "start": 5.65,
+     "end": 8.2
+    },
+    {
+     "text": "The pedestal and its reliefs",
+     "start": 8.4,
+     "end": 10.0
+    }
+   ],
+   "cursor": {
+    "rest": [
+     560,
+     650
+    ],
+    "moves": [
+     {
+      "to": [
+       345,
+       300
+      ],
+      "start": 1.2,
+      "end": 1.9,
+      "click": 2.5
+     },
+     {
+      "to": [
+       807,
+       222
+      ],
+      "start": 3.5,
+      "end": 4.1,
+      "click": 4.25
+     },
+     {
+      "to": [
+       985,
+       470
+      ],
+      "start": 4.9,
+      "end": 5.5
+     },
+     {
+      "to": [
+       1047,
+       49
+      ],
+      "start": 7.7,
+      "end": 8.2,
+      "click": 8.35
+     }
+    ]
+   }
+  }
+ ]
+}
