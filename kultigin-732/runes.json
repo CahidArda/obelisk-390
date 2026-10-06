@@ -1,0 +1,562 @@
+[
+ {
+  "id": "G1",
+  "code": "kt-1-g-13-01",
+  "runes": "𐱅𐰭𐰼𐰃: 𐱅𐰏: 𐱅𐰭𐰼𐰃𐰓𐰀: 𐰉𐰆𐰞𐰢𐱁: 𐱅𐰇𐰼𐰰: 𐰋𐰃𐰠𐰏𐰀: 𐰴𐰍𐰣: 𐰉𐰆: 𐰇𐰓𐰚𐰀: 𐰆𐰞𐰺𐱃𐰢: 𐰽𐰉𐰢𐰣: 𐱅𐰇𐰚𐱅𐰃: 𐰾𐰃𐰓𐰏𐰠: 𐰆𐰞𐰖𐰆: 𐰃𐰤: 𐰘𐰏𐰇𐰤𐰢: 𐰆𐰍𐰞𐰣𐰢: 𐰋𐰃𐰼𐰚𐰃: 𐰆𐰍𐱁𐰢: 𐰉𐰆𐰑𐰣𐰢: 𐰋𐰃𐰼𐰘𐰀: 𐱁𐰑𐰯𐰃𐱃: 𐰋𐰏𐰠𐰼: 𐰘𐰃𐰺𐰖𐰀: 𐱃𐰺𐰴𐱃: 𐰉𐰆𐰖𐰺𐰸: 𐰋𐰏𐰠𐰼: 𐰆𐱃𐰕: 𐱃𐱃𐰺:",
+  "lit": "tHri: tg: tHride: BOLMŞ: türX: bilge: KGN: BU: ödke: OLRTM: SBMN: tükti: sidgl: ULYU: in: ygünm: OGLNM: birki: OGŞM: BODNM: birye: ŞDPIT: bglr: yIRYA: TRKT: BUYRq: bglr: OTZ: TTR:",
+  "tc": "TEŇRİ: TEG: TEŇRİDE: BOLMIŞ: TÖRÖK: BİLGE: KAGAN: BU: ÖDKE: OLuRTıM: SaBıMıN: TÜKeTİ: eŞİDGiL: ULaYU: İN: YeGÜNüM: OGLaNıM: BİRiKİ: OGuŞuM: BODuNuM: BİRiYE: ŞaDPIT: BeGLeR: YIRıYA: TaRKaT: BUYRUK: BeGLeR: OTIZ: TATAR:",
+  "tr": "Tanrı gibi gökte olmuş Türk Bilge Kağan bu çağda oturdum. Sözümü tüketene [dek] işit. En çok kardeş yeğenim, oğlum bütün soyum, boylarım, güneydeki Şadpıt beyleri, kuzeydeki Tarkat buyruk beyleri, Otuz Tatar,"
+ },
+ {
+  "id": "G2",
+  "code": "kt-1-g-13-02",
+  "runes": "𐱃𐰸𐰆𐰕: 𐰆𐰍𐰕: 𐰋𐰏𐰠𐰼𐰃: 𐰉𐰆𐰑𐰣𐰃: 𐰉𐰆: 𐰽𐰉𐰢𐰤: 𐰓𐰏𐰇𐱅𐰃: 𐰾𐰃𐰓: 𐰴𐱃𐰍𐰑𐰃: 𐱅𐰃𐰭𐰞𐰀: 𐰃𐰠𐰏𐰼𐰇: 𐰚𐰇𐰤: 𐱃𐰆𐰍𐰽𐰴𐰀: 𐰋𐰃𐰼𐰏𐰼𐰇: 𐰚𐰇𐰤: 𐰆𐰺𐱃𐰆𐰾𐰃𐰭𐰺𐰆: 𐰸𐰆𐰺𐰃𐰍𐰺𐰃: 𐰚𐰇𐰤: 𐰉𐱃𐰾𐰶𐰃𐰭𐰀: 𐰘𐰃𐰺𐰍𐰺𐰃: 𐱅𐰇𐰤: 𐰆𐰺𐱃𐰆𐰾𐰃𐰭𐰺𐰆: 𐰦𐰀: 𐰃𐰲𐰼𐰚𐰃: 𐰉𐰆𐰑𐰣: 𐰴𐰆𐰯: 𐰢𐰭𐰀: 𐰚𐰇𐰼𐰼: 𐰉𐰆𐰨𐰀: 𐰉𐰆𐰑𐰣:",
+  "lit": "TquZ: OGZ: bglri: BODNI: BO: SBMn: dgüti: sid: KTGDI: tIHLA: ilgrü: kün: TOGSKA: birgrü: kün: ORTUsIHRU: qURIGRI: kün: BTsQIHA: yIRGRI: tün: ORTUsIHRU: JA: içrki: BODN: KOP: MHa: körr: BUCA: BODN:",
+  "tc": "TOKUZ: OGZ: BeGLeRİ: BODNI: BU: SaBıMıN: eDGÜTİ: iŞİD: KaTıGDI: TİŇLE: İLGERÜ: KÜN: TOGSıKA: BİRiGeRÜ: KÜN: ORTOSİŇARU: KURIGaRI: KÜN: BATSIKIŇA: YIRıGaRI: TÜN: ORTOSİŇARU: aNDA: İÇReKİ: BODN: KOP: MaŊA: KÖRüR: BUNÇA: BODN:",
+  "tr": "Dokuz Oğuz beyleri, boyları bu sözümü iyice işit, katıca dinle. Doğuda gün doğusuna, güneyde gün ortasına, batıda gün batısına, kuzeyde gece ortasına, onların içindeki boylar hep bana tâbi. Bunca boyları"
+ },
+ {
+  "id": "G3",
+  "code": "kt-1-g-13-03",
+  "runes": "𐰴𐰆𐰯: 𐰃𐱅𐰓𐰢: 𐰆𐰞: 𐰢𐱃𐰃: 𐰪𐰍: 𐰖𐰸: 𐱅𐰇𐰼𐰰: 𐰴𐰍𐰣: 𐰇𐱅𐰰𐰤: 𐰘𐰃𐱁: 𐰆𐰞𐰺𐰽𐰺: 𐰃𐰠𐱅𐰀: 𐰉𐰆𐰭: 𐰖𐰸: 𐰃𐰠𐰏𐰼𐰇: 𐱁𐰦𐰆𐰭: 𐰖𐰕𐰃𐰴𐰀: 𐱅𐰏𐰃: 𐰾𐰇𐰠𐰓𐰢: 𐱃𐰞𐰆𐰖𐰴𐰀: 𐰚𐰃𐰲𐰏: 𐱅𐰏𐰢𐰓𐰢: 𐰋𐰃𐰼𐰏𐰼𐰇: 𐱃𐰸𐰆𐰕: 𐰼𐰾𐰤𐰚𐰀: 𐱅𐰏𐰃: 𐰾𐰇𐰠𐰓𐰢: 𐱅𐰇𐰯𐰇𐱅𐰚𐰀: 𐰚𐰃𐰲𐰏: 𐱅𐰏𐰢𐰓𐰢: 𐰸𐰆𐰺𐰃𐰍𐰺𐰃: 𐰘𐰨𐰇: 𐰇𐰏𐰕[...]:",
+  "lit": "KOP: itdm: OL: MTI: FG: Yq: türX: KGN: ötXn: yiş: OLRSR: ilte: BUH: Yq: ilgrü: ŞJUH: YZIKA: tgi: süldm: TLUYKA: kiçg: tgmdm: birgrü: TquZ: rsnke: tgi: süldm: tüpütke: kiçg: tgmdm: qURIGRI: yCü: ögZ[...]:",
+  "tc": "KOP: İTDiM: OL: aMTI: aNYıG: YOK: TÖRÖK: KAGAN: ÖTÜKEN: YİŞ: OLRSAR: İLTE: BUŇ: YOK: İLGERÜ: ŞaNTUŇ: YaZIKA: TEGİ: SÜLeDiM: TaLUYKA: KİÇiG: TEGMDiM: BİRiGeRÜ: TOKUZ: eRSiNKE: TeGİ: SÜLeDiM: TÜPÜTKE: KİÇiG: TEGMDiM: KURIGaRI: YiNÇÜ: ÖGüZ[...]:",
+  "tr": "hep düzenledim. Şimdi onun gibisi yok. Türk kağanı Ötüken ormanında oturursa ilde tasa yok. Doğuda Şantung ovasına değin ordu sürdüm. Taluy'a geçip değmedim. Güneyde Dokuz Ersin'e değin ordu sürdüm. Tibet'e geçip değmedim. Batıda İnci Irmağı[...][nı]"
+ },
+ {
+  "id": "G4",
+  "code": "kt-1-g-13-04",
+  "runes": "𐰚𐰲𐰀: 𐱅𐰢𐰼𐰴𐰯𐰍𐰴𐰀: 𐱅𐰏𐰃: 𐰾𐰇𐰠𐰓𐰢: 𐰘𐰃𐰺𐰍𐰺𐰆: 𐰘𐰼: 𐰉𐰖𐰺𐰸𐰆: 𐰘𐰃𐰼𐰃𐰭𐰀: 𐱅𐰏𐰃: 𐰾𐰇𐰠𐰓𐰢: 𐰉𐰆𐰣𐰨𐰀: 𐰘𐰃𐰼𐰚𐰀: 𐱅𐰏𐰃: 𐰖𐰆𐰺𐱃𐰑𐰢: 𐰇𐱅𐰰𐰤: 𐰘𐰃𐱁𐰑𐰀: 𐰘𐰃𐰏: 𐰃𐰓𐰃: 𐰖𐰸: 𐰼𐰢𐱁: 𐰃𐰠: 𐱃𐰆𐱃𐰽𐰴: 𐰘𐰃𐰼: 𐰇𐱅𐰰𐰤: 𐰘𐰃𐱁: 𐰼𐰢𐱁: 𐰉𐰆: 𐰘𐰃𐰼𐰓𐰃: 𐰆𐰞𐰺𐰯: 𐱃𐰉𐰍𐰲: 𐰴𐰍𐰣: 𐰋𐰃𐰼𐰠𐰀:",
+  "lit": "kçe: tmrKPGKA: tgi: süldm: yIRGRU: yr: BYRqU: yiriHe: tgi: süldm: BUNCA: yirke: tgi: YORTDM: ötXn: yIŞDA: yig: idi: Yq: rmş: il: TUTSK: yir: ötXn: yiş: rmş: BU: yirdi: OLRP: TBGÇ: KGN: birle:",
+  "tc": "KÇE: TMiRKaPıGKA: TEGİ: SÜLeDiM: YIRıGaRI: YiR: BaYıRKU: YİRİŇE: TEGİ: SÜLeDiM: BUNÇA: YİRKE: TEGİ: YORITDıM: ÖTÜKEN: YİŞDA: YİG: İDİ: YOK: ERMiŞ: İL: TUTSıK: YİR: ÖTÜKEN: YİŞ: ERMiŞ: BU: YİRDİ: OLRP: TaBGaÇ: KAGAN: BİRLE:",
+  "tr": "geçip Demirkapı'ya değin ordu sürdüm. Kuzeyde Yir Bayırku yerine değin ordu sürdüm. Bunca yer(ler)e değin yürüttüm. Ötüken ormanından yeğ, iyi [yer] yok imiş. İl tutulacak yer Ötüken ormanı imiş. Bu yerde oturup Çin kağanı ile"
+ },
+ {
+  "id": "G5",
+  "code": "kt-1-g-13-05",
+  "runes": "𐱅𐰇𐰕𐰠𐱅𐰢: 𐰞𐱃𐰆𐰣: 𐰚𐰇𐰢𐱁: 𐰃𐰾𐰏𐱅𐰃: 𐰸𐰆𐱃𐰖: 𐰉𐰆𐰭𐰽𐰕: 𐰨𐰀: 𐰋𐰃𐰼𐰇𐰼: 𐱃𐰉𐰍𐰲: 𐰉𐰆𐰑𐰣: 𐰽𐰉𐰃: 𐰾𐰇𐰲𐰃𐰏: 𐰍𐰃𐰾𐰃: 𐰘𐰃𐰢𐱁𐰴: 𐰼𐰢𐰾: 𐰾𐰇𐰲𐰃𐰏: 𐰽𐰉𐰣: 𐰘𐰃𐰢𐱁𐰴: 𐰍𐰃𐰤: 𐰺𐰯: 𐰃𐰺𐰴: 𐰉𐰑𐰣𐰍: 𐰨𐰀: 𐰖𐰍𐰆𐱃𐰃𐰼: 𐰼𐰢𐰾: 𐰖𐰍𐰺𐰆: 𐰸𐰆𐰦𐰸𐰑𐰀: 𐰚𐰃𐰾𐰼𐰀: 𐰪𐰍: 𐰋𐰃𐰠𐰏: 𐰦𐰀: 𐰇𐰘𐰇𐰼: 𐰼𐰢𐰾:",
+  "lit": "tüZltm: LTUN: kümş: isgti: qUTY: BUHSZ: Ca: birür: TBGÇ: BODN: SBI: süçig: Gisi: yIMŞK: rms: süçig: SBN: yIMŞK: Gin: RP: IRK: BDNG: Ca: YGoTır: rms: YGRU: qOJqDA: kisre: FG: bilg: JA: üyür: rms:",
+  "tc": "TÜZüLTüM: ALTUN: KÜMÜŞ: İŞGiTİ: KUTaY: BUŇSuZ: NÇA: BİRÜR: TaBGaÇ: BODN: SaBI: SÜÇİG: AGISİ: YİMŞaK: eRMiŞ: SÜÇİG: SaBıN: YIMŞaK: aGIN: aRıP: IRaK: BoDuNuG: aNÇA: YaGUTIR: eRMiŞ: YaGuRU: KONDUKDA: KİSRE: aYNıG: BİLiG: aNDA: ÖYÜR: eRMiŞ:",
+  "tr": "anlaştım. Altını, gümüşü, işlenmiş ipeği tasasız anca verir. Çin boylarının sözü tatlı, ipeği yumuşak imiş. Tatlı sözü, yumuşak ipeği ile aldatıp, uzak boyları iyice yaklaştırır imiş. Yaklaştırıp kondurduktan sonra kötü bilgilerini (kötülüklerini) [o] anda düşünür imiş."
+ },
+ {
+  "id": "G6",
+  "code": "kt-1-g-13-06",
+  "runes": "𐰓𐰏𐰇: 𐰋𐰃𐰠𐰏𐰀: 𐰚𐰃𐰾𐰃𐰏: 𐰓𐰏𐰇: 𐰞𐰯: 𐰚𐰃𐰾𐰃𐰏: 𐰖𐰆𐰺𐱃𐰢𐰕: 𐰼𐰢𐰾: 𐰋𐰃𐰼: 𐰚𐰃𐰾𐰃: 𐰖𐰍𐰞𐰽𐰺: 𐰆𐰍𐱁𐰃: 𐰉𐰆𐰑𐰣𐰃: 𐰋𐰃𐰾𐰰𐰃𐰭𐰀: 𐱅𐰏𐰃: 𐰶𐰃𐰑𐰢𐰕: 𐰼𐰢𐰾: 𐰾𐰇𐰲𐰃𐰏: 𐰽𐰉𐰃𐰭𐰀: 𐰘𐰢𐱁𐰴: 𐰍𐰃𐰾𐰃𐰍𐰀: 𐰺𐱃𐰆𐰺𐰯: 𐰰𐰇𐰾: 𐱅𐰇𐰼𐰰: 𐰉𐰆𐰑𐰣: 𐰇𐰠𐱅𐰏: 𐱅𐰇𐰼𐰰: 𐰉𐰆𐰑𐰣: 𐰇𐰠𐰾𐰚𐰭: 𐰋𐰼𐰘𐰀: 𐰲𐰆𐰍𐰖: 𐰘𐰃𐱁: 𐱅𐰇𐰏𐰠𐱅𐰤:",
+  "lit": "dgü: bilge: kisig: dgü: LP: kisig: YORTMZ: rms: bir: kisi: YGLSR: OGŞI: BODNI: bisXiHe: tgi: QIDMZ: rms: süçig: SBIHA: yMŞK: GIsIGA: RTURP: Xüs: türX: BODN: öltg: türX: BODN: ölskH: brye: ÇOGY: yiş: tügltn:",
+  "tc": "ÜDGE: BİLGE: KİŞİG: eDGÜ: aLP: KİŞİG: YORITMAZ: eRMiŞ: BİR: KİŞİ: YaŊıLSaR: OGuŞI: BODUNI: BİŞÜKİŊE: TeGİ: KIDMaZ: eRMiŞ: SÜÇİG: SaBıŊA: YıMŞaK: aGISIŊA: aRTURuP: ÖKÜŞ: TÜRK: BODuN: ÖLTüG: TÜRK: BODuN: ÖLSiKiŊ: BeRiYE: ÇOGaY: YIŞ: TÖGüLTüN:",
+  "tr": "İyi bilgili kişiyi, iyi alp kişiyi yürütmez imiş. Bir kişi yanılsa soyuna, boylarına, çocuklarına değin barındırmaz imiş. Tatlı sözüne, yumuşak ipeğine aldanıp çok Türk boyları, öldün. Türk boyları öleceksin. Güneyde Çoğay ormanına, Tögültün"
+ },
+ {
+  "id": "G7",
+  "code": "kt-1-g-13-07",
+  "runes": "𐰖𐰕𐰃: 𐰸𐰆𐰣𐰖𐰃𐰤: 𐱅𐰃𐰾𐰼: 𐱅𐰇𐰼𐰰: 𐰉𐰆𐰑𐰣: 𐰇𐰠𐰾𐰚𐰏: 𐰦𐰀: 𐰪𐰍: 𐰚𐰃𐰾𐰃: 𐰨𐰀: 𐰉𐰆𐱁𐰍𐰆𐰺𐰆𐰺: 𐰼𐰢𐰾: 𐰃𐰺𐰴: 𐰼𐰾𐰼: 𐰖𐰉𐰞𐰴: 𐰍𐰃: 𐰋𐰃𐰼𐰇𐰼: 𐰖𐰍𐰸: 𐰼𐰾𐰼: 𐰓𐰏𐰇: 𐰍𐰃: 𐰋𐰃𐰼𐰇𐰼: 𐱅𐰃𐰯: 𐰨𐰀: 𐰉𐰆𐱁𐰍𐰆𐰺𐰆𐰺: 𐰼𐰢𐰾: 𐰋𐰃𐰠𐰏: 𐰋𐰃𐰠𐰢𐰕: 𐰚𐰃𐰾𐰃: 𐰆𐰞: 𐰽𐰉𐰍: 𐰞𐰯: 𐰖𐰍𐰺𐰆: 𐰉𐰺𐰯: 𐰇𐰚𐱁: 𐰚𐰃𐱁𐰃: 𐰇𐰠𐱅𐰏:",
+  "lit": "YZI: qONYin: tisr: türX: BODN: ölskg: JA: FG: kisi: Ca: BOŞGURUR: rms: IRK: rsr: YBLK: GI: birür: YGq: rsr: dgü: GI: birür: tip: Ce: BOŞGURUR: rms: bilg: bilmZ: kisi: OL: SBG: LP: YGRU: BRP: ökş: kişi: öltg:",
+  "tc": "YaZI: KONaYIN: TİSeR: TÜRK: BODuN: ÖLSiKiG: aNDA: aNYıG: KİŞİ: aNÇA: BOŞGURUR: eRMiŞ: IRaK: eRSeR: YaBLaK: aGI: BİRÜR: YaGuK: eRSeR: eDGÜ: aGI: BİRÜR: TİP: aNÇA: BOŞGURUR: eRMiŞ: BİLiG: BİLMeZ: KİŞİ: OL: SaBıG: aLıP: YaGuRU: BaRıP: ÖKüŞ: KİŞİ: ÖLTüG:",
+  "tr": "ovasına konayım dersen, Türk boyları öleceksin. [o] anda kötü kişi anca [şöyle] öğretir imiş : \"Irak isen kötü ipek verir, yakın isen iyi ipek verir.\" deyip, öyle öğretir imiş. Bilgi bilmez kişi o sözü alıp [inanıp] yakına varıp çok kişi öldü."
+ },
+ {
+  "id": "G8",
+  "code": "kt-1-g-13-08",
+  "runes": "𐰆𐰞: 𐰘𐰼𐰏𐰼𐰇: 𐰉𐰺𐰽𐰺: 𐱅𐰇𐰼𐰰: 𐰉𐰆𐰑𐰣: 𐰇𐰠𐱅𐰲𐰃: 𐰾𐰤: 𐰇𐱅𐰇𐰚𐰤: 𐰘𐰃𐰼: 𐰆𐰞𐰺𐰯: 𐰺𐰴𐱁: 𐱅𐰃𐰼𐰚𐱁: 𐰃𐰽𐰺: 𐰤𐰭: 𐰉𐰆𐰭𐰍: 𐰖𐰸: 𐰇𐱅𐰰𐰤: 𐰘𐰃𐱁: 𐰆𐰞𐰺𐰽𐰺: 𐰋𐰭𐰏𐰇: 𐰃𐰠: 𐱃𐰆𐱃𐰀: 𐰆𐰞𐰺𐱃𐰲𐰃: 𐰾𐰤: 𐱅𐰇𐰼𐰰: 𐰉𐰆𐰑𐰣: 𐱃𐰸𐰺𐰴𐰴: 𐰾𐰤: 𐰀𐰲𐰾𐰴: 𐱃𐰆𐰽𐰴: 𐰇𐰢𐰕: 𐰾𐰤: 𐰋𐰃𐰼: 𐱃𐰆𐰑𐰽𐰺: 𐰀𐰲𐰾𐰴: 𐰇𐰢𐰕: 𐰾𐰤: 𐰦𐰍𐰭𐰣:",
+  "lit": "OL: yrgrü: BRSR: türX: BODN: öltçi: sn: ötükn: yir: OLRP: RKŞ: tirkş: ISR: nH: BUHG: Yq: ötXn: yıŞ: OLRSR: bHgü: il: TUTA: OLRTÇI: sn: türX: BODN: TqRKK: sn: AÇsK: TOSK: ömZ: sn: bir: TODSR: AÇsK: ömZ: sn: JGHN:",
+  "tc": "OL: YiRGeRÜ: BaRSaR: TÜRK: BODuN: ÖLTeÇİ: SeN: ÖTÜKeN: YİR: OLuRuP: aRKıŞ: TİRKiŞ: ISaR: NeŊ: BUŊuG: YoK: ÖTÜKeN: YIŞ: OLuRSaR: BeŊGÜ: İL: TUTA: OLuRTaÇI: SeN: TÜRK: BODuN: TOKuRKaK: SeN: AÇSıK: TOSıK: ÖMeZ: SeN: BİR: TODSaR: AÇSıK: ÖMeZ: SeN: aNTaGıŊıN:",
+  "tr": "O yerlere varırsan, Türk boyları ölecek[sin] sen. Ötüken yerinde oturup katar, gezgin gönderirsen, neyin, tasan yok (olmaz). Ötüken ormanını sonsuz il tutarak oturacaksın. Türk boyları, toksan açlığı, tokluğu düşünmezsin. Bir doyarsan açlığı düşünmezsin. Öyle olduğun"
+ },
+ {
+  "id": "G9",
+  "code": "kt-1-g-13-09",
+  "runes": "𐰇𐰲𐰇𐰤: 𐰃𐰏𐰓𐰢𐱁: 𐰴𐰍𐰣𐰭𐰣: 𐰽𐰉𐰃𐰤: 𐰞𐰢𐱃𐰃𐰤: 𐰘𐰃𐰼: 𐰽𐰖𐰆: 𐰉𐰺𐰑𐰍: 𐰴𐰆𐰯: 𐰦𐰀: 𐰞𐰴𐰦𐰍: 𐰺𐰞𐱃𐰍: 𐰦𐰀: 𐰴𐰞𐰢𐱁𐰃: 𐰘𐰃𐰼: 𐰽𐰖𐰆: 𐰸𐰆𐰯: 𐱃𐰆𐰺𐰆: 𐰇𐰠𐰇: 𐰖𐰆𐰺𐰖𐰆𐰺: 𐰼𐱅𐰏: 𐱅𐰭𐰼𐰃: 𐰖𐰺𐰞𐰴𐰑𐰸𐰃𐰤: 𐰇𐰲𐰇𐰤: 𐰇𐰕𐰢: 𐰸𐰆𐱃𐰢: 𐰉𐰺: 𐰇𐰲𐰇𐰤: 𐰴𐰍𐰣: 𐰆𐰞𐰺𐱃𐰢: 𐰴𐰍𐰣: 𐰆𐰞𐰺𐰯:",
+  "lit": "üçün: igdmş: KGNHN: SBin: LMTin: yir: SYU: BRDG: KOP: JA: LKJG: RLTG: JA: KLmşı: yir: SYU: qoP: TORU: ülü: YORYOR: rtg: tHri: YRLKDqin: üçün: öZm: qUTM: BR: üçün: KGN: OLRTM: KGN: OLRP:",
+  "tc": "ÜÇÜN: İGiDMiŞ: KaGaNıŊıN: SaBIN: aLMaTIN: YİR: SaYU: BaRDıG: KOP: aNDA: aLKıNTıG: aRıLTıG: aNDA: KaLMıŞI: YİR: SaYU: KOP: TORU: ÖLÜ: YORıYUR: eRTiG: TeŊRİ: YaRLıKaDUKIN: ÜÇÜN: ÖZüM: KUTuM: BaR: ÜÇÜN: KaGaN: OLuRTuM: KaGaN: OLuRuP:",
+  "tr": "için eğitmiş kağanının sözünü almadan her yere vardın. Hep [o] anda yittin, yok oldun. [o] anda kalanlar her yere hep incelerek, ölerek yürür idiler. Tanrı buyurduğu için, özüm kutum var olduğu için kağan oturdum. Kağan oturup"
+ },
+ {
+  "id": "G10",
+  "code": "kt-1-g-13-10",
+  "runes": "𐰖𐰸: 𐰲𐰃𐰍𐰪: 𐰉𐰆𐰑𐰣𐰍: 𐰸𐰆𐰯: 𐰸𐰆𐰉𐰺𐱃𐰑𐰢: 𐰲𐰃𐰍𐰪: 𐰉𐰆𐰑𐰣𐰍: 𐰉𐰖: 𐰴𐰃𐰡𐰢: 𐰕: 𐰉𐰆𐰑𐰣𐰍: 𐰰𐰇𐱁: 𐰴𐰃𐰡𐰢: 𐰕𐰆: 𐰉𐰆: 𐰽𐰉𐰢𐰑𐰀: 𐰃𐰏𐰓: 𐰉𐰺: 𐰍𐰆: 𐱅𐰇𐰼𐰰: 𐰋𐰏𐰠𐰼: 𐰉𐰆𐰑𐰣: 𐰉𐰆𐰣𐰃: 𐰾𐰃𐰓𐰭: 𐱅𐰇𐰼𐰰: 𐰉𐰆𐰑𐰣: 𐱅𐰃𐰼𐰯: 𐰃𐰠: 𐱃𐰆𐱃𐰽𐰴𐰭𐰣: 𐰉𐰆𐰦𐰀: 𐰆𐰺𐱃𐰢: 𐰖𐰭𐰞𐰯: 𐰇𐰠𐰾𐰚𐰭𐰤: 𐰘𐰢𐰀:",
+  "lit": "Yq: ÇIGF: BODNG: qoP: qUBRTDM: ÇIGF: BODNG: BY: KIVM: Z: BODNG: Xüş: KIVM: ZU: BU: SBMDA: igd: BR: GU: türX: bglr: BODN: BUNI: sidH: türX: BODN: tirp: il: TUTSKHN: BUJA: URTM: YHLP: ölskHn: yme:",
+  "tc": "YOK: ÇIGaYN: BODuNuG: KOP: KUBRaTDıM: ÇIGaYN: BODuNuG: BaY: KILDıM: aZ: BODuNuG: ÖKÜŞ: KILDıM: aZU: BU: SaBıMDA: İGiD: BaR: GU: TÜRK: BeGLeR: BODuN: BUNI: eŞİDiŊ: TÜRK: BODuN: TİRiP: İL: TUTSıKıŊıN: BUNDA: URTuM: YaŊıLıP: ÖLSiKiŊiN: YiME:",
+  "tr": "yok yoksul boyları hep toplattım. Yoksul boyları varlıklı kıldım. Az boyları çok kıldım. Yoksa bu sözümde yalan var mı? Türk beyleri, boyları, bunu işitin. Türk boylarını toplayıp il tutacağını burada vurdum (yazdım). Yanılıp öleceğini yine"
+ },
+ {
+  "id": "G11",
+  "code": "kt-1-g-13-11",
+  "runes": "𐰉𐰆𐰦𐰀: 𐰆𐰺𐱃𐰢: 𐰤𐰭: 𐰤𐰭: 𐰽𐰉𐰢: 𐰼𐰾𐰼: 𐰋𐰭𐰏𐰇: 𐱃𐱁𐰴𐰀: 𐰆𐰺𐱃𐰢: 𐰭𐰺: 𐰚𐰇𐰼𐰇: 𐰋𐰃𐰠𐰭: 𐱅𐰇𐰼𐰰: 𐰢𐱃𐰃: 𐰉𐰆𐰑𐰣: 𐰋𐰏𐰠𐰼: 𐰋𐰇𐰓𐰚𐰀: 𐰚𐰇𐰼𐰏𐰢𐰀: 𐰋𐰏𐰠𐰼: 𐰏𐰇: 𐰖𐰭𐰡𐰲𐰃: 𐰾𐰃𐰕: 𐰢𐰤: 𐰋𐰭𐰏𐰇: 𐱃𐱁: 𐱃𐰆𐰶𐰃𐱃𐰑𐰢[...]: 𐱃𐰉𐰍𐰲: 𐰴𐰍𐰦𐰀: 𐰋𐰓𐰕𐰲𐰃: 𐰚𐰠𐰇𐰼𐱅𐰢: 𐰋𐰓𐰕𐱅𐰢: 𐰢𐰤𐰭: 𐰽𐰉𐰢𐰣: 𐰾𐰃𐰢𐰑𐰃:",
+  "lit": "BUJA: URTM: nH: nH: SBM: rsr: bHgü: TŞKA: URTM: HR: körü: bilH: türX: MTI: BODN: bglr: bödke: kürgme: bglr: gü: YHVÇI: siZ: mn: bHgü: TŞ: TOQITDM[...]: TBGÇ: KGJA: bdZçi: klürtm: bdZtm: mnH: SBMN: sIMDI:",
+  "tc": "BUNDA: URTuM: NeŊ: NeŊ: SaBıM: eRSeR: BeŊGÜ: TaŞKA: URTuM: aŊaR: KÖRÜ: BİLiŊ: TÜRK: aMTI: BODuN: BeGLeR: BÖDKE: KÖRüGME: BeGLeR: GÜ: YaŊıLTaÇI: SİZ: MeN: BeŊGÜ: TaŞ: TOKıTDıM[...]: TaBGaÇ: KaGaNDA: BeDiZÇİ: KeLÜRTüM: BeDiZeTiM: MeNiŊ: SaBıMıN: SIMaDI:",
+  "tr": "burada vurdum. Nice nice sözüm [var] ise Bengü taşa vurdum. Onu görüp bilin. Türk'ün şimdiki boyları, beyleri, böyle buyruğumdaki beyler (olarak) mi yanılacaksınız? Ben Bengü taş dokuttum. [...] Çin kağanından süsleyici getirdim. Süslettim. Benim sözümü kırmadı."
+ },
+ {
+  "id": "G12",
+  "code": "kt-1-g-13-12",
+  "runes": "𐱃𐰉𐰍𐰲: 𐰴𐰍𐰣𐰭: 𐰃𐰲𐰼𐰚𐰃: 𐰋𐰓𐰕𐰲𐰃𐰏: 𐰃𐱃𐰃: 𐰭𐰺: 𐰑𐰨𐰃𐰍: 𐰉𐰺𐰴: 𐰖𐰺𐱃𐰆𐰺𐱃𐰢: 𐰃𐰲𐰃𐰤: 𐱃𐱁𐰃𐰤: 𐰑𐰨𐰃𐰍: 𐰋𐰓𐰕: 𐰆𐰺𐱃𐰆𐰺𐱃𐰢: 𐱃𐱁: 𐱃𐰆𐰴𐰃𐱃𐰑𐰢: 𐰚𐰇𐰭𐰠𐱅𐰚𐰃: 𐰽𐰉𐰢𐰣: 𐰆𐰺𐱃𐰆𐰺𐱃𐰢: 𐰆𐰞[...]: 𐰆𐰣: 𐰆𐰭: 𐰆𐰍𐰞𐰃𐰭𐰀: 𐱃𐱃𐰃𐰭𐰀: 𐱅𐰏𐰃: 𐰉𐰆𐰣𐰃: 𐰚𐰇𐰼𐰇: 𐰋𐰃𐰠𐰭: 𐰋𐰭𐰏𐰇: 𐱃𐱁:",
+  "lit": "TBGÇ: KGNH: içrki: bdZçig: ITI: HR: DCIG: BRK: YRTURTM: için: TŞin: DCıG: bdZ: URTURTM: TŞ: TUKITDM: küHltki: SBMN: URTURTM: OL[...]: ON: OH: OGLIHA: TTIHA: tgi: BUNI: kürü: bilH: bHgü: TŞ:",
+  "tc": "TaBGaÇ: KaGaNıŊ: İÇReKİ: BeDiZÇİG: ITI: aŊaR: aDıNÇIG: BaRK: YaRaTURTuM: İÇİN: TaŞIN: aDıNÇIG: BeDiZ: URTURTuM: TaŞ: TOKITDıM: KÖŊüLTeKİ: SaBıMıN: URTURTuM: OL[...]: ON: OŊ: OGLIŊA: TaTIŊA: TeGİ: BUNI: KÖRÜ: BİLiŊ: BeŊGÜ: TaŞ:",
+  "tr": "Çin kağanı, buyruğundaki süsçüyü gönderdi. Ona eşsiz (bir) bark yaptırdım. İçine dışına görülmemiş süs(ler) vurdurdum. Taş yazdırdım. Gönüldeki sözümü vurdurdum. Ol[...] On Ong oğluna, yabancıya değin bunu görüp bilin. Bengü taş"
+ },
+ {
+  "id": "G13",
+  "code": "kt-1-g-13-13",
+  "runes": "𐱃𐰸𐰃𐱃𐰑𐰢: 𐰉𐰆[...]𐰃𐰠: 𐰼𐰾𐰼: 𐰨𐰀: [...]𐰢: 𐱃𐰴𐰃: 𐰼𐰃𐰏: 𐰘𐰼𐱅𐰀: 𐰃𐰼𐰾𐰼: 𐰨𐰀: 𐰼𐰏: 𐰘𐰼𐱅𐰀: 𐰋𐰭𐰏𐰇: 𐱃𐱁: 𐱃𐰸𐰃𐱃𐰑𐰢: 𐰋𐰃𐱅𐰃𐰓𐰢: 𐰣𐰃: 𐰚𐰇𐰼𐰯: 𐰨𐰀: 𐰋𐰃𐰠𐰭: 𐰆𐰞: 𐱃𐱁: [...]𐰑𐰢: 𐰉𐰆: 𐰋𐰃𐱅𐰏: 𐰋𐰃𐱅𐰏𐰢𐰀: 𐱃𐰃𐰾𐰃: 𐰖𐰆𐰞𐰍𐱅𐰃𐰏𐰤:",
+  "lit": "TqITDM: BU[...]il: rsr: Ca: [...]M: TKI: rig: yrte: irsr: Ca: rg: yrte: bHgü: TŞ: TqITDM: bitidm: NI: körp: Ca: bilH: OL: TŞ: [...]DM: BU: bitg: bitgme: Tisi: YOLGtign:",
+  "tc": "TOKITDıM: BU[...]İL: eRSeR: aNÇA: [...]M: TaKI: eRİG: YiRTE: İRSeR: aNÇA: eRiG: YiRTE: BeŊGÜ: TaŞ: TOKITDıM: BİTiDDiM: aNI: KÖRüP: aNÇA: BİLiŊ: OL: TaŞ: [...]DıM: BU: BİTiG: BİTiGME: aTISI: YOLUGTİGiN:",
+  "tr": "dokuttum. Bu[...] il ise anca [...]m. Daha erişilir yerde ise ona erişilir yerde Bengü taş dokuttum, yazdırdım. Onu görüp anca bilin. O taş [...]dım. Bu yazıyı yazan : Yeğeni Yoluğ Tigin."
+ },
+ {
+  "id": "D1",
+  "code": "kt-2-d-40-01",
+  "runes": "𐰇𐰕𐰀: 𐰚𐰇𐰚: 𐱅𐰭𐰼𐰃: 𐰽𐰺𐰀: 𐰖𐰍𐰕: 𐰘𐰼: 𐰴𐰃𐰞𐰦𐰸𐰑𐰀: 𐰚𐰃𐰤: 𐰺𐰀: 𐰚𐰃𐰾𐰃: 𐰆𐰍𐰞𐰃: 𐰴𐰃𐰞𐰣𐰢𐰾: 𐰚𐰃𐰾𐰃: 𐰆𐰍𐰞𐰃𐰦𐰀: 𐰇𐰕𐰀: 𐰲𐰃𐰢: 𐰯𐰀𐰢: 𐰉𐰆𐰢𐰣: 𐰴𐰍𐰣: 𐰃𐰾𐱅𐰢𐰃: 𐰴𐰍𐰣: 𐰆𐰞𐰺𐰢𐱁: 𐰆𐰞𐰺𐰯𐰣: 𐱅𐰇𐰼𐰰: 𐰉𐰆𐰑𐰣𐰭: 𐰃𐰠𐰃𐰤: 𐱅𐰇𐰼𐰇𐰾𐰃𐰤: 𐱃𐰆𐱃𐰀: 𐰋𐰃𐰼𐰢𐰾: 𐰃𐱅𐰃: 𐰋𐰃𐰼𐰢𐰾:",
+  "lit": "üZe: kök: tHri: SRA: YGZ: yr: KILJqDA: kin: RA: kisi: OGLI: KILNMs: kisi: OGLIJA: üZE: çim: PAM: BUMN: KGN: istmi: KGN: OLRmş: OLRPN: türX: BUDNH: ilin: türüsin: TUTA: birms: iti: birms:",
+  "tc": "ÜZE: KÖK: TeŊRİ: aSRA: YaGıZ: YeR: KILıNDUKDA: iKİN: aRA: KİŞİ: OGLI: KILıNMıŞ: KİŞİ: OGLıNDA: ÜZE: eÇİM: aPAM: BUMıN: KaGaN: İSTeMİ: KaGaN: OLuRMıŞ: OLuRıPaN: TÜRK: BODuNıŊ: İLİN: TÖRÜSİN: TUTA: BİRMiŞ: İTİ: BİRMiŞ:",
+  "tr": "Üstte mavi gök, altta yağız (koyu kahverengi) yer yaratıldığında, ikisinin arasında [da] insanoğlu yaratılmış. İnsanoğlunun da üzerine atalarım dedelerim Bumin Kağan [ve] İstemi Kağan oturmuş. Oturup da Türk halkının ilini, töresini tutuvermiş, düzenleyivermiş."
+ },
+ {
+  "id": "D2",
+  "code": "kt-2-d-40-02",
+  "runes": "𐱅𐰇𐰼𐱅: 𐰉𐰆𐰞𐰭: 𐰴𐰆𐰯: 𐰖𐰍𐰃: 𐰼𐰢𐰾: 𐰾𐰇: 𐰾𐰇𐰠𐰯𐰤: 𐱅𐰇𐰼𐱅: 𐰉𐰆𐰞𐰭𐰑𐰴𐰃: 𐰉𐰆𐰑𐰣𐰍: 𐰴𐰆𐰯: 𐰞𐰢𐰾: 𐰴𐰆𐰯: 𐰉𐰕: 𐰴𐰃𐰞𐰢𐰾: 𐰉𐱁𐰞𐰍𐰍: 𐰘𐰰𐰦𐰼𐰢𐰾: 𐱅𐰃𐰕𐰠𐰏𐰏: 𐰾𐰇𐰚𐰇𐰼𐰢𐰾: 𐰃𐰠𐰏𐰼𐰇: 𐰴𐰑𐰺𐰴𐰣: 𐰘𐰃𐱁𐰴𐰀: 𐱅𐰏𐰃: 𐰚𐰃𐰼𐰇: 𐱅𐰢𐰺𐰴𐰯𐰍𐰴𐰀: 𐱅𐰏𐰃: 𐰸𐰆𐰦𐰺𐰢𐰾: 𐰚𐰃𐰤: 𐰺𐰀[...]:",
+  "lit": "tört: BOLH: KOP: YGI: rms: sü: sülpn: tört: BOLHDKI: BODNG: KOP: Lms: KOP: BZ: KıLms: BŞLGG: yXJrms: tiZlgg: sükürms: ilgrü: KDRKN: yIŞKA: tgi: kirü: tMRKPGKA: tgi: qOJRms: kin: RA[...]:",
+  "tc": "TÖRT: BOLıŊ: KOP: YaGI: eRMiŞ: SÜ: SÜLiPeN: TÖRT: BOLuŊDaKI: BODuNıG: KOP: aLMıŞ: KOP: BaZ: KILMıŞ: BaŞLıGıG: YÜKüNDüRMiŞ: TİZLiGiG: SÖKÜRMiŞ: İLGeRÜ: KaDıRKaN: YİŞKA: TeGİ: KİRÜ: TeMiRKaPıGKA: TeGİ: KONDuRMıŞ: iKİN: aRA[...]:",
+  "tr": "Dört yanı hep düşman imiş. Ordu sürüp, dört yandaki boyları hep almış, hep tâbi kılmış. Başlıyı [baş] eğdirmiş, dizliyi [diz] çöktürmüş. Doğuda Kadırkan ormanına değin, batıda Demirkapı'ya değin [halkı] kondurmuş. İkisi arasında[...]"
+ },
+ {
+  "id": "D3",
+  "code": "kt-2-d-40-03",
+  "runes": "𐰃𐰓𐰃: 𐰆𐰴𐰽𐰕: 𐰰𐰇𐰚: 𐱅𐰇𐰼𐰰: 𐰨𐰀: 𐰆𐰞𐰺𐰆𐰺: 𐰼𐰢𐰾: 𐰋𐰃𐰠𐰏𐰀: 𐰴𐰍𐰣: 𐰼𐰢𐰾: 𐰞𐰯: 𐰴𐰍𐰣: 𐰼𐰢𐰾: 𐰉𐰆𐰖𐰺𐰸𐰃: 𐰘𐰢𐰀: 𐰋𐰃𐰠𐰏𐰀: 𐰼𐰢𐰾: 𐰼𐰨: 𐰞𐰯: 𐰼𐰢𐰾: 𐰼𐰨: 𐰋𐰏𐰠𐰼𐰃: 𐰘𐰢𐰀: 𐰉𐰆𐰑𐰣𐰃: 𐰘𐰢𐰀: 𐱅𐰇𐰕: 𐰼𐰢𐰾: 𐰣𐰃: 𐰇𐰲𐰇𐰤: 𐰃𐰠𐰏: 𐰨𐰀: 𐱃𐰆𐱃𐰢𐰾: 𐰼𐰨: 𐰃𐰠𐰏: 𐱃𐰆𐱃𐰯: 𐱅𐰇𐰼𐰇𐰏: 𐰃𐱅𐰢𐰾: 𐰇𐰕𐰃: 𐰨𐰀:",
+  "lit": "idi: OKSZ: Xök: türX: CA: OLRUR: rms: bilge: KGN: rms: LP: KGN: rms: BUYRqı: yma: bilge: rms: rC: LP: rms: rC: bglri: yme: BUDNI: yme: tüZ: rms: NI: üçün: ilg: CA: TUTms: rC: ilg: TUTP: türüg: itms: öZi: CA:",
+  "tc": "İDİ: OKSuZ: KÖK: TÜRK: aNÇA: OLuRUR: eRMiŞ: BİLGE: KaGaN: eRMiŞ: aLP: KaGaN: eRMiŞ: BUYRUKI: YiME: BİLGE: eRMiŞ: eRiNÇ: aLP: eRMiŞ: eRiNÇ: BeGLeRİ: YiME: BODuNI: YiME: TÜZ: eRMiŞ: aNI: ÜÇÜN: İLiG: aNÇA: TUTMıŞ: eRiNÇ: İLiG: TUTıP: TÖRÜG: İTMiŞ: ÖZİ: aNÇA:",
+  "tr": "pek örgütsüz (düzensiz) [yaşayan] Kök Türk öylece oturur imiş. Bilge kağan imiş, alp (cesur) kağan imiş, buyruğu (maiyeti) yine bilge imiş tabiî, alp imiş tabiî. Beyleri de, halkı da doğru (uyum içinde) imiş. Onun için ili öyle tutmuş tabiî. İli tutup töreyi düzenlemiş. Kendisi öyle"
+ },
+ {
+  "id": "D4",
+  "code": "kt-2-d-40-04",
+  "runes": "𐰚𐰼𐰏𐰚: 𐰉𐰆𐰞𐰢𐰾: 𐰖𐰆𐰍𐰲𐰃: 𐰾𐰃𐰍𐱃𐰲𐰃: 𐰇𐰭𐰼𐰃: 𐰰𐰇𐰤: 𐱃𐰆𐰍𐰽𐰴𐰑𐰃: 𐰋𐰇𐰚𐰲𐰃: 𐰲𐰇𐰠𐰏𐰠: 𐱃𐰉𐰍𐰲: 𐱅𐰇𐰯𐰇𐱅: 𐰯𐰺: 𐰯𐰆𐰺𐰢: 𐰶𐰃𐰺𐰴𐰕: 𐰇𐰲𐰸𐰆𐰺𐰃𐰴𐰣: 𐰆𐱃𐰕𐱃𐱃𐰺: 𐰶𐰃𐱃𐰪: 𐱃𐱃𐰉𐰃: 𐰉𐰆𐰨𐰀: 𐰉𐰆𐰑𐰣: 𐰚𐰠𐰯𐰤: 𐰽𐰃𐰍𐱃𐰀𐰢𐰾: 𐰖𐰆𐰍𐰞𐰀𐰢𐰾: 𐰦𐰍: 𐰚𐰇𐰠𐰏: 𐰴𐰍𐰣: 𐰼𐰢𐰾: 𐰦𐰀: 𐰚𐰃𐰾𐰼𐰀: 𐰃𐰤𐰃𐰾𐰃: 𐰴𐰍𐰣:",
+  "lit": "krgk: BOLms: YUGÇI: sIGTÇI: üHri: Xün: TUGSKDI: bükçi: çülgl: TBGÇ: tüpüt: PR: PURM: QIRKZ: üçqURIKN: UTZTTR: QITF: TTBI: BUCA: BODN: klpn: SIGTams: YUGLams: JG: külg: KGN: rms: JA: kisre: inisi: KGN:",
+  "tc": "KeRGeK: BOLMıŞ: YUGÇI: SIGıTÇI: ÖŊRE: KÜN: TOGSıKDA: BÖKLİ: ÇÖLüGiL: TaBGaÇ: TÜPÜT: aPaR: PURuM: KIRKıZ: ÜÇKURIKaN: OTuZTaTaR: KITaNY: TaTaBI: BUNÇA: BUDoN: KeLİPeN: SIGTAMıŞ: YUGLAMıŞ: aNTaG: KÜLüG: KAGaN: eRMiŞ: aNDA: KİSRE: İNİSİ: KaGaN:",
+  "tr": "kergek olmuş (ölmüş). Yasçı, ağlayıcı, doğuda gün doğusunda Bökli Çöl ili, Çin, Tibet, Apar, Rum, Kırgız, Üç Kurıkan, Otuz Tatar, Kıtan, Tatabı, bunca boylar gelip ağlamış, yas tutmuş. Öyle ünlü kağan imiş. [O] andan sonra küçük kardeşi kağan"
+ },
+ {
+  "id": "D5",
+  "code": "kt-2-d-40-05",
+  "runes": "𐰉𐰆𐰞𐰢𐰾: 𐰼𐰨: 𐰆𐰍𐰞𐰃𐱃𐰃: 𐰴𐰍𐰣: 𐰉𐰆𐰞𐰢𐰾: 𐰼𐰨: 𐰦𐰀: 𐰚𐰃𐰾𐰼𐰀: 𐰃𐰤𐰃𐰾𐰃: 𐰲𐰃𐰾𐰃𐰤: 𐱅𐰏: 𐰴𐰃𐰞𐰣𐰢𐰑𐰸: 𐰼𐰨: 𐰆𐰍𐰞𐰃: 𐰴𐰭𐰃𐰤: 𐱅𐰏: 𐰴𐰃𐰞𐰣𐰢𐰑𐰸: 𐰼𐰨: 𐰋𐰃𐰠𐰏𐰾𐰃𐰕: 𐰴𐰍𐰣: 𐰆𐰞𐰺𐰢𐰾: 𐰼𐰨: 𐰖𐰉𐰞𐰴: 𐰴𐰍𐰣: 𐰆𐰞𐰺𐰢𐰾: 𐰼𐰨: 𐰉𐰆𐰖𐰴𐰸𐰃: 𐰘𐰢𐰀: 𐰋𐰃𐰠𐰏𐰾𐰕: 𐰼𐰨: 𐰖𐰉𐰞𐰴: 𐰼𐰢𐰾: 𐰼𐰨:",
+  "lit": "BOLms: rC: OGLITI: KGN: BoLms: rC: JA: kisre: inisi: çisin: tg: KILNmDq: rC: OGLI: KHin: tg: KILNmDq: rC: bilgsiZ: KGN: OLRms: rC: YBLK: KGN: OLRms: rC: BUYKqI: yme: bilgsZ: rC: YBLK: rms: rC:",
+  "tc": "BOLMıŞ: eRiNÇ: OGLITI: KaGaN: BOLMıŞ: eRiNÇ: aNDA: KİSRE: İNİSİ: eÇİSİN: TeG: KILıNMaDUK: eRiNÇ: OGLI: KaŊIN: TeG: KILıNMaDUK: eRiNÇ: BİLiGSİZ: KaGaN: OLuRMıŞ: eRiNÇ: YaBLaK: KaGaN: OLuRMıŞ: eRiNÇ: BUYRUKI: YiME: BİLiGSiZ: eRiNÇ: YaBLaK: eRMiŞ: eRiNÇ:",
+  "tr": "olmuş tabiî, oğulları kağan olmuş tabiî. [O] andan sonra küçük kardeşi büyük kardeşi gibi yaratılmadığından tabiî, oğlu babası gibi yaratılmadığından tabiî, bilgisiz kağan oturmuş tabiî, kötü kağan oturmuş tabiî. Buyruğu (maiyeti) da bilgisiz tabiî, kötü imiş tabiî."
+ },
+ {
+  "id": "D6",
+  "code": "kt-2-d-40-06",
+  "runes": "𐰋𐰏𐰠𐰼𐰃: 𐰉𐰆𐰑𐰣𐰃: 𐱅𐰇𐰕𐰾𐰕: 𐰇𐰲𐰇𐰤: 𐱃𐰉𐰍𐰲: 𐰉𐰆𐰑𐰣: 𐱅𐰋𐰠𐰏𐰃𐰤: 𐰚𐰇𐰼𐰠𐰏: 𐰇𐰲𐰇𐰤: 𐰺𐰢𐰴𐰲𐰃𐰾𐰃𐰤: 𐰇𐰲𐰇𐰤: 𐰃𐰤𐰠𐰃: 𐰲𐰃𐰠𐰃: 𐰚𐰃𐰭𐰾𐰇𐰼𐱅𐰰𐰃𐰤: 𐰇𐰲𐰇𐰤: 𐰋𐰏𐰠𐰃: 𐰉𐰆𐰑𐰣𐰞𐰃𐰍: 𐰖𐰆𐰭𐱁𐰆𐰺𐱃𐰸𐰃𐰤: 𐰇𐰲𐰇𐰤: 𐱅𐰇𐰼𐰰: 𐰉𐰆𐰑𐰣: 𐰃𐰠𐰠𐰓𐰰: 𐰃𐰠𐰃𐰤: 𐰃𐰲𐰍𐰣𐰆: 𐰃𐰑𐰢𐰾:",
+  "lit": "bglri: BODNI: tüZsZ: üçün: TBGÇ: BODN: tblgin: kürlg: üçün: RmKçisin: üçün: inli: çili: kiHsürtXin: üçün: bgli: BODNLIG: YOHŞURTqin: ÜÇÜn: türX: BODN: illdX: ilin: IÇGNU: ıDms:",
+  "tc": "BeGLeRİ: BODuNI: TÜZSüZ: ÜÇÜN: TaBGaÇ: BODuN: TeBLiGİN: KÜRLüG: ÜÇÜN: aRMaKÇISIN: ÜÇÜN: İNiLİ: eÇİLİ: KİŊŞÜRTÜKİN: ÜÇÜN: BeGLİ: BODuNLIG: YOŊŞURTUKIN: ÜÇÜN: TÜRK: BODuN: İLLeDÜK: İLİN: IÇGıNU: IDMıŞ:",
+  "tr": "Beyleri [ve] halkı uyumsuz [olduğu] için, Çin milleti hilekar [ve] sahtekar [olduğu] için, aldatıcı [olduğu] için, küçük kardeş ve büyük kardeşi birbirine düşürdüğü için, beyle halkı zıtlaştırdığı için, Türk milleti il yaptığı ilini kaybedivermiş,"
+ },
+ {
+  "id": "D7",
+  "code": "kt-2-d-40-07",
+  "runes": "𐰴𐰍𐰣𐰞𐰑𐰸: 𐰴𐰍𐰣𐰃𐰣: 𐰘𐰃𐱅𐰼𐰇: 𐰃𐰑𐰢𐰾: 𐱃𐰉𐰍𐰲: 𐰉𐰆𐰑𐰣𐰴𐰀: 𐰋𐰏𐰠𐰚: 𐰆𐰺𐰃: 𐰆𐰍𐰞𐰃𐰤: 𐰴𐰆𐰞: 𐰉𐰆𐰡𐰃: 𐰾𐰃𐰠𐰚: 𐰶𐰃𐰕: 𐰆𐰍𐰞𐰤: 𐰚𐰇𐰭: 𐰉𐰆𐰡𐰃: 𐱅𐰇𐰼𐰰: 𐰋𐰏𐰠𐰼: 𐱅𐰇𐰼𐰰: 𐰀𐱃𐰃𐰤: 𐰃𐱃𐰃: 𐱃𐰉𐰍𐰲𐰍𐰃: 𐰋𐰏𐰠𐰼: 𐱃𐰉𐰍𐰲: 𐰀𐱃𐰃𐰤: 𐱃𐰆𐱃𐰯𐰣: 𐱃𐰉𐰍𐰲: 𐰴𐰍𐰣𐰴𐰀:",
+  "lit": "KGNLDq: KGNIN: yitrü: IDMs: TBGÇ: BODNKA: bglk: URI: UGLin: KUL: BUVI: silk: QıZ: uGLn: köH: BUVI: türX: bglr: türX: aTın: ITI: TBGÇGI: bglr: TBGÇ: aTın: TUTPN: TBGÇ: KGNKA:",
+  "tc": "KaGaNLaDUK: KaGaNIN: YİTüRÜ: IDMıŞ: TaBGaÇ: BODuNKA: BeGLiK: URI: OGLIN: KUL: BOLDI: iŞİLiK: KIZ: OGLıN: KÜŊ: BOLDI: TÜRK: BeGLeR: TÜRK: ATIN: ITI: TaBGaÇGI: BeGLeR: TaBGaÇ: ATIN: TUTuPaN: TaBGaÇ: KaGaNKA:",
+  "tr": "kağan yaptığı kağanını yitirivermiş. Çin milletine beyliğe layık erkek evladı kul oldu, hanımlığa layık kız evladı cariye oldu. Türk beyleri Türk adını attı (bıraktı), Çinli beyleri [gibi] Çin adları alarak Çin kağanına"
+ },
+ {
+  "id": "D8",
+  "code": "kt-2-d-40-08",
+  "runes": "𐰚𐰇𐰼𐰢𐰾: 𐰠𐰏: 𐰘𐰃𐰞: 𐰃𐰾𐰏: 𐰚𐰇𐰲𐰏: 𐰋𐰃𐰼𐰢𐰾: 𐰃𐰠𐰏𐰼𐰇: 𐰰𐰇𐰤: 𐱃𐰆𐰍𐰽𐰴𐰑𐰀: 𐰋𐰇𐰚𐰠𐰃: 𐰴𐰍𐰣𐰴𐰀: 𐱅𐰏𐰃: 𐰾𐰇𐰠𐰘𐰇: 𐰋𐰃𐰼𐰢𐰾: 𐰸𐰆𐰺𐰍𐰺𐰆: 𐱅𐰢𐰼𐰴𐰯𐰍𐰴𐰀: 𐱅𐰏𐰃: 𐰾𐰇𐰠𐰘𐰇: 𐰋𐰃𐰼𐰢𐰾: 𐱃𐰉𐰍𐰲: 𐰴𐰍𐰣𐰴𐰀: 𐰃𐰠𐰃𐰤: 𐱅𐰇𐰼𐰇𐰾𐰃𐰤: 𐰞𐰃: 𐰋𐰃𐰼𐰢𐰾: 𐱅𐰇𐰼𐰰: 𐰴𐰺𐰀: 𐰴𐰢𐰍:",
+  "lit": "kürMs: lg: yıL: isg: küçg: birms: ilgrü: Xün: TOGSKDA: bükli: KGNKA: tgi: sülyü: birms: qURGRU: tmrKPGKA: tgi: sülyü: birms: TBGÇ: KGNKA: ilin: türüsin: LI: birms: türX: KRA: KMG:",
+  "tc": "KÖRMiŞ: eLiG: YIL: İŞiG: KÜÇiG: BİRMiŞ: İLGeRÜ: KÜN: TOGSuKDA: BÖKLİ: KaGaNKA: TeGİ: SÜLeYÜ: BİRMiŞ: KURıGaRU: TeMiRKaPıGKA: TeGİ: SÜLeYÜ: BİRMiŞ: TaBGaÇ: KaGaNKA: İLİN: TÖRÜSİN: aLI: BİRMiŞ: TÜRK: KaRA: KaMaG:",
+  "tr": "tâbi olmuş, elli yıl işi gücü vermiş (hizmet etmiş). Doğuda gün doğusunda Bökli Kağan'a değin ordu sürüvermiş, batıda Demirkapı'ya değin ordu sürüvermiş. Çin kağanına ilini, töresini alıvermiş. Türk halkı"
+ },
+ {
+  "id": "D9",
+  "code": "kt-2-d-40-09",
+  "runes": "𐰉𐰆𐰑𐰣: 𐰨𐰀: 𐱅𐰃𐰢𐰾: 𐰃𐰠𐰠𐰏: 𐰉𐰆𐰑𐰣: 𐰼𐱅𐰢: 𐰃𐰠𐰢: 𐰢𐱃𐰃: 𐰴𐰣𐰃: 𐰚𐰢𐰚𐰀: 𐰃𐰠𐰏: 𐰴𐰕𐰍𐰣𐰆𐰺𐰢𐰤: 𐱅𐰃𐰼: 𐰼𐰢𐰾: 𐰴𐰍𐰣𐰞𐰍: 𐰉𐰆𐰑𐰣: 𐰼𐱅𐰢: 𐰴𐰍𐰣𐰢: 𐰴𐰣𐰃: 𐰤𐰀: 𐰴𐰍𐰣𐰴𐰀: 𐰃𐰾𐰏: 𐰚𐰇𐰲𐰏: 𐰋𐰃𐰼𐰇𐰼𐰢𐰤: 𐱅𐰃𐰼: 𐰼𐰢𐰾: 𐰨𐰀: 𐱅𐰃𐰯: 𐱃𐰉𐰍𐰲: 𐰴𐰍𐰣𐰴𐰀: 𐰖𐰍𐰃: 𐰉𐰆𐰞𐰢𐰾:",
+  "lit": "BODN: Ca: tims: illg: BODN: rtm: ilm: MTI: KNI: kmke: ilg: KZGNURmn: tir: rms: KGNLG: BODN: rtm: KGNM: KNI: ne: KGNKA: isg: küçg: birürmn: tir: rms: CA: tip: TBGÇ: KGNKA: YGI: BOLMs:",
+  "tc": "BODuN: aNÇA: TİMiŞ: İLLiG: BODuN: eRTiM: İLiM: ıMTI: KaNI: KiMKE: İLiG: KaZGaNURMeN: TİR: eRMiŞ: KaGaNLıG: BODuN: eRTiM: KaGaNıM: KaNI: NE: KaGaNKA: İŞiG: KÜÇüG: BERÜRMeN: TİR: eRMiŞ: aNÇA: TİP: TaBGaÇ: KaGaNKA: YaGI: BOLMıŞ:",
+  "tr": "milleti şöyle demiş: “İlli (vatanı olan) millet idim, ilim (vatanım) şimdi hani? Kime (kim için) ili kazanırım (fetih yaparım)?” der imiş. “Kağanlı millet idim, kağanım hani? Ne (hangi) kağana işi gücü veriyorum (hizmet ediyorum) ben?” der imiş. Öyle deyip Çin kağanına düşman olmuş."
+ },
+ {
+  "id": "D10",
+  "code": "kt-2-d-40-10",
+  "runes": "𐰖𐰍𐰃: 𐰉𐰆𐰞𐰯: 𐰃𐱅𐰤𐰇: 𐰖𐰺𐱃𐰆𐰣𐰆: 𐰆𐰢𐰑𐰸: 𐰖𐰣: 𐰃𐰲𐰚𐰢𐰾: 𐰉𐰆𐰨𐰀: 𐰃𐰾𐰏: 𐰚𐰇𐰲𐰏: 𐰋𐰃𐰼𐱅𐰰𐰏𐰼𐰇: 𐰽𐰴𐰣𐰢𐱃𐰃: 𐱅𐰇𐰼𐰰: 𐰉𐰆𐰑𐰣: 𐰇𐰠𐰇𐰼𐰘𐰃𐰤: 𐰆𐰺𐰍𐰽𐰺𐱃𐰖𐰃𐰤: 𐱅𐰃𐰼: 𐰼𐰢𐰾: 𐰖𐰆𐰴𐰑𐰆: 𐰉𐰺𐰃𐰺: 𐰼𐰢𐰾: 𐰇𐰕𐰀: 𐱅𐰇𐰼𐰰: 𐱅𐰭𐰼𐰃𐰾𐰃: 𐱅𐰇𐰺𐰰: 𐰃𐰑𐰸: 𐰘𐰃𐰼𐰃:",
+  "lit": "YGI: BULP: itnü: YRTUNU: UMDq: YN: içkms: BuCa: isg: küçg: birtXgrü: SKNMTI: türX: BODN: ülüryin: ORGSRTYin: tir: rms: YUKDU: BRIR: rms: üZe: türX: tHrısı: tÜRX: ıDq: yiri:",
+  "tc": "YaGI: BOLuP: İTiNÜ: YaRaTUNU: UMaDUK: YaNA: İÇiKMiŞ: BUNÇA: İŞiG: KÜÇüG: BİRTÜKGeRÜ: SaKıNMaTI: TÜRK: BODuN: ÖLÜReYİN: URuGSıRaTaYIN: TİR: eRMiŞ: YUKaDU: BaRIR: eRMiŞ: ÜZE: TÜRK: TeŊRİSİ: TÜRK: IDUK: YİRİ:",
+  "tr": "Düşman olup, kendini düzenleyip örgütleyemediğinden yine [Çin'e] tâbi olmuş. [Çin ise] bunca işi gücü vermelerini (hizmetlerini) düşünmeden “Türk milletini öldüreyim, kökünü kurutayım” der imiş. [Türk milleti] yok olmak üzere imiş. Yukarıda Türk tanrısı, Türk kutsal yeri"
+ },
+ {
+  "id": "D11",
+  "code": "kt-2-d-40-11",
+  "runes": "𐰽𐰆𐰉𐰃: 𐰨𐰀: 𐱅𐰢𐰾: 𐱅𐰇𐰼𐰰: 𐰉𐰆𐰑𐰣: 𐰖𐰆𐰸: 𐰉𐰆𐰞𐰢𐰕𐰆𐰣: 𐱅𐰃𐰘𐰤: 𐰉𐰆𐰑𐰣: 𐰉𐰆𐰞𐰲𐰆𐰣: 𐱅𐰃𐰘𐰤: 𐰴𐰭𐰢: 𐰃𐰠𐱅𐰼𐰾: 𐰴𐰍𐰣𐰍: 𐰇𐰏𐰢: 𐰃𐰠𐰋𐰃𐰠𐰏𐰀: 𐰴𐱃𐰆𐰣𐰍: 𐱅𐰭𐰼𐰃: 𐱅𐰇𐰯𐰾𐰃𐰦𐰀: 𐱃𐰆𐱃𐰯: 𐰘𐰇𐰏𐰼𐰇: 𐰚𐰇𐱅𐰇𐰼𐰢𐰾: 𐰼𐰨: 𐰴𐰭𐰢: 𐰴𐰍𐰣: 𐰘𐰃𐱅𐰃𐰘𐰏𐰼𐰢𐰃: 𐰼𐰤: 𐱃𐱁𐰚𐰢𐰾: 𐱃𐱁𐰺𐰀:",
+  "lit": "SUBI: CA: tms: türX: BODN: Yoq: BULMZUN: tiyn: BUDN: BULÇUN: tiyn: KHM: iltrs: KGNG: ügm: ilbilge: KTUNG: tHri: töpsiJe: TUTP: yügrü: kütürms: rC: KHM: KGN: yitiygrmi: rn: Tşkms: TŞRA:",
+  "tc": "SUBI: aNÇA: iTMiŞ: TÜRK: BODuN: YOK: BOLMaZUN: TİYiN: BODuN: BOLÇUN: TİYiN: KaŊıM: İLTeRiŞ: KaGaNıG: ÖGüM: İLBİLGE: KaTUNıG: TeŊRİ: TÖPüSİNDE: TUTuP: YÜGeRÜ: KÖTÜRMiŞ: eRiNÇ: KaŊıM: KaGaN: YİTİYiGiRMİ: eRiN: TaŞıKMıŞ: TaŞRA:",
+  "tr": "suyu (ruhları) şöyle yapmış: Türk milleti yok olmasın diye, millet olsun diye babam İlteriş Kağan'ı, annem İlbilge Hatun'u göğün tepesinden tutup [daha] yükseğe kaldırmış tabiî. Babam kağan on yedi adamla dışarı çıkmış (baş kaldırmış), [İlteriş] dışarı"
+ },
+ {
+  "id": "D12",
+  "code": "kt-2-d-40-12",
+  "runes": "𐰖𐰆𐰺𐰖𐰆𐰺: 𐱅𐰃𐰘𐰤: 𐰚𐰇: 𐰾𐰓𐰯: 𐰉𐰞𐰶𐰑𐰴𐰃: 𐱃𐰍𐰶𐰢𐰾: 𐱃𐰍𐰑𐰴𐰃: 𐰃𐰤𐰢𐰾: 𐱅𐰃𐰼𐰠𐰯: 𐰘𐱅𐰢𐰾: 𐰼: 𐰉𐰆𐰞𐰢𐰾: 𐱅𐰭𐰼𐰃: 𐰰𐰇𐰲: 𐰋𐰃𐰼𐱅𐰰: 𐰇𐰲𐰤: 𐰴𐰭𐰢: 𐰴𐰍𐰣: 𐰾𐰇𐰾𐰃: 𐰋𐰇𐰼𐰃: 𐱅𐰏: 𐰼𐰢𐰾: 𐰖𐰍𐰃𐰾𐰃: 𐰸𐰆𐰪: 𐱅𐰏: 𐰼𐰢𐰾: 𐰃𐰠𐰏𐰼𐰇: 𐰸𐰆𐰺𐰍𐰺𐰆: 𐰾𐰇𐰠𐰯: 𐱅𐰃𐰼𐰢𐱁: 𐰴𐰆𐰉𐰺𐱃𐰢𐱁: 𐰴𐰢𐰍𐰃:",
+  "lit": "YURYUR: tiyn: kü: sdp: BLQDKI: TGQms: TGDKI: inms: tirlp: ytms: r: BoLms: tHri: Xüç: birtX: üçn: KHM: KGN: süsi: böri: tg: rms: YGısı: qoF: tg: rms: ilgrü: qURGRU: sülp: tirmŞ: KOBRTMŞ: KMGI:",
+  "tc": "YORuYOR: TİYiN: KÜ: eŞiDiP: BaLIKDaKI: TaGIKMıŞ: TaGDakI: İNMiŞ: TİRiLiP: YeTMiŞ: eR: BOLMıŞ: TeŊRİ: KÜÇ: BİRTÜK: ÜÇiN: KaŊıM: KaGaN: SÜSİ: BÖRİ: TeG: eRMiŞ: YaGISI: KOYN: TeG: eRMiŞ: İLGeRÜ: KURıGaRU: SÜLeP: TİRMiŞ: KUBRaTMıŞ: KaMaGI:",
+  "tr": "yürüyor (baş kaldırıyor) diye ses işitip şehirdeki dağa çıkmış, dağdaki inmiş, toplanıp yetmiş er olmuşlar. Tanrı güç verdiği için babam kağanın askeri kurt gibi imiş, düşmanı koyun gibi imiş. Doğuya [ve] batıya asker gönderip [adam] derlemiş, toplamış. Hepsi"
+ },
+ {
+  "id": "D13",
+  "code": "kt-2-d-40-13",
+  "runes": "𐰘𐱅𐰃𐰘𐰕: 𐰼: 𐰉𐰆𐰞𐰢𐰾: 𐰘𐱅𐰃𐰘𐰕: 𐰼: 𐰉𐰆𐰞𐰯: 𐰠𐰾𐰼𐰢𐰾: 𐰚𐰍𐰣𐰽𐰺𐰢𐰾: 𐰉𐰆𐰑𐰣𐰍: 𐰚𐰇𐰭𐰓𐰢𐰾: 𐰸𐰆𐰞𐰑𐰢𐰾: 𐰉𐰆𐰑𐰣𐰍: 𐱅𐰇𐰼𐰰: 𐱅𐰇𐰼𐰇𐰾𐰇𐰤: 𐰃𐰲𐰍𐰣𐰢𐰾: 𐰉𐰆𐰑𐰣𐰍: 𐰲𐰇𐰢: 𐰯𐰀𐰢: 𐱅𐰇𐰼𐰇𐰾𐰃𐰨𐰀: 𐰖𐰺𐱃𐰢𐰾: 𐰉𐰆𐱁𐰍𐰆𐰺𐰢𐰾: 𐱅𐰇𐰠𐰃𐰾: 𐱃𐰺𐰑𐰆𐱁: 𐰉𐰆𐰑𐰣𐰍: 𐰦𐰀: 𐱅𐰢𐰾:",
+  "lit": "ytiyZ: r: BoLms: ytiyZ: r: BOLP: lsrms: kGNSRms: BODNG: küHdms: qOLDMs: BODNG: türX: türüsün: ıçGNms: BODNG: çüm: pem: türüsiCe: YRTms: BUŞGURms: tülis: TRDUŞ: BODNG: JA: tms:",
+  "tc": "YeTİYüZ: eR: BOLMıŞ: YeTİYüZ: eR: BOLıP: iLSiReMiŞ: KaGaNSıRaMıŞ: BODuNıG: KÜŊeDMiŞ: KULaDMıŞ: BODuNıG: TÜRK: TÖRÜSÜN: IÇGıNMıŞ: BODuNıG: eÇÜM: aPAM: TÖRÜSİNÇE: YaRaTMıŞ: BOŞGURMıŞ: TÖLİS: TaRDUŞ: BODuNıG: aNDA: iTMiŞ:",
+  "tr": "yedi yüz er olmuşlar. Yedi yüz er olup ilsizleşmiş, kağansızlaşmış milleti, cariye olmuş, kul olmuş milleti, Türk töresini bırakmış milleti atalarımın töresince [yeniden] yaratmış, eğitmiş. Tölis [ve] Tarduş boylarını orada düzenlemiş."
+ },
+ {
+  "id": "D14",
+  "code": "kt-2-d-40-14",
+  "runes": "𐰖𐰉𐰍𐰆𐰍: 𐱁𐰑𐰍: 𐰦𐰀: 𐰋𐰼𐰢𐰾: 𐰋𐰼𐰘𐰀: 𐱃𐰉𐰍𐰲: 𐰉𐰆𐰑𐰣: 𐰖𐰍𐰃: 𐰼𐰢𐰾: 𐰘𐰃𐰺𐰖𐰀: 𐰉𐰕: 𐰴𐰍𐰣: 𐱃𐰸𐰆𐰕𐰆𐰍𐰕: 𐰉𐰆𐰑𐰆𐰣: 𐰖𐰍𐰃: 𐰼𐰢𐰾: 𐰶𐰃𐰺𐰴𐰕: 𐰸𐰆𐰺𐰃𐰴𐰣: 𐰆𐱃𐰕𐱃𐱃𐰺: 𐰶𐰃𐱃𐰪: 𐱃𐱃𐰉𐰃: 𐰸𐰆𐰯: 𐰖𐰍𐰃: 𐰼𐰢𐰾: 𐰴𐰭𐰢: 𐰴𐰍𐰣: 𐰉𐰆𐰨𐰀[...]:",
+  "lit": "YBGUG: ŞDG: JA: brms: brye: TBGÇ: BODN: YGI: rms: yIRYA: BZ: KGN: TqUZUGZ: BUDUN: YGI: rms: QIRKZ: qURIKN: UTZTTR: QITF: TTBI: quP: YGI: rms: KHM: KGN: BUCA[...]:",
+  "tc": "YaBGUG: ŞaDıG: aNDA: BiRMiŞ: BiRiyE: TaBGaÇ: BODuN: YaGI: eRMiŞ: YIRıYA: BaZ: KaGaN: TOKUZOGuZ: BODUN: YaGI: eRMiŞ: KIRKıZ: KURIKaN: OTuZTaTaR: KITaNY: TaTaBI: KOP: YaGI: eRMiŞ: KaŊıM: KaGaN: BUNÇA[...]:",
+  "tr": "Yabguyu, şadı orada vermiş. Güneyde Çin milleti düşmanı imiş. Kuzeyde Baz Kağan, Dokuz Oğuz boyları düşmanı imiş. Kırgız, Kurıkan, Otuz Tatar, Kıtay, Tatabı hep düşmanı imiş. Babam kağan bunca[...]"
+ },
+ {
+  "id": "D15",
+  "code": "kt-2-d-40-15",
+  "runes": "𐰶𐰃𐰺𐰴: 𐰺𐱃𐰸𐰃: 𐰘𐱅𐰃: 𐰖𐰆𐰞𐰃: 𐰾𐰇𐰠𐰢𐰾: 𐰘𐰏𐰼𐰢𐰃: 𐰾𐰇𐰭𐰾: 𐰾𐰇𐰭𐰾𐰢𐰾: 𐱅𐰭𐰼𐰃: 𐰖𐰺𐰞𐰴𐰑𐰸: 𐰇𐰲𐰇𐰢: 𐰃𐰠𐰠𐰏𐰏: 𐰠𐰾𐰼𐱅𐰢𐰾: 𐰴𐰍𐰣𐰞𐰍𐰍: 𐰴𐰍𐰣𐰽𐰺𐱃𐰢𐰾: 𐰖𐰍𐰃𐰍: 𐰉𐰕: 𐰚𐰃𐰠𐰢𐰾: 𐱅𐰃𐰕𐰠𐰏𐰏: 𐰾𐰇𐰚𐰇𐰼𐰢𐰾: 𐰉𐱁𐰞𐰍𐰍: 𐰘𐰇𐰚𐰦𐰇𐰼𐰢𐰾: 𐰴𐰭𐰢: 𐰴𐰍𐰣: 𐰨𐰀: 𐰃𐰠𐰏:",
+  "lit": "QIRK: RTqI: yti: YOLI: sülms: ygrmi: süHs: süHsms: tHri: YRLKDq: üçüm: illgg: lsrtms: KGNLGG: KGNSRTms: YGIG: BZ: kılms: tiZlgg: sükürms: BŞLGG: yükJürms: KHM: KGN: CA: ilg:",
+  "tc": "KIRK: aRTUKI: YeTİ: YOLI: SÜLeMiŞ: YiGiRMİ: SÜŊüŞ: SÜŊüŞMiŞ: TeŊRİ: YaRLıKaDUK: ÜÇÜN: İLLiGiG: iLSiReTMiŞ: KaGaNLıGıG: KaGaNSıRaTMıŞ: YaGIG: BaZ: KİLMiŞ: TİZLiGiG: SÖKÜRMiŞ: BaŞLıGıG: YÜKüNDÜRMiŞ: KaŊıM: KaGaN: aNÇA: İLiG:",
+  "tr": "Kırk yedi [kez] ordu sürmüş, yirmi savaş savaşmış. Tanrı buyurduğu için illiyi ilsizleştirmiş, kağanlıyı kağansızlaştırmış; düşmanı tâbi kılmış. Dizliyi [diz] çöktürmüş, başlıyı [baş] eğdirmiş. Babam kağan onca ili,"
+ },
+ {
+  "id": "D16",
+  "code": "kt-2-d-40-16",
+  "runes": "𐱅𐰇𐰼𐰇𐰏: 𐰴𐰕𐰍𐰣𐰯: 𐰆𐰲𐰀: 𐰉𐰺𐰢𐰾: 𐰴𐰭𐰢: 𐰴𐰍𐰣𐰴𐰀: 𐰉𐱁𐰞𐰖𐰆: 𐰉𐰕: 𐰴𐰍𐰣𐰍: 𐰉𐰞𐰉𐰞: 𐱅𐰃𐰚𐰢𐰾: 𐰆𐰞: 𐱅𐰇𐰼𐰇𐰓𐰀: 𐰇𐰕𐰀: 𐰲𐰃𐰢: 𐰴𐰍𐰣: 𐰆𐰞𐰺𐱃𐰃: 𐰲𐰃𐰢: 𐰴𐰍𐰣: 𐰆𐰞𐰺𐰯𐰣: 𐱅𐰇𐰼𐰰: 𐰉𐰆𐰑𐰣𐰍: 𐰘𐰃𐰲𐰀: 𐰃𐱅𐰓𐰃: 𐰃𐰏𐱅𐰃: 𐰲𐰃𐰍𐰪𐰍: 𐰉𐰖: 𐰶𐰡𐰃: 𐰕𐰃𐰍: 𐰰𐰇𐱁: 𐰶𐰡𐰃:",
+  "lit": "türüg: KZGNP: UÇA: BRms: KHM: KGNKA: BŞLYU: BZ: KGNG: BLBL: tikms: OL: türüde: üZe: çim: KGN: OLRTI: çim: KGN: OLRPN: türX: BODNG: yiçe: itdi: igti: ÇIGFG: BY: QVI: ZIG: XÜŞ: QVI:",
+  "tc": "TÖRÜG: KaZGaNıP: UÇA: BaRMıŞ: KaŊıM: KaGaNKA: BaŞLaYU: BaZ: KaGaNıG: BaLBaL: TİKMiŞ: OL: TÖRÜDE: ÜZE: eÇİM: KaGaN: OLuRTI: eÇİM: KaGaN: OLuRıPaN: TÜRK: BODuNıG: YİÇE: İTDİ: İGiTİ: ÇIGaNYıG: BaY: KILDI: aZIG: ÖKÜŞ: KILDI:",
+  "tr": "töreyi kazanıp uçup gitmiş (ölmüş). Babam kağana ilk önce Baz Kağan balbal (mezartaşı) dikmiş. O [zamanki] Töre üzerine amcam kağan oturdu. Amcam kağan oturunca Türk boylarını yine eğitti, besledi. Yoksulu varlıklı kıldı, azı çok kıldı."
+ },
+ {
+  "id": "D17",
+  "code": "kt-2-d-40-17",
+  "runes": "𐰲𐰃𐰢: 𐰴𐰍𐰣: 𐰆𐰞𐰺𐱃𐰸𐰑𐰀: 𐰇𐰕𐰢: 𐱃𐰺𐰑𐰆𐱁: 𐰉𐰆𐰑𐰣: 𐰇𐰕𐰀: 𐱁𐰑: 𐰼𐱅𐰢: 𐰲𐰃𐰢: 𐰴𐰍𐰣: 𐰋𐰃𐰼𐰠𐰀: 𐰃𐰠𐰏𐰼𐰇: 𐰖𐱁𐰞: 𐰇𐰏𐰕: 𐱁𐰦𐰆𐰭: 𐰖𐰕𐰃𐰴𐰀: 𐱅𐰏𐰃: 𐰾𐰇𐰠𐰓𐰢𐰕: 𐰸𐰆𐰺𐰍𐰺𐰆: 𐱅𐰢𐰼: 𐰴𐰯𐰍𐰴𐰀: 𐱅𐰏𐰃: 𐰾𐰇𐰠𐰓𐰢𐰕: 𐰚𐰇𐰏𐰢𐰤: 𐱁𐰀: 𐰶𐰃𐰺𐰴𐰕: 𐰘𐰃𐰼𐰃𐰭𐰀: 𐱅𐰏𐰃: 𐰾𐰇𐰠𐰓𐰢𐰕:",
+  "lit": "çim: KGN: OLRTqDA: üZM: trRDUŞ: BODN: üZe: ŞD: rtm: çim: KGN: birle: ilgrü: YŞL: ügZ: ŞJUH: YZIKA: tgi: süldmZ: qURGRU: tmr: KPGKA: tgi: süldmZ: kügmn: şa: QIRKZ: yiriHe: tgi: süldmZ:",
+  "tc": "eÇİM: KaGaN: OLuRTUKDA: ÖZüM: TaRDUŞ: BODuN: ÜZE: ŞaD: eRTiM: eÇİM: KaGaN: BİRLE: İLGeRÜ: YaŞıL: ÖGüZ: ŞaNTUŊ: YaZIKA: TeGİ: SÜLeDiMiZ: KURıGaRU: TeMiR: KaPıGKA: TeGİ: SÜLeDiMiZ: KöGMeN: aŞA: KIRKıZ: YİRİŊE: TeGİ: SÜLeDiMiZ:",
+  "tr": "Amcam Kağan oturduğunda ben Tarduş halkı üzerinde şad idim. Amcam kağan ile doğuda Sarıırmak'a, Şantung ovasına değin ordu sürdük. Batıda Demirkapı'ya değin ordu sürdük. Kögmen'i aşıp Kırgız yerine değin ordu sürdük."
+ },
+ {
+  "id": "D18",
+  "code": "kt-2-d-40-18",
+  "runes": "𐰴𐰢𐰍𐰃: 𐰋𐰃𐱁𐰆𐱃𐰕: 𐰾𐰇𐰠𐰓𐰢𐰕: 𐰇𐰲𐰘𐰏𐰼𐰢𐰃: 𐰾𐰇𐰭𐱁𐰓𐰢𐰕: 𐰃𐰠𐰠𐰏𐰏: 𐰃𐰠𐰾𐰼𐱅𐰓𐰢𐰕: 𐰴𐰍𐰣𐰞𐰍𐰍: 𐰴𐰍𐰣𐰽𐰺𐱃𐰑𐰢𐰕: 𐱅𐰃𐰕𐰠𐰏𐰏: 𐰾𐰇𐰚𐰼𐱅𐰢𐰕: 𐰉𐱁𐰞𐰍𐰍: 𐰘𐰰𐰇𐰦𐰼𐱅𐰢𐰕: 𐱅𐰇𐰼𐰏𐰾: 𐰴𐰍𐰣: 𐱅𐰇𐰼𐰰𐰢𐰕: 𐰉𐰆𐰑𐰣𐰃𐰢𐰕: 𐰼𐱅𐰃: 𐰋𐰃𐰠𐰢𐰓𐰇𐰚𐰤:",
+  "lit": "KMGI: bişUTZ: süldmZ: üçygrmi: süHşdmZ: illgg: ilsrtdmZ: KGNLGG: KGNSRTDmZ: tiZlgg: sükrtmZ: BŞLGG: yXüJrtmZ: türgs: KGN: türXmZ: BODNIMZ: rti: bilmdükn:",
+  "tc": "KaMaGI: BİŞOTuZ: SÜLeDiMiZ: ÜÇYiGiRMİ: SÜŊüŞDüMiZ: İLLiGiG: İLSiReTDiMiZ: KaGaNLıGıG: KaGaNSıRaTDıMıZ: TİZLiGiG: SÖKüRTüMiZ: BaŞLıGıG: YÜKÜNDüRTüMiZ: TÜRGiŞ: KAGaN: TÜRÜKüMiZ: BUDuNIMıZ: eRTİ: BİLMeDÜKiN:",
+  "tr": "Toplamda yirmi beş [kez] ordu sürdük, on üç [kez] savaştık. İlliyi ilsizleştirdik, kağanlıyı kağansızlaştırdık. Dizliyi [diz] çöktürdük, başlıyı [baş] eğdirdik. Türgiş kağanı Türk'ümüz, milletimiz idi. Bilmedikleri"
+ },
+ {
+  "id": "D19",
+  "code": "kt-2-d-40-19",
+  "runes": "𐰇𐰲𐰇𐰤: 𐰋𐰃𐰕𐰭𐰀: 𐰖𐰭𐰞𐰑𐰸𐰃𐰤: 𐰇𐰲𐰇𐰤: 𐰴𐰍𐰣𐰃: 𐰇𐰠𐱅𐰃: 𐰉𐰆𐰖𐰺𐰸𐰃: 𐰋𐰏𐰠𐰼𐰃: 𐰘𐰢𐰀: 𐰇𐰠𐱅𐰃: 𐰆𐰣: 𐰸: 𐰉𐰆𐰑𐰣: 𐰢𐰏𐰚: 𐰚𐰇𐰼𐱅𐰃: 𐰲𐰇𐰢𐰕: 𐰯𐰀𐰢𐰕: 𐱃𐰆𐱃𐰢𐰾: 𐰘𐰃𐰼: 𐰽𐰆𐰉: 𐰃𐰓𐰾𐰕: 𐰉𐰆𐰞𐰢𐰕𐰆𐰣: 𐱅𐰃𐰘𐰤: 𐰕: 𐰉𐰆𐰑𐰣𐰍: 𐰃𐱅𐰯: 𐰖𐰺𐱃𐰯 :[...]",
+  "lit": "üçün: biZHe: YHLDqIn: üçün: KGNI: ölti: BUYRqI: bglri: yme: ölti: ON: q: BODN: mgk: körti: çümZ: PAMZ: TUTms: yir: SUB: idsZ: BOLMZUN: tiyn: Z: BODNG: itp: YRTP: [...]:",
+  "tc": "ÜÇÜN: BİZiŊE: YaŊıLDUKIN: ÜÇÜN: KaGaNI: ÖLTİ: BUYRUKI: BeGLeRİ: YiME: ÖLTİ: ON: OK: BODuN: eMGeK: KÖRTİ: eÇÜMiZ: aPAMıZ: TUTMıŞ: YİR: SUB: İDiSiZ: BOLMaZUN: TİYiN: aZ: BODuNıG: İTiP: YaRaTıP: [...]:",
+  "tr": "için, bize [karşı] yanıldıkları (hata ettikleri) için [onların] kağanı öldü. Buyruğu (maiyeti), beyleri de öldü. On Ok halkı eziyet gördü. Atalarımızın dedelerimizin tuttuğu yer su sahipsiz olmasın diye Az halkını eğiten, düzenleyen [...]"
+ },
+ {
+  "id": "D20",
+  "code": "kt-2-d-40-20",
+  "runes": "𐰉𐰺𐰽: 𐰋𐰏: 𐰼𐱅𐰃: 𐰴𐰍𐰣: 𐱃: 𐰉𐰆𐰦𐰀: 𐰋𐰃𐰕: 𐰋𐰃𐰼𐱅𐰢𐰕: 𐰾𐰃𐰭𐰠𐰢: 𐰸𐰆𐰨𐰖𐰆𐰍: 𐰋𐰃𐰼𐱅𐰢𐰕: 𐰇𐰕𐰃: 𐰖𐰭𐰡𐰃: 𐰴𐰍𐰣𐰃: 𐰇𐰠𐱅𐰃: 𐰉𐰆𐰑𐰣𐰃: 𐰚𐰇𐰭: 𐰸𐰆𐰞: 𐰉𐰆𐰡𐰃: 𐰚𐰇𐰏𐰢𐰤: 𐰘𐰃𐰼: 𐰽𐰆𐰉: 𐰃𐰓𐰾𐰕: 𐰴𐰞𐰢𐰕𐰆𐰣: 𐱅𐰃𐰘𐰤: 𐰕: 𐰴𐰃𐰺𐰴𐰕: 𐰉𐰆𐰑𐰣𐰍: 𐰖𐰺𐱃𐰯: 𐰚𐰠𐱅𐰢𐰕: 𐰾𐰇𐰭𐱁𐰓𐰢𐰕: [...]: 𐰃𐰠𐰃𐰤:",
+  "lit": "BRS: bg: rti: KGN: T: BOJA: biZ: birtmZ: siHlm: qoCYUG: birtmZ: öZi: YHVI: KGNI: ölti: BODNI: küH: quL: BOVI: kügmn: yir: SUB: idsZ: KLMZUN: tiyn: Z: KIRKZ: BODNG: YRTP: kltmZ: süHşdmZ: [...]: ilin:",
+  "tc": "BaRS: BeG: eRTİ: KaGaN: aT: BUNDA: BİZ: BİRTiMiZ: SİŊiLiM: KONÇuYUG: BİRTiMiZ: ÖZİ: YaŊıLDI: KaGaNI: ÖLTİ: BODuNI: KÜŊ: KUL: BOLDI: KÖGMeN: YİR: SUB: İDiSiZ: KaLMaZUN: TİYiN: aZ: KIRKıZ: BODuNıG: YaRaTıP: KeLTiMiZ: SÜŊüŞDüMüZ: [...]: İLİN:",
+  "tr": "Bars Bek idi. Kağan adını (ünvanını) burada biz verdik. Küçük kız kardeşim prensesi verdik. Kendisi yanıldı, kağanı öldü, halkı cariye [ve] kul oldu. Kögmen yeri suyu sahipsiz kalmasın diye Az [ve] Kırgız halklarını düzenleyip geldik. Savaştık. [...] ilini"
+ },
+ {
+  "id": "D21",
+  "code": "kt-2-d-40-21",
+  "runes": "𐰖𐰣𐰀: 𐰋𐰃𐰼𐱅𐰢𐰕: 𐰠𐰏𐰼𐰇: 𐰴𐰑𐰺𐰴𐰣: 𐰘𐱁𐰍: 𐱁𐰀: 𐰉𐰆𐰑𐰣𐰍: 𐰨𐰀: 𐰸𐰆𐰦𐰆𐰺𐱃𐰢𐰕: 𐰨𐰀: 𐰃𐱅𐰓𐰢𐰕: 𐰸𐰆𐰺𐰍𐰺𐰆: 𐰚𐰭𐰇: 𐱃𐰺𐰢𐰣𐰴𐰀: 𐱅𐰏𐰃: 𐱅𐰇𐰼𐰰: 𐰉𐰆𐰑𐰣𐰍: 𐰨𐰀: 𐰸𐰆𐰦𐰺𐱃𐰢𐰕: 𐰨𐰀: 𐱅𐰓𐰢𐰕: 𐰆𐰞: 𐰇𐰓𐰚𐰀: 𐰸𐰆𐰞: 𐰸𐰆𐰞𐰞𐰍: 𐰉𐰆𐰞𐰢𐰾: 𐰼𐱅𐰃: 𐰚𐰇𐰭: 𐰚𐰇𐰭𐰠𐰍: 𐰉𐰆𐰞𐰢𐰾: 𐰼𐱅𐰃: 𐰃𐰤𐰃𐰾𐰃: 𐰲𐰃𐰾𐰃𐰤: 𐰋𐰃𐰠𐰢𐰕: 𐰼𐱅𐰃: 𐰆𐰍𐰞𐰃: 𐰴𐰭𐰃𐰤: 𐰋𐰃𐰠𐰢𐰕: 𐰼𐱅𐰃:",
+  "lit": "YANA: birtmZ: lgrü: KDRKN: yşG: ŞA: BODNG: CA: qUJURTMZ: CA: itdmZ: qURGRU: kHü: TRMNKA: tgi: türX: BODNG: CA: qOJRTMZ: CA: tdmZ: oL: ödke: quL: qULLG: BuLms: rti: küH: küHlG: BuLms: rti: inisi: çisin: bilmZ: rti: OGLI: KHin: bilmZ: rti:",
+  "tc": "YaNA: BİRTiMiZ: iLGeRÜ: KaDıRKaN: YıŞıG: aŞA: BODuNıG: aNÇA: KONDURTuMıZ: aNÇA: İTDiMiZ: KURıGaRU: KeŊÜ: TaRMaNKA: TeGİ: TÜRK: BODuNıG: aNÇA: KONDuRTuMıZ: aNÇA: iTDiMiZ: OL: ÖDKE: KUL: KULLuG: BOLMıŞ: eRTİ: KÜŊ: KÜŊLiG: BOLMıŞ: eRTİ: İNİSİ: eÇİSİN: BİLMeZ: eRTİ: OGLI: KaŊIN: BİLMeZ: eRTİ:",
+  "tr": "geri verdik. Doğuda Kadırkan ormanını aşarak halkı aynı şekilde kondurduk, aynı şekilde düzenledik. Batıda Kengü Tarman'a değin Türk milletini aynı şekilde kondurduk, aynı şekilde düzenledik. O devirde kulun kulu olmuş, cariyenin cariyesi olmuş idi. Küçük kardeş büyük kardeşini bilmez idi, oğlu babasını bilmez idi."
+ },
+ {
+  "id": "D22",
+  "code": "kt-2-d-40-22",
+  "runes": "𐰨𐰀: 𐰴𐰕𐰍𐰣𐰢𐰾: 𐰃𐱅𐰢𐰾: 𐰠𐰢𐰕: 𐱅𐰇𐰼𐰇𐰢𐰕: 𐰼𐱅𐰃: 𐱅𐰇𐰼𐰰: 𐰆𐰍𐰕: 𐰋𐰏𐰠𐰼𐰃: 𐰉𐰆𐰑𐰣: 𐰾𐰓𐰭: 𐰇𐰕𐰀: 𐱅𐰭𐰼𐰃: 𐰉𐰽𐰢𐰽𐰺: 𐰽𐰺𐰀: 𐰘𐰃𐰼: 𐱅𐰠𐰤𐰢𐰾𐰼: 𐱅𐰇𐰼𐰰: 𐰉𐰆𐰑𐰣: 𐰠𐰭𐰤: 𐱅𐰇𐰼𐰇𐰭𐰤: 𐰚𐰢: 𐰺𐱃𐱃𐰃: 𐰆𐰑𐰀𐰲𐰃: 𐰼𐱅𐰃: 𐱅𐰇𐰼𐰰: 𐰉𐰆𐰑𐰣: 𐰼𐱅𐰤:",
+  "lit": "CA: KZGNms: itms: lmZ: türümZ: rti: türX: OGZ: bglri: BODN: sdH: üZe: tHri: BSMSR: SRA: yir: tlnmsr: türX: BODN: lHn: türüHn: km: RTTI: UDAÇI: rti: türX: BODN: rtn:",
+  "tc": "aNÇA: KaZGaNMıŞ: İTMiŞ: İLiMiZ: TÖRÜMiZ: eRTİ: TÜRK: OGuZ: BeGLeRİ: BODuN: eŞiDiŊ: ÜZE: TeŊRİ: BaSMaSaR: aSRA: YİR: TeLiNMeSeR: TÜRK: BODuN: iLiŊiN: TÖRÜŊiN: KiM: aRTaTI: UDAÇI: eRTİ: TÜRK: BODuN: eRTiN:",
+  "tr": "Öyle kazanılmış, düzenlenmiş ilimiz, töremiz vardı. Türk Oğuz beyleri, boyları, işitin: Üstte gök basmasa, altta yer delinmese, Türk milleti, ilini, töreni kim bozabilir idi? Türk milleti, [o yoldan] vazgeç,"
+ },
+ {
+  "id": "D23",
+  "code": "kt-2-d-40-23",
+  "runes": "𐰇𐰚𐰇𐰤: 𐰚𐰇𐰼𐰏𐰇𐰭𐰤: 𐰇𐰲𐰇𐰤: 𐰃𐰏𐰓𐰢𐰾: 𐰋𐰃𐰠𐰏𐰀: 𐰴𐰍𐰣𐰭𐰀: 𐰼𐰢𐰾: 𐰉𐰺𐰢𐰾: 𐰓𐰏𐰇: 𐰠𐰭𐰀: 𐰚𐰦𐰇: 𐰖𐰭𐰡𐰍: 𐰖𐰉𐰞𐰴: 𐰚𐰃𐰏𐰇𐰼𐱅𐰏: 𐰖𐰺𐰴𐰞𐰍: 𐰴𐰦𐰣: 𐰚𐰠𐰯: 𐰖𐰪𐰀: 𐰠𐱅𐰓𐰃: 𐰾𐰇𐰭𐰏𐰠𐰏: 𐰴𐰦𐰣: 𐰚𐰠𐰯𐰤: 𐰾𐰇𐰼𐰀: 𐰠𐱅𐰓𐰃: 𐰃𐰑𐰸: 𐰇𐱅𐰰𐰤: 𐰖𐰃𐱁: 𐰉𐰆𐰑𐰣: 𐰉𐰺𐰑𐰍: 𐰃𐰠𐰏𐰼𐰇: 𐰉𐰺𐰃𐰍𐰢𐰀:",
+  "lit": "ükün: kürgüHn: üçün: igdms: bilge: KGNHA: rms: BRms: dgü: lHe: kJü: YHVG: YBLK: kigürtg: YRKLG: KJN: klp: YFA: ltdi: sÜHglg: KJN: klpn: süre: ltdi: IDq: ütXn: YIŞ: BODN: BRDG: ilgrü: BRIGMA:",
+  "tc": "ÖKÜN: KÜReGÜŊiN: ÜÇÜN: İGiDMiŞ: BİLGE: KaGaNıŊA: eRMiŞ: BaRMıŞ: eDGÜ: iLiŊE: KeNTÜ: YaŊıLDıG: YaBLaK: KİGÜRTüG: YaRaKLıG: KaNDıN: KeLiP: YaNYA: iLTDİ: SÜŊüGLüG: KaNDıN: KeLiPeN: SÜRE: iLTDİ: IDUK: ÖTÜKeN: YIŞ: BODuN: BaRDıG: İLGeRÜ: BaRIGMA:",
+  "tr": "pişman ol! Disiplinsizliğinden dolayı, [seni] beslemiş bilge kağanına, ermiş varmış (hür) iyi iline kendin hata ettin, düşman soktun. Silahlı nereden gelip [seni] dağıtıp gönderdi? Süngülü (mızraklı) nereden gelip [seni] sürüp gönderdi? Kutlu Ötüken ormanının milleti vardı (gitti). Doğuya varan"
+ },
+ {
+  "id": "D24",
+  "code": "kt-2-d-40-24",
+  "runes": "𐰉𐰺𐰑𐰍: 𐰸𐰆𐰴𐰃𐰍𐰺𐰆: 𐰉𐰺𐰃𐰍𐰢𐰀: 𐰉𐰺𐰑𐰍: 𐰉𐰺𐰑𐰸: 𐰘𐰃𐰼𐰓𐰀: 𐰓𐰏𐰇𐰏: 𐰆𐰞: 𐰼𐰨: 𐰴𐰣𐰍: 𐰽𐰆𐰉𐰲𐰀: 𐰘𐰇𐰏𐰼𐱅𐰃: 𐰾𐰇𐰭𐰰𐰇𐰭: 𐱃𐰍𐰲𐰀: 𐰖𐱃𐰑𐰃: 𐰋𐰏𐰠𐰚: 𐰆𐰺𐰃: 𐰆𐰍𐰞𐰭: 𐰸𐰆𐰞: 𐰉𐰆𐰡𐰃: 𐰾𐰠𐰚: 𐰴𐰃𐰕: 𐰆𐰍𐰞𐰭: 𐰚𐰇𐰭: 𐰉𐰆𐰡𐰃: 𐰋𐰃𐰠𐰢𐰓𐰰: 𐰇𐰲𐰇𐰤: 𐰖𐰉𐰞𐰴𐰃𐰭𐰣: 𐰇𐰲𐰇𐰤: 𐰲𐰃𐰢: 𐰴𐰍𐰣: 𐰆𐰲𐰀: 𐰉𐰺𐰑𐰃:",
+  "lit": "BARDIĞ: KURIĞARU: BARIĞMA: BARDIĞ: BARDUK: yirde: dgüg: OL: rC: KNG: SUBÇA: yügrti: süHXüH: TGÇA: YTDI: bglk: URI: OGLH: quL: BOVI: slk: KIZ: OGLH: küH: BOVI: bilmdX: üçün: YBLKIHN: üçün: çim: KGN: UÇA: BRDI:",
+  "tc": "BaRDıG: KURIGaRU: BaRIGMA: BaRDıG: BaRDUK: YİRDE: eDGÜG: OL: eRiNÇ: KaNıN: SUBÇA: YÜGüRTİ: SÜŊÜKÜŊ: TaGÇA: YaTDI: BeGLiK: URI: OGLuŊ: KUL: BOLDI: iŞiLiK: KIZ: OGLuŊ: KÜŊ: BODLI: BİLMeDÜK: ÜÇÜN: YaBLaKIŊıN: ÜÇÜN: eÇİM: KaGaN: UÇA: BaRDI:",
+  "tr": "vardı (gitti), batıya varan vardı (gitti). Vardığın (gittiğin) yerde kazancın şu oldu: kanın su gibi aktı, kemiğin dağ gibi yığıldı; beyliğe layık erkek evladın kul oldu, hanımlığa layık kız evladın cariye oldu. Bilgisizliğiniz yüzünden, kötülüğünüz yüzünden amcam kağan uçup gitti (öldü)."
+ },
+ {
+  "id": "D25",
+  "code": "kt-2-d-40-25",
+  "runes": "𐰉𐱁𐰞𐰖𐰆: 𐰶𐰃𐰺𐰴𐰕: 𐰴𐰍𐰣𐰍: 𐰉𐰞𐰉𐰞: 𐱅𐰃𐰚𐰓𐰢: 𐱅𐰇𐰼𐰰: 𐰉𐰆𐰑𐰣𐰍: 𐱃𐰃: 𐰚𐰇𐰾𐰃: 𐰖𐰸: 𐰉𐰆𐰞𐰢𐰕𐰆𐰤: 𐱅𐰃𐰘𐰤: 𐰴𐰭𐰢: 𐰴𐰍𐰣𐰍: 𐰇𐰏𐰢: 𐰴𐱃𐰆𐰣𐰍: 𐰚𐰇𐱅𐰼𐰢𐱁: 𐱅𐰭𐰼𐰃: 𐰃𐰠: 𐰋𐰃𐰼𐰏𐰢𐰀: 𐱅𐰭𐰼𐰃: 𐱅𐰇𐰼𐰰: 𐰉𐰆𐰑𐰣: 𐱃𐰃: 𐰚𐰇𐰾𐰃: 𐰖𐰸: 𐰉𐰆𐰞𐰢𐰕𐰆𐰤: 𐱅𐰃𐰘𐰤: 𐰇𐰕𐰢𐰤: 𐰆𐰞: 𐱅𐰭𐰼𐰃:",
+  "lit": "BŞLYU: QIRKZ: KGNG: BLBL: tikdm: türX: BODNG: TI: küsi: Yq: BOLMZUn: tiyn: KHM: KGNG: ögm: KTUNG: kütrmş: tHri: il: birgme: tHri: türX: BODN: TI: küsi: Yq: BOLMZUn: tiyn: üZMn: OL: tHri:",
+  "tc": "BaŞLayU: KIRKıZ: KaGaNıG: BaLBaL: TİKDiM: TÜRK: BODuNuG: aTI: KÜSİ: YOK: BOLMaZUN: TİYiN: KaŊıM: KaGaNıG: ÖGüM: KaTUNuG: KÖTüRMüŞ: TeŊRİ: İL: BİRiGME: TeŊRİ: TÜRK: BODuN: aTI: KÜSİ: YOK: BOLMaZUN: TİYiN: ÖZüMüN: OL: TeŊRİ:",
+  "tr": "Başta Kırgız kağanına balbal (mezartaşı) diktim. Türk boylarının adı, namı yok olmasın diye babam kağanı, anam hatunu götürmüş (yüceltmiş) Tanrı, il veren Tanrı, Türk boylarının adı, namı yok olmasın diye, beni o Tanrı"
+ },
+ {
+  "id": "D26",
+  "code": "kt-2-d-40-26",
+  "runes": "𐰴𐰍𐰣: 𐰆𐰞𐰺𐱃𐰑𐰃: 𐰼𐰨: 𐰤𐰭: 𐰘𐰃𐰞𐰾𐰍: 𐰉𐰆𐰑𐰣𐰴𐰀: 𐰆𐰞𐰺𐰢𐰑𐰢: 𐰃𐰲𐰼𐰀: 𐱁𐰽𐰕: 𐱃𐱁𐰺𐰀: 𐱃𐰆𐰣𐰽𐰕: 𐰖𐰉𐰕: 𐰖𐰉𐰞𐰴: 𐰉𐰆𐰑𐰦𐰀: 𐰇𐰕𐰀: 𐰆𐰞𐰺𐱃𐰢: 𐰃𐰤𐰢: 𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐰋𐰃𐰼𐰠𐰀: 𐰾𐰇𐰕𐰠𐱁𐰓𐰢𐰕: 𐰴𐰭𐰢𐰕: 𐰲𐰢𐰕: 𐰴𐰕𐰍𐰣𐰢𐰾: 𐰉𐰆𐰑𐰣: 𐱃𐰃: 𐰚𐰇𐰾𐰃: 𐰖𐰸: 𐰉𐰆𐰞𐰢𐰕𐰆𐰤:",
+  "lit": "KGN: OLRTDI: rC: nH: yİLsG: BODNKA: OLRMDM: içre: ŞSZ: TŞRA: TONSZ: YBZ: YBLK: BODJA: ÜZE: OLRTM: inm: költign: birle: süZlşdmZ: KHMZ: çmZ: KZGNms: BODN: TI: küsi: Yq: BOLMZUn:",
+  "tc": "KaGaN: OLuRTDI: eRiNÇ: NeŊ: YILSıG: BODuNKA: OLuRMaDıM: İÇRE: aŞSıZ: TaŞRA: TONSuZ: YaBıZ: YaBLaK: BODuNDA: ÜZE: OLuRTuM: İNiM: KÖLTİGiN: BİRLE: SÖZLeŞDiMiZ: KaŊıMıZ: eÇiMiZ: KaZGaNMıŞ: BODuN: aTI: KÜSİ: YOK: BOLMaZUN:",
+  "tr": "kağan oturttu şüphesiz. Ne[ce] varlıklı boylara oturmadım. İçi aşsız (aç), dışı donsuz, kötü, fena boyların üzerine oturdum. Kardeşim Kül Tigin ile sözleştik. Babamızın, amcamızın kazanmış [olduğu] boyların adı, namı yok olmasın"
+ },
+ {
+  "id": "D27",
+  "code": "kt-2-d-40-27",
+  "runes": "𐱅𐰃𐰘𐰤: 𐱅𐰇𐰼𐰰: 𐰉𐰆𐰑𐰣: 𐰇𐰲𐰇𐰤: 𐱅𐰇𐰤: 𐰆𐰑𐰢𐰑𐰢: 𐰚𐰇𐰤𐱅𐰕: 𐰆𐰞𐰺𐰢𐰑𐰢: 𐰃𐰤𐰢: 𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐰋𐰃𐰼𐰠𐰀: 𐰚𐰃: 𐱁𐰑: 𐰋𐰃𐰼𐰠𐰀: 𐰇𐰠𐰇: 𐰘𐰃𐱅𐰇: 𐰴𐰕𐰍𐰦𐰢: 𐰨𐰀: 𐰴𐰕𐰍𐰣𐰯: 𐰋𐰃𐰼𐰚𐰃: 𐰉𐰆𐰑𐰣𐰍: 𐰆𐱃: 𐰽𐰆𐰉: 𐰴𐰃𐰞𐰢𐰑𐰢: 𐰢𐰤: 𐰇𐰕𐰢: 𐰴𐰍𐰣: 𐰆𐰞𐰺𐱃𐰸𐰢𐰀: 𐰘𐰃𐰼: 𐰽𐰖𐰆:",
+  "lit": "tiyn: türX: BODN: üçün: tün: UDMDM: küntZ: OLRMDM: inm: költign: birle: ki: ŞD: birle: ölü: yitü: KZGJM: CA: KZGNP: birki: BODNG: OT: SUB: KILMDM: mn: öZm: KGN: OLRTqMA: yir: SYU:",
+  "tc": "TİYiN: TÜRK: BODuN: ÜÇÜN: TÜN: UDuMaDıM: KÜNTüZ: OLuRMaDıM: İNiM: KÖLTİGiN: BİRLE: iKİ: ŞaD: BİRLE: ÖLÜ: YİTÜ: KaZGaNDıM: aNÇA: KaZGaNıP: BİRiKİ: BODuNuG: OT: SUB: KILMaDıM: MeN: ÖZüM: KaGaN: OLuRTUKuMA: YİR: SaYU:",
+  "tr": "diye Türk milleti için gece uyumadım, gündüz oturmadım. Kardeşim Kül Tigin ile, iki şad ile [birlikte] öle[siye] yite[siye] çabaladım. Öyle çabalayıp bütün boyları ateş [ile] su (birbirine düşman) yapmadım. Ben kendim kağan oturduğumda her yere"
+ },
+ {
+  "id": "D28",
+  "code": "kt-2-d-40-28",
+  "runes": "𐰉𐰺𐰢𐱁: 𐰉𐰆𐰑𐰣: 𐰇𐰠𐰇: 𐰘𐰃𐱅𐰇: 𐰖𐰑𐰍𐰣: 𐰖𐰞𐰭𐰣: 𐰖𐰣𐰀: 𐰚𐰠𐱅𐰃: 𐰉𐰆𐰑𐰣𐰍: 𐰃𐰏𐰓𐰘𐰃𐰤: 𐱅𐰃𐰘𐰤: 𐰘𐰃𐰺𐰍𐰺𐰆: 𐰆𐰍𐰕: 𐰉𐰆𐰑𐰣: 𐱃𐰯𐰀: 𐰃𐰠𐰏𐰼𐰇: 𐰶𐰃𐱃𐰪: 𐱃𐱃𐰉𐰃: 𐰉𐰆𐰑𐰣: 𐱃𐰯𐰀: 𐰋𐰃𐰼𐰏𐰼𐰇: 𐱃𐰉𐰍𐰲: 𐱃𐰯𐰀: 𐰆𐰞𐰍: 𐰾𐰇: 𐰚𐰃: 𐰘𐰏𐰼𐰢𐰃: 𐰾𐰇𐰠𐰓𐰢: 𐰾𐰇𐰭𐰾𐰓𐰢: 𐰦𐰀:",
+  "lit": "BRMŞ: BODN: ölü: yitü: YDGN: YLHN: YNA: klti: BODNG: igdyin: tiyn: yIRGRU: OGZ: BODN: TPA: ilgrü: QITF: TTBI: BODN: TPA: birgrü: TBGÇ: TPA: ULG: sü: ki: ygrmi: süldm: süHsdm: JA:",
+  "tc": "BaRMıŞ: BODuN: ÖLÜ: YİTÜ: YaDaGıN: YaLıŊıN: YaNA: KeLTİ: BODuNıG: İGiDeYİN: TİYiN: YIRıGaRU: OGuZ: BODuN: TaPA: İLGeRÜ: KITaNY: TaTaBI: BODuN: TaPA: BİRiGeRÜ: TaBGaÇ: TaPA: ULuG: SÜ: iKİ: YiGiRMİ: SÜLeDiM: SÜŊüŞDüM: aNDA:",
+  "tr": "varmış (dağılmış olan) boylar öle yite, yayan, yalın (çıplak) [olarak] geri geldi. Boyları yedireyim diye kuzeyde Oğuz boyları üstüne, doğuda Kıtay, Tatabı boyları üstüne, güneyde Çin üstüne on iki [kez] büyük ordu sürdüm, savaştım. Ondan"
+ },
+ {
+  "id": "D29",
+  "code": "kt-2-d-40-29",
+  "runes": "𐰚𐰃𐰾𐰼𐰀: 𐱅𐰭𐰼𐰃: 𐰖𐰺𐰞𐰴𐰕𐰆: 𐰸𐰆𐱃𐰢: 𐰉𐰺: 𐰇𐰲𐰤: 𐰇𐰠𐰇𐰏𐰢: 𐰉𐰺: 𐰇𐰲𐰇𐰤: 𐰇𐰠𐱅𐰲𐰃: 𐰉𐰆𐰑𐰣𐰍: 𐱅𐰃𐰼𐰏𐰼𐰇: 𐰃𐰏𐱅𐰢: 𐰖𐰞𐰭: 𐰉𐰆𐰑𐰣𐰍: 𐱃𐰆𐰣𐰞𐰍: 𐰲𐰃𐰍𐰪: 𐰉𐰆𐰑𐰣𐰍: 𐰉𐰖: 𐰴𐰃𐰡𐰢: 𐰕: 𐰉𐰆𐰑𐰣𐰍: 𐰇𐰚𐱁: 𐰴𐰃𐰞𐱃𐰢: 𐰃𐰍𐰺: 𐰠𐰠𐰏𐰓𐰀: 𐰃𐰍𐰺: 𐰴𐰍𐰣𐰞𐰍𐰑𐰀: 𐰘𐰃𐰏: 𐰴𐰃𐰡𐰢: 𐱅𐰇𐰼𐱅: 𐰉𐰆𐰞𐰭𐰑𐰴𐰃:",
+  "lit": "kisre: tHri: YRLKZU: qUTM: BR: üçn: ülügm: BR: üçün: öltçi: BODNG: tirgrü: igtm: YLH: BODNG: TONLG: ÇIGF: BODNG: BY: KIVM: Z: BODNG: ökş: KILTM: IGR: llgde: IGR: KGNLGDA: yig: KIVM: tört: BOLHDKI:",
+  "tc": "KİSRE: TeŊRİ: YaRLıKaZU: KUTuM: BaR: ÜÇüN: ÜLÜGüM: BaR: ÜÇÜN: ÖLTeÇİ: BODuNuG: TİRGüRÜ: İGiTiM: YaLıŊ: BODuNuG: TONLıG: ÇIGaYN: BODuNuG: BaY: KILDıM: aZ: BODuNuG: ÖKüŞ: KILTıM: IGaR: iLLiGDE: IGaR: KaGaNLıGDA: YİG: KILDıM: TÖRT: BULuŊDaKI:",
+  "tr": "sonra Tanrı buyurduğu, kutum var [olduğu] için, gücüm var [olduğu] için ölecek boyları diriltip yedirdim. Yalın (çıplak) halkı donlu, yoksul halkı varlıklı kıldım. Az halkı çok kıldım, değerli illiden, değerli kağanlıdan yeğ kıldım. Dört yandaki"
+ },
+ {
+  "id": "D30",
+  "code": "kt-2-d-40-30",
+  "runes": "𐰴𐰍𐰣𐰞𐰍𐰑𐰀: 𐰴𐰆𐰯: 𐰉𐰕: 𐰴𐰃𐰡𐰢: 𐰖𐰍𐰾𐰃𐰕: 𐰴𐰃𐰡𐰢: 𐰸𐰆𐰯: 𐰢𐰭𐰀: 𐰚𐰇𐰼𐱅𐰃: 𐰃𐰾𐰏: 𐰚𐰇𐰲𐰏: 𐰋𐰃𐰼𐰇𐰼: 𐰉𐰆𐰨𐰀: 𐱅𐰇𐰼𐰇𐰏: 𐰴𐰕𐰍𐰣𐰯: 𐰃𐰤𐰢: 𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐰇𐰕𐰃: 𐰨𐰀: 𐰚𐰼𐰏𐰚: 𐰉𐰆𐰡𐰃: 𐰴𐰭𐰢: 𐰴𐰍𐰣: 𐰆𐰲𐰑𐰸𐰑𐰀: 𐰃𐰤𐰢: 𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐰘𐰃𐱅𐰃: 𐰖𐱁𐰑𐰀: 𐰴𐰞𐱃𐰃 :[...]",
+  "lit": "KGNLGDA: KOP: BZ: KIVM: YGsıZ: KIVM: qoP: MHA: körti: isg: küçg: birür: BUCA: türüg: KZGNP: inm: költign: üZi: Ce: krgk: BOVI: KHM: KGN: UÇDqDA: inm: költign: yiti: YŞDA: KLTI: [...]:",
+  "tc": "KaGaNLıGDA: KOP: BaZ: KILDıM: YaGıSIZ: KILDıM: KOP: MaŊA: KÖRTİ: İŞiG: KÜÇüG: BİRÜR: BUNÇA: TÖRÜG: KaZGaNıP: İNiM: KÖLTİGiN: ÖZİ: aNÇA: KeRGeK: BOLDI: KaŊıM: KaGaN: UÇDUKDA: İNiM: KÖLTİGiN: YİTİ: YaŞDA: KaLTI: [...]:",
+  "tr": "kağanlığı da hep [kendime] tâbi kıldım, [halkımı] düşmansız kıldım. Hepsi bana tâbi, işi gücü verir [oldular]. Bunca töreyi kazanıp kardeşim Kül Tigin'in kendisi öyle kergek oldu (öldü). Babam kağan uçtuğunda (öldüğünde) kardeşim Kül Tigin yedi yaşında kaldı (idi). [...]"
+ },
+ {
+  "id": "D31",
+  "code": "kt-2-d-40-31",
+  "runes": "𐰆𐰢𐰖: 𐱅𐰏: 𐰇𐰏𐰢: 𐰴𐱃𐰆𐰣: 𐰸𐰆𐱃𐰭𐰀: 𐰃𐰤𐰢: 𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐰼: 𐱃: 𐰉𐰆𐰞𐰡𐰃: 𐰞𐱃𐰃: 𐰘𐰏𐰼𐰢𐰃: 𐰖𐱁𐰃𐰭𐰀: 𐰲𐰃𐰢: 𐰴𐰍𐰣: 𐰃𐰠𐰃𐰤: 𐱅𐰇𐰼𐰇𐰾𐰃𐰤: 𐰨𐰀: 𐰴𐰕𐰍𐰦𐰃: 𐰞𐱃𐰃: 𐰲𐰆𐰉: 𐰽𐰆𐰍𐰑𐰴: 𐱃𐰯𐰀: 𐰾𐰇𐰠𐰓𐰢𐰕: 𐰉𐰆𐰕𐰑𐰢𐰕: 𐱃𐰉𐰍𐰲: 𐰆𐰭: 𐱃𐰆𐱃𐰸: 𐰋𐰃𐰾: 𐱅𐰇𐰢𐰤: 𐰾𐰇: 𐰚𐰠𐱅𐰃: 𐰾𐰇𐰭𐱁𐰓𐰢𐰕:",
+  "lit": "UMY: tg: ögm: KTUN: qUTHA: inm: költign: r: T: BOLVI: LTI: ygrmi: YŞIHA: çim: KGN: ilin: türüsin: CA: KZGJI: LTI: ÇUB: SUGDK: TPA: süldmZ: BOZDMZ: TBGÇ: oH: TuTq: bis: tümn: sü: klti: süHşdmZ:",
+  "tc": "UMaY: TeG: ÖGüM: KaTUN: KUTıŊA: İNiM: KÖLTİGiN: eR: aT: BOLDI: aLTI: YiGiRMİ: YaŞIŊA: eÇİM: KaGaN: İLİN: TÖRÜSİN: aNÇA: KaZGaNDI: aLTI: ÇUB: SUGDaK: TaPA: SÜLeDiMiZ: BOZDuMuZ: TaBGaÇ: OŊ: TUTUK: BİŞ: TÜMeN: SÜ: KeLTİ: SÜŊüŞDüMüZ:",
+  "tr": "Umay gibi anam hatun kutunda kardeşim Kül Tigin er adı oldu. On altı yaşında amcam kağan ilini, töresini böyle kazandı: Altı Çub Soğdak üstüne ordu sürdük, bozduk (bozguna uğrattık). Çin[li] Ong paşa beş tümen[lik] ordu [ile] geldi, savaştık."
+ },
+ {
+  "id": "D32",
+  "code": "kt-2-d-40-32",
+  "runes": "𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐰖𐰑𐰍𐰣: 𐰆𐰯𐰞𐰖𐰆: 𐱅𐰏𐰓𐰃: 𐰆𐰭: 𐱃𐰆𐱃𐰸: 𐰖𐰆𐰺𐰲𐰃𐰤: 𐰖𐰺𐰴𐰞𐰍: 𐰠𐰏𐰤: 𐱃𐰆𐱃𐰑𐰃: 𐰖𐰺𐰴𐰞𐰍𐰑𐰃: 𐰴𐰍𐰣𐰴𐰀: 𐰨𐰆𐰞𐰑𐰃: 𐰆𐰞: 𐰾𐰇𐰏: 𐰦𐰀: 𐰖𐰸: 𐰴𐰃𐱁𐰑𐰢𐰕: 𐰋𐰃𐰼: 𐰆𐱃𐰕: 𐰖𐱁𐰃𐰭𐰀: 𐰲𐰲𐰀: 𐰾𐰭𐰇𐰤𐰚𐰀: 𐰾𐰇𐰭𐱁𐰓𐰢𐰕: 𐰭: 𐰠𐰚𐰃: 𐱃𐰑𐰴𐰣: 𐰲𐰆𐰺𐰭: 𐰉𐰆𐰕: 𐱃𐰍: 𐰋𐰃𐰤𐰯: 𐱅𐰏𐰓𐰃: 𐰞: 𐱃: 𐰦𐰀:",
+  "lit": "költign: YDGN: OPLYU: tgdi: OH: TUTq: YURçin: YRKLG: lgn: TUTDI: YRKLGDI: KGNKA: CULDI: OL: süg: JA: Yq: KIŞDMZ: bir: OTZ: YŞIHA: ÇÇA: sHünke: süHşdmZ: H: lki: TDKN: ÇURH: BUZ: TG: binp: tgdi: L: T: JA:",
+  "tc": "KÖLTİGiN: YaDaGıN: OPLaYU: TeGDİ: OŊ: TUTuK: YURÇİN: YaRaKLıG: eLiGiN: TUTDI: YaRaKLıGDI: KaGaNKA: aNÇULaDI: OL: SÜG: aNDA: YOK: KIŞDıMıZ: BİR: OTuZ: YaŞIŊA: ÇaÇA: SeŊÜNKE: SÜŊüŞDiMiZ: eŊ: iLKİ: TaDıKıN: ÇORuŊ: BOZ: aTıG: BİNiP: TeGDİ: oL: aT: aNDA:",
+  "tr": "Kül Tigin yayan boğa gibi atılıp saldırdı. Ong paşasının kayınbiraderinin (rehberinin?) kılıçlı elini tuttu. Kılıcı kağana soktu. O orduyu [o] anda yok kıldık (ettik). Yirmi bir yaşında Çaça paşasıyla savaştık. İlk önce Tadık'ın, Çorun [adlı] boz atına binip atıldı. O at [o] anda"
+ },
+ {
+  "id": "D33",
+  "code": "kt-2-d-40-33",
+  "runes": "𐰇𐰠𐱅𐰃: 𐰚𐰃𐰤𐱅𐰃: 𐰃𐱁𐰉𐰺𐰀: 𐰖𐰢𐱃𐰺: 𐰉𐰆𐰕: 𐱃𐰍: 𐰋𐰃𐰤𐰯: 𐱅𐰏𐰓𐰃: 𐰆𐰞: 𐱃: 𐰦𐰀: 𐰇𐰠𐱅𐰃: 𐰇𐰲𐰨: 𐰘𐰏𐰤: 𐰾𐰃𐰠𐰏: 𐰋𐰏𐰭: 𐰚𐰓𐰢𐰠𐰏: 𐱃𐰆𐰺𐰍: 𐱃: 𐰋𐰃𐰤𐰯: 𐱅𐰏𐰓𐰃: 𐰆𐰞: 𐱃: 𐰦𐰀: 𐰇𐰠𐱅𐰃: 𐰖𐰺𐰴𐰃𐰦𐰀: 𐰖𐰞𐰢𐰽𐰃𐰦𐰀: 𐰘𐰇𐰕: 𐰺𐱃𐰸: 𐰸𐰆𐰣: 𐰆𐰺𐱃𐰃: 𐰘𐰃𐰕𐰭𐰀: 𐰉𐱁𐰃𐰭𐰀: 𐰋𐰃𐰼: 𐱅𐰏𐰼𐰢𐰓𐰃:",
+  "lit": "ölti: kinti: IŞBRA: YMTR: BUZ: TG: binp: tgdi: OL: T: JA: ölti: üçC: ygn: silg: bgH: kdmlg: TORG: T: binp: tgdi: OL: T: JA: ölti: YRKIJA: YLMSIJA: yüZ: RTq: quN: URTI: yiZHe: BŞIHA: bir: tgrmdi:",
+  "tc": "ÖLTİ: iKİNTİ: IŞBaRA: YaMTaR: BOZ: aTıG: BİNiP: TeGDİ: OL: aT: aNDA: ÖLTİ: ÜÇünÇ: YeGeN: SİLiG: BeGiŊ: KiDiMLiG: TORuG: aT: BİNiP: TeGDİ: OL: aT: aNDA: ÖLTİ: YaRıKINDA: YaLMaSINDA: YÜZ: aRTUK: OKUN: URTI: YİZiŊE: BaŞIŊA: BİR: TeGiRMedİ:",
+  "tr": "öldü. İkincisinde, Işbara Yamtar [adlı] boz ata binip atıldı. O at [o] anda öldü. Üçüncüsünde Yeğen Silig Bey'in giyimli doru atına binip atıldı. O at [o] anda öldü. Kalkanına, giysisine yüz artı ok vurdu. Yüzüne, başına bir[i] değmedi."
+ },
+ {
+  "id": "D34",
+  "code": "kt-2-d-40-34",
+  "runes": "𐱅𐰏𐰓𐰰𐰃𐰤: 𐱅𐰇𐰼𐰰: 𐰋𐰏𐰠𐰼: 𐰴𐰆𐰯: 𐰋𐰃𐰠𐰃𐰼𐰾𐰃𐰕: 𐰆𐰞: 𐰾𐰇𐰏: 𐰦𐰀: 𐰖𐰸: 𐰴𐱁𐰑𐰢𐰕: 𐰦𐰀: 𐰚𐰃𐰾𐰼𐰀: 𐰘𐰼: 𐰉𐰖𐰺𐰸𐰆: 𐰆𐰞𐰍: 𐰃𐰼𐰚𐰤: 𐰖𐰍𐰃: 𐰉𐰆𐰡𐰃: 𐰣𐰃: 𐰖𐰪𐰯: 𐱅𐰇𐰼𐰏𐰃: 𐰖𐰺𐰍𐰆𐰣: 𐰚𐰇𐰠𐱅𐰀: 𐰉𐰆𐰕𐰑𐰢𐰕: 𐰆𐰞𐰍: 𐰃𐰼𐰚𐰤: 𐰕𐰶𐰪𐰀: 𐰼𐰤: 𐱅𐰕𐰯: 𐰉𐰺𐰑𐰃: 𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐰞𐱃𐰃: 𐰆𐱃𐰕:",
+  "lit": "tgdXin: türX: bglr: KOP: bilirsiZ: OL: süg: JA: Yq: KŞDMZ: JA: kisre: yr: BYRqU: ULG: irkn: YGI: BOVI: NI: YFP: türgi: YRGUN: költe: BOZDMZ: ULG: irkn: ZQFA: rn: tZp: BRDI: költign: LTI: OTZ:",
+  "tc": "TeKDÜKİN: TÜRK: BeGLeR: KOP: BİLİRSİZ: OL: SÜG: aNDA: YOK: KıŞDıMıZ: aNDA: KİSRE: YeR: BaYıRKU: ULuG: İRKiN: YaGI: BOLDI: aNI: YaYNıP: TÜRGİ: YaRGUN: KÖLTE: BOZDuMuZ: ULuG: İRKiN: aZKIYNA: eRiN: TeZiP: BaRDI: KÖLTİGiN: aLTI: OTuZ:",
+  "tr": "[Bu] çarpışmalarımızı Türk beyleri, hep bilirsiniz. O orduyu [o] anda yok kıldıktan (ettikten) sonra Yer Bayırku'lu Ulu İrkin düşman oldu. Onu dağıtıp Türgi Yargun gölünde bozduk (bozguna uğrattık). Ulu İrkin azıcık erle tezip (kaçıp) vardı (gitti). Kül Tigin yirmi altı"
+ },
+ {
+  "id": "D35",
+  "code": "kt-2-d-40-35",
+  "runes": "𐰖𐱁𐰃𐰭𐰀: 𐰶𐰃𐰺𐰴𐰕: 𐱃𐰯𐰀: 𐰾𐰇𐰠𐰓𐰢𐰕: 𐰾𐰇𐰭𐰇𐰏: 𐰉𐱃𐰢𐰃: 𐰴𐰺𐰍: 𐰾𐰇𐰚𐰯𐰤: 𐰚𐰇𐰏𐰢𐰤: 𐰘𐰃𐱁𐰍: 𐱃𐰆𐰍𐰀: 𐰖𐰆𐰺𐰃𐰯: 𐰶𐰃𐰺𐰴𐰕: 𐰉𐰆𐰑𐰣𐰍: 𐰆𐰑𐰀: 𐰉𐰽𐰑𐰢𐰕: 𐰴𐰍𐰣𐰃𐰤: 𐰋𐰃𐰼𐰠𐰀: 𐰽𐰆𐰭𐰀: 𐰘𐰃𐱁𐰑𐰀: 𐰾𐰇𐰭𐱁𐰓𐰢𐰕: 𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐰉𐰖𐰺𐰸𐰆𐰣𐰭: 𐰴: 𐰑𐰍𐰃𐰺𐰍:",
+  "lit": "YŞIHA: QIRKZ: TPA: süldmZ: süHüg: BTMI: KRG: sükpn: kügmn: yIŞG: TOGA: YORIP: QIRKZ: BODNG: ODA: BSDMZ: KGNin: birle: SOHA: yIŞDA: süHşdmZ: költign: BYRqUNH: K: DGIRG:",
+  "tc": "YaŞIŊA: KIRKıZ: TaPA: SÜLeDiMiZ: SÜŊÜG: BaTıMI: KaRıG: SÖKiPeN: KÖGMeN: YIŞıG: TOGA: YORIP: KIRKıZ: BODuNuG: UDA: BaSDıMıZ: KaGaNıN: BİRLE: SUŊA: YIŞDA: SÜŊüŞDüMüZ: KÖLTİGiN: BaYıRKUNuŊ: aK: aDGIRIG",
+  "tr": "yaşında [iken] Kırgız üstüne ordu sürdük. Süngü (mızrak) batımı [derinlikte] karı söküp (geçip), Kögmen ormanını aşıp [at] yorup (sürüp) Kırgız boylarını uykuda bastık. Kağanı ile Sunga ormanında savaştık. Kül Tigin, Bayırku'nun ak aygırına"
+ },
+ {
+  "id": "D36",
+  "code": "kt-2-d-40-36",
+  "runes": "𐰋𐰃𐰤𐰯: 𐰆𐰯𐰞𐰖𐰆: 𐱅𐰏𐰓𐰃: 𐰋𐰃𐰼: 𐰼𐰏: 𐰸𐰣: 𐰆𐰺𐱃𐰃: 𐰚𐰃: 𐰼𐰏: 𐰆𐰑𐱁𐰺𐰆: 𐰽𐰨𐰓𐰃: 𐰆𐰞: 𐱅𐰏𐰓𐰰𐰓𐰀: 𐰉𐰖𐰺𐰸𐰆𐰤𐰭: 𐰴: 𐰑𐰍𐰺𐰍: 𐰆𐰑𐰞𐰴𐰃𐰤: 𐰾𐰃𐰖𐰆: 𐰆𐰺𐱃𐰃: 𐰶𐰃𐰺𐰴𐰕: 𐰴𐰍𐰣𐰃𐰤: 𐰇𐰠𐰼𐱅𐰢𐰕: 𐰃𐰠𐰃𐰤: 𐰞𐱃𐰢𐰕: 𐰆𐰞: 𐰘𐰃𐰞𐰴𐰀: 𐱅𐰇𐰼𐰏𐰾: 𐱃𐰯𐰀: 𐰞𐱃𐰆𐰣: 𐰘𐰃𐱁𐰍:",
+  "lit": "binp: OPLYU: tgdi: bir: rg: qN: URTI: ki: rg: ODŞRU: SCdI: OL: tgdXde: BYRqunH: K: DGRG: ODLKin: sIYU: ORTI: QIRKZ: KGNin: ülrtmZ: ilin: LTMZ: OL: yiLKA: türgs: TPA: LTUN: yIŞG:",
+  "tc": "BİNiP: OPLaYU: TeGDİ: BİR: eRiG: OKuN: URTI: iKİ: eRiG: UDaŞıRU: SaNÇDI: OL: TeGDÜKDE: BaYıRKUNuŊ: aK: aDGıRıG: UDLuKIN: SIYU: URTI: KIRKıZ: KaGaNıN: ÖLüRTüMüZ: İLİN: aLTıMıZ: OL: YILKA: TÜRGiŞ: TaPA: aLTUN: YIŞıG:",
+  "tr": "binip boğa gibi atılıp saldırdı. Bir eri okuyla vurdu. İki eri kovalayıp sançtı. O değdiğinde Bayırku'nun ak aygırı uyluğunu kırıverdi. Kırgız kağanını öldürdük, ilini aldık. O yılda Türgiş'e doğru Altun ormanını"
+ },
+ {
+  "id": "D37",
+  "code": "kt-2-d-40-37",
+  "runes": "𐱃𐰆𐰍𐰀: 𐰼𐱅𐰾: 𐰇𐰏𐰕𐰏: 𐰚𐰲𐰀: 𐰖𐰆𐰺𐰃𐰑𐰢𐰕: 𐱅𐰇𐰼𐰏𐰾: 𐰉𐰆𐰑𐰣𐰍: 𐰆𐰑𐰀: 𐰉𐰽𐰑𐰢𐰕: 𐱅𐰇𐰼𐰏𐰾: 𐰴𐰍𐰣: 𐰾𐰇𐰾𐰃: 𐰉𐰆𐰞𐰲𐰆𐰑𐰀: 𐰆𐱃𐰲𐰀: 𐰉𐰆𐰺𐰲𐰀: 𐰚𐰠𐱅𐰃: 𐰾𐰇𐰭𐱁𐰓𐰢𐰕: 𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐰉𐱁𐰍𐰆: 𐰉𐰆𐰕: 𐱃: 𐰋𐰃𐰤𐰯: 𐱅𐰏𐰓𐰃: 𐰉𐱁𐰍𐰆: 𐰉𐰆𐰕: 𐰚[...]:",
+  "lit": "TOGA: rts: ügZg: kçe: YORIDMZ: türgs: BODNG: UDA: BSDMZ: türgs: KGN: süsi: BOLÇUDA: OTÇA: BORÇA: kltı: süHşdmZ: költign: BŞGU: BOZ: T: binp: tgdi: BŞGU: BOZ: k[...]:",
+  "tc": "TOGA: iRTiŞ: ÖGüZüG: KeÇE: YORIDıMıZ: TÜRGiŞ: BODuNuG: UDA: BaSDıMıZ: TÜRGiŞ: KaGaN: SÜSİ: BOLÇUDA: OTÇA: BORÇA: KeLTİ: SÜŊüŞDüMüZ: KÖLTİGiN: BaŞGU: BOZ: aT: BİNiP: TeGDİ: BaŞGU: BOZ: Ke[...]:",
+  "tr": "aşıp, İrtiş Irmağı'nı geçip yürüdük. Türgiş boylarını uykuda bastık. Türgiş kağanının ordusu Bolçu'da ateş gibi, bora gibi geldi, savaştık. Kül Tigin başı boz ata binip atıldı. Başı boz ke[...]"
+ },
+ {
+  "id": "D38",
+  "code": "kt-2-d-40-38",
+  "runes": ":[...] 𐱃𐰆𐱃𐰕𐱃𐰃: 𐰚𐰃𐰾𐰃𐰤: 𐰇𐰕𐰃: 𐰡𐰕𐰑𐰃: 𐰦𐰀: 𐰖𐰣𐰀: 𐰚𐰃𐰼𐰯: 𐱅𐰇𐰼𐰏𐰾: 𐰴𐰍𐰣: 𐰉𐰆𐰖𐰺𐰸𐰃: 𐰕: 𐱃𐰆𐱃𐰸𐰆𐰍: 𐰠𐰏𐰤: 𐱃𐰆𐱃𐰑𐰃: 𐰴𐰍𐰣𐰃𐰤: 𐰦𐰀: 𐰇𐰠𐰼𐱅𐰢𐰕: 𐰃𐰠𐰃𐰤: 𐰞𐱃𐰢𐰕: 𐰴𐰺𐰀: 𐱅𐰇𐰼𐰏𐰾: 𐰉𐰆𐰑𐰣: 𐰸𐰆𐰯: 𐰃𐰲𐰚𐰓𐰃: 𐰆𐰞: 𐰉𐰆𐰑𐰣𐰍: 𐱃𐰉𐰺𐰑𐰀: 𐰴𐰆𐰣𐱃𐰺𐱃𐰢𐰕:",
+  "lit": "[...]: TUTZTI: kisin: öZi: VZDI: JA: YNA: kirp: türgs: KGN: BUYRqI: Z: TuTquG: lgn: TUTDI: KGNin: JA: ülrtmZ: ilin: LTMZ: KRA: türgs: BODN: qOP: içkdi: OL: BUDNG: TBRDA: KONTRTMZ:",
+  "tc": "[...]: TUTuZTI: iKİSİN: ÖZİ: aLDıZDI: aNDA: YaNA: KİRiP: TÜRGiŞ: KaGaN: BUYRUKI: aZ: TUTUKUG: eLGiN: TUTDI: KaGaNIN: aNDA: ÖLüRTüMüZ: İLİN: aLTıMıZ: KaRA: TÜRGiŞ: BODuN: KOP: İÇiKDİ: OL: BODuNuG: TaBaRDA: KONTuRTuMuZ:",
+  "tr": "[...] tutturdu. İkisini [de] kendi yakalattı. [O] anda yana dönüp Türgiş kağanının buyruğundaki Az paşasını eliyle tuttu. Kağanını [o] anda öldürdük. İlini aldık. Kara Türgiş boyları hep baş eğdi. O boyları Tabar'da kondurduk."
+ },
+ {
+  "id": "D39",
+  "code": "kt-2-d-40-39",
+  "runes": "𐰽𐰆𐰍𐰑𐰴: 𐰉𐰆𐰑𐰣: 𐰃𐱅𐰘𐰃𐰤: 𐱅𐰃𐰘𐰤: 𐰘𐰃𐰨𐰇: 𐰇𐰚𐰇𐰕𐰏: 𐰚𐰲𐰀: 𐱅𐰢𐰼𐰴𐰯𐰍𐰴𐰀: 𐱅𐰏𐰃: 𐰾𐰇𐰠𐰓𐰢𐰕: 𐰦𐰀: 𐰚𐰃𐰾𐰼𐰀: 𐰴𐰺𐰀: 𐱅𐰇𐰼𐰏𐰾: 𐰉𐰆𐰑𐰣: 𐰖𐰍𐰃: 𐰉𐰆𐰞𐰢𐱁: 𐰚𐰭𐰼𐰾: 𐱃𐰯𐰀: 𐰉𐰺𐰑𐰃: 𐰋𐰃𐰕𐰭: 𐰾𐰇: 𐱃𐰃: 𐱃𐰆𐰴𐰸: 𐰕𐰆𐰴𐰃: 𐰖𐰆𐰸: 𐰼𐱅𐰃: 𐰖𐰉𐰞𐰴: 𐰴𐰃𐰾𐰃: 𐰼[...]",
+  "lit": "SOGDK: BODN: ityin: tiyn: yiCü: üküZg: kçe: tmrKPGKA: tgi: süldmZ: JA: kisre: KRA: türgs: BODN: YGI: BOLMŞ: kHrs: TPA: BRDI: biZH: sü: TI: TuKq: ZUKI: Yoq: rti: YBLK: Kİsİ: r[...]:",
+  "tc": "SOGDaK: BODuN: İTeYİN: TİYiN: YİNÇÜ: ÖGÜZüG: KeÇE: TeMiRKaPıGKA: TeGİ: SÜLeDiMiZ: aNDA: KİSRE: KaRA: TÜRGiŞ: BODuN: YaGI: BOLMuŞ: KeŊeRiS: TaPA: BaRDI: BİZiŊ: SÜ: aTI: TORUK: aZUKI: YOK: eRTİ: YaBLaK: KİŞİ: eR[...]:",
+  "tr": "Soğdak boylarını düzenleyeyim diye İnci Irmağı'nı geçip Demirkapı'ya değin ordu sürdük. [O] andan sonra Kara Türgiş boyları düşman olmuş. Kengeris'e doğru vardı[lar] (gittiler). Bizim ordunun atı zayıf, azığı (yiyeceği) yok idi. Kötü kişi er[...]"
+ },
+ {
+  "id": "D40",
+  "code": "kt-2-d-40-40",
+  "runes": "𐰞𐰯: 𐰼: 𐰋𐰃𐰕𐰭𐰀: 𐱅𐰏𐰢𐱁: 𐰼𐱅𐰃: 𐰦𐰍: 𐰇𐰓𐰚𐰀: 𐰇𐰚𐰤𐰯: 𐰚𐰇𐰠𐱅𐰃𐰏𐰤𐰏: 𐰕: 𐰼𐰤: 𐰃𐰼𐱅𐰇𐰼𐰇: 𐰃𐱃𐰢𐰕: 𐰆𐰞𐰍: 𐰾𐰇𐰭𐱁: 𐰾𐰇𐰭𐱁𐰢𐱁: 𐰞𐰯: 𐱁𐰞𐰲𐰃: 𐰴: 𐱃𐰃𐰤: 𐰋𐰃𐰤𐰯: 𐱅𐰏𐰢𐱁: 𐰴𐰺𐰀: 𐱅𐰇𐰼𐰏𐰾: 𐰉𐰆𐰑𐰣𐰍: 𐰦𐰀: 𐰇𐰠𐰼𐰢𐱁: 𐰞𐰢𐱁: 𐰖𐰣𐰀: 𐰖𐰆𐰺𐰯:",
+  "lit": "LP: r: biZHe: tgmş: rti: JG: ödke: öknp: költigng: Z: rn: irtürü: ITmZ: ULG: süHş: süHşmş: LP: ŞLÇI: K: Tin: binp: tgmş: KRA: türgs: BODNG: JA: ölrmş: LMŞ: YNA: YORP:",
+  "tc": "aLP: eR: BİZiŊE: TeGMiŞ: eRTİ: aNTaG: ÖDKE: ÖKüNüP: KÖLTİGiNiG: aZ: eRiN: İRTÜRÜ: ITıMıZ: ULuG: SÜŊüŞ: SÜŊüŞMüŞ: aLP: ŞaLÇI: aK: aTIN: BİNiP: TeGMiŞ: KaRA: TÜRGiŞ: BODuNuG: aNDA: ÖLüRMüŞ: aLMıŞ: YaNA: YORıP:",
+  "tr": "alp er bize saldırmış idi. [o] zamana kadar [buna] uyanıp Kül Tigin'i az erle üzerine gönderdik. Büyük savaş savaşmış. Alp Şalçı ak atına binip atılmış. Kara Türgiş boylarını [o] anda öldürmüş, almış. Yana dönüp yürüyerek [...]"
+ },
+ {
+  "id": "K1",
+  "code": "kt-3-k-13-01",
+  "runes": ":[...] 𐰋𐰃𐰼𐰠𐰀: 𐰸𐰆𐱁𐰆: 𐱃𐰆𐱃𐰸: 𐰋𐰃𐰼𐰠𐰀: 𐰾𐰇𐰭𐱁𐰢𐱁: 𐰼𐰃𐰤: 𐰯𐰆𐰴: 𐰇𐰠𐰇𐰼𐰢𐰾: 𐰋𐰃𐰤: 𐰉𐰺𐰢𐰃𐰤: 𐰴𐰞𐰃𐰾𐰕: 𐰸𐰆𐰯: 𐰚𐰠𐰇𐰼𐱅𐰃: 𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐰘𐰃𐱅𐰃𐰆𐱃𐰕: 𐰖𐱁𐰃𐰭𐰀: 𐰴𐰺𐰞𐰸: 𐰉𐰆𐰑𐰣: 𐰼𐰇𐰼: 𐰉𐰺𐰆𐰺: 𐰼𐰚𐰠𐰃: 𐰖𐰍𐰃: 𐰉𐰆𐰡𐰃: 𐱃𐰢𐰍: 𐰃𐰑𐰸: 𐰉𐱁𐰑𐰀: 𐰾𐰇𐰭𐰾𐰓𐰢𐰕:",
+  "lit": "[...]: birle: qUŞU: TUTq: birle: süHşmş: rin: KOP: ülürms: bin: BRmin: KLIsZ: qup: klürti: kültign: yitiUTZ: YŞIHA: KRLq: BODN: rür: BRUR: rkli: YGI: BOVI: TMG: IDq: BŞDA: süHsdmZ:",
+  "tc": "[...]: BİRLE: KOŞU: TUTuK: BİRLE: SÜŊüŞMüŞ: eRİN: KOP: ÖLÜRMüŞ: eBİN: BaRıMıN: KaLISıZ: KOP: KeLÜRTİ: KÖLTİGiN: YİTİOTuZ: YaŞIŊA: KaRLUK: BODuN: eRÜR: BaRUR: eKRLİ: YaGI: BOLDI: TaMaG: IDUK: BaŞDA: SÜŊüŞDüMüZ:",
+  "tr": "[...] ile Koşu Tutuk ile savaşmış. Erlerini hep öldürmüş. Evini, varını eksiksiz hep getirdi. Kül Tigin yirmi yedi yaşında iken, Karluk boyları bağımsız iken, güçlü düşman oldu. Tamag Iduk Baş'ta savaştık."
+ },
+ {
+  "id": "K2",
+  "code": "kt-3-k-13-02",
+  "runes": "𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐰆𐰞: 𐰾𐰇𐰭𐰇𐱁𐰓𐰀: 𐰆𐱃𐰕: 𐰖𐰀𐱁𐰖𐰆𐰺: 𐰼𐱅𐰃: 𐰞𐰯: 𐱁𐰞𐰲𐰃: 𐱃𐰃𐰤: 𐰋𐰃𐰤𐰯: 𐰆𐰯𐰞𐰖𐰆: 𐱅𐰏𐰓𐰃: 𐰚𐰃: 𐰼𐰏: 𐰆𐰑𐱁𐰺𐰆: 𐰽𐰨𐰑𐰃: 𐰴𐰺𐰞𐰸𐰆𐰍: 𐰇𐰠𐰼𐱅𐰢𐰕: 𐰞𐱃𐰢𐰕: 𐰕: 𐰉𐰆𐰑𐰣: 𐰖𐰍𐰃: 𐰉𐰆𐰡𐰃: 𐰴𐰺𐰀: 𐰚𐰇𐰠𐱅𐰀: 𐰾𐰇𐰭𐱁𐰓𐰢𐰕: 𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐰋𐰃𐰼𐰴𐰃𐰺𐰴: 𐰖𐰀𐱁𐰖𐰆𐰺: 𐰼𐱅𐰃: 𐰞𐰯: 𐱁𐰞𐰲𐰃: 𐰴𐰃𐰤:",
+  "lit": "kültign: OL: süHüşde: OTZ: YAŞYUR: rti: LP: ŞLÇI: Tin: binp: opLYu: tgdi: ki: rg: UDŞRU: SCDI: KRLqUG: ülrtmZ: LTMZ: Z: BODN: YGI: BOVI: KRA: költe: süHşdmZ: kültign: birKIRK: YAŞYUR: rti: LP: ŞLÇI: Kin:",
+  "tc": "KÖLTİGiN: OL: SÜŊÜŞDE: OTuZ: YAŞaYUR: eRTİ: aLP: ŞaLÇI: aTIN: BİNiP: OPLaYU: TeGDİ: iKİ: eRiG: UDaŞuRU: SaNÇDI: KaRLUKUG: ÖMLüRTüMüZ: aLTıMıZ: aZ: BODuN: YaGI: BOLDI: KaRA: KÖLTE: SÜŊüŞDüMüZ: KÖLTİGiN: BİRKIRK: YAŞaYUR: eRTİ: aLP: ŞaLÇI: aKIN:",
+  "tr": "Kül Tigin o savaşta otuz [yaşını] yaşıyor idi. Alp Şalçı'nın atına binip [yağıya] boğa gibi değdi. İki eri aşırıp (kovalayıp) sançtı. Karluk'u öldürdük, aldık. Az boyları düşman oldu. Kara Göl'de savaştık. Kül Tigin otuz bir [yaşını] yaşıyor idi. Alp Şalçı'nın Akın'a [Ak atına]"
+ },
+ {
+  "id": "K3",
+  "code": "kt-3-k-13-03",
+  "runes": "𐰋𐰃𐰤𐰯: 𐰆𐰯𐰞𐰖𐰆: 𐱅𐰏𐰓𐰃: 𐰕: 𐰠𐱅𐰋𐰼𐰏: 𐱃𐰆𐱃𐰑𐰃: 𐰕: 𐰉𐰆𐰑𐰣: 𐰦𐰀: 𐰖𐰸: 𐰉𐰆𐰡𐰃: 𐰲𐰃𐰢: 𐰴𐰍𐰣: 𐰃𐰠𐰃: 𐰴𐰢𐱁𐰍: 𐰉𐰆𐰞𐱃𐰸𐰃𐰦𐰀: 𐰉𐰆𐰑𐰣: 𐰃𐰠𐰏: 𐰃𐰚𐰏𐰃: 𐰃𐰕𐰏𐰠: 𐰉𐰆𐰑𐰣: 𐰋𐰃𐰼𐰠𐰀: 𐰾𐰇𐰭𐱁𐰓𐰢𐰕: 𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐰞𐰯: 𐱁𐰞𐰲𐰃: 𐰴𐰃𐰤: 𐰋𐰃𐰤𐰯:",
+  "lit": "binp: OPLYU: tgdi: Z: ltbrg: TUTDI: Z: BODN: JA: Yq: BOVI: çim: KGN: ili: KMŞG: BOLTqIJA: BODN: ilg: ikgi: iZgl: BODN: birle: süHşdmZ: kültign: LP: ŞLÇI: Kin: binp:",
+  "tc": "BİNiP: OPLaYU: TeGDİ: aZ: iLTeBeRiG: TUTDI: aZ: BODuN: aNDA: YOK: BOLDI: eÇİM: KaGaN: İLİ: KaMŞaG: BOLTUKINDA: BODuN: İLiG: İKiGİ: İZGiL: BODuN: BİRLE: SÜŊüŞDüMüZ: KÖLTİGiN: aLP: ŞaLÇI: aKIN: BİNiP:",
+  "tr": "binip [yağıya] boğa gibi değdi. Az başpaşasını tuttu. Az boyları [o] anda yok oldu. Amcam kağanın ili karıştığında, boyların ili iki olduğunda (bölündüğünde) İzgil boyları ile savaştık. Kül Tigin Alp Şalçı'nın Aka (Ak atına) binip"
+ },
+ {
+  "id": "K4",
+  "code": "kt-3-k-13-04",
+  "runes": "𐰆𐰯𐰞𐰖𐰆: 𐱅𐰏𐰓𐰃: 𐰆𐰞: 𐱃: 𐰦𐰀: 𐱅𐰇𐰾𐰓𐰃: 𐰃𐰕𐰏𐰠: 𐰉𐰆𐰑𐰣: 𐰇𐰠𐱅𐰃: 𐱃𐰸𐰆𐰕: 𐰆𐰍𐰕: 𐰉𐰆𐰑𐰣: 𐰚𐰤𐱅𐰃: 𐰉𐰆𐰑𐰣𐰢: 𐰼𐱅𐰃: 𐱅𐰭𐰼𐰃: 𐰘𐰃𐰼: 𐰉𐰆𐰞𐰍𐰴𐰃𐰤: 𐰇𐰲𐰇𐰤: 𐰖𐰍𐰃: 𐰉𐰆𐰡𐰃: 𐰋𐰃𐰼: 𐰘𐰃𐰞𐰴𐰀: 𐰋𐰃𐱁: 𐰖𐰆𐰞𐰃: 𐰾𐰇𐰭𐱁𐰓𐰢𐰕: 𐰭: 𐰃𐰠𐰚: 𐱃𐰆𐰍𐰆: 𐰉𐰞𐰶𐰑𐰀: 𐰾𐰇𐰭𐱁𐰓𐰢𐰕:",
+  "lit": "opLYu: tgdi: OL: T: JA: tüsdi: iZgl: BODN: ölti: TquZ: OGZ: BODN: knti: BODNM: rti: tHri: yir: BOLGKin: üçün: YGI: BOVI: bir: yİLKA: biş: YOLI: süHşdmZ: H: ilk: TOGU: BLQDA: süHşdmZ:",
+  "tc": "OPLaYU: TeGDİ: OL: aT: aNDA: TÜŞDİ: İZGİL: BODuN: ÖLTİ: TOKUZ: OGuZ: BODuN: iKiNTİ: BONuNuM: eRTİ: TeŊRİ: YİR: BULGaKIN: ÜÇÜN: YaGI: BOLDI: BİR: YILKA: BİŞ: YOLI: SÜŊüŞDüMüZ: eŊ: İLK: TOGU: BaLIKDA: SÜŊüŞDüMüZ:",
+  "tr": "[yağıya] boğa gibi değdi. O at [o] anda düştü. İzgil boyları öldü. Dokuz Oğuz boyları kendi boylarım idi. Tanrı, yer bulandığı için [birbirimize] düşman oldu[k]. Bir yılda beş sefer savaştık. En ilki Togu Balık'da savaştık."
+ },
+ {
+  "id": "K5",
+  "code": "kt-3-k-13-05",
+  "runes": "𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐰕𐰢𐰣𐰴𐰍: 𐰋𐰃𐰤𐰯: 𐰆𐰯𐰞𐰖𐰆: 𐱅𐰏𐰓𐰃: 𐰞𐱃𐰃: 𐰼𐰏: 𐰽𐰨𐰑𐰃: 𐰾𐰇: 𐱅𐰏𐰃𐰾𐰃𐰦𐰀: 𐰘𐰃𐱅𐰨: 𐰼𐰏: 𐰶𐰃𐰞𐰲𐰞𐰑𐰃: 𐰚𐰤𐱅𐰃: 𐰴𐰆𐱁𐰞𐰍𐰴𐰑𐰀: 𐰓𐰕: 𐰋𐰃𐰼𐰠𐰀: 𐰾𐰇𐰭𐱁𐰓𐰢𐰕: 𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐰕: 𐰖𐰍𐰕𐰃𐰤: 𐰋𐰃𐰤𐰯: 𐰆𐰯𐰞𐰖𐰆: 𐱅𐰏𐰯: 𐰋𐰃𐰼: 𐰼𐰏: 𐰽𐰨𐰑𐰃:",
+  "lit": "kültign: ZMNKG: binp: opLYu: tgdi: LTI: rg: SCDI: sü: tgisiJE: yitC: rg: QILÇLDI: knti: KUŞLGKDA: dZ: birle: süHşdmZ: kültign: Z: YGZin: binp: OPLYU: tgp: bir: rg: SCDI:",
+  "tc": "KÖLTİGiN: aZMaNKaG: BİNiP: OPLaYU: TeGDİ: aLTI: eRiG: SaNÇDI: SÜ: TeGİŞİNDE: YİTiNÇ: eRiG: KILıÇLaDI: iKiNTİ: KUŞaLGuKDA: eDiZ: BİRLE: SÜŊüŞDüMüZ: KÖLTİGiN: aZ: YaGıZIN: BİNiP: OPLaYU: TeGiP: BİR: eRiG: SaNÇDI:",
+  "tr": "Kül Tigin Azman [ata]'a binip [yağıya] boğa gibi değdi. Erini sançtı. Erler [birbirlerine] değişinde yedinci eri kılıçladı. İkinci[si] Kuşalguk'da Ediz ile süngüşdük. Kül Tigin Az Yağız [at]'ına binip, yağıya değip bir eri sançtı."
+ },
+ {
+  "id": "K6",
+  "code": "kt-3-k-13-06",
+  "runes": "𐱃𐰸𐰕: 𐰼𐰏: 𐰏𐰼𐰀: 𐱃𐰸𐰃𐰑𐰃: 𐰓𐰕: 𐰉𐰆𐰑𐰣: 𐰦𐰀: 𐰇𐰠𐱅𐰃: 𐰇𐰲𐰨: 𐰉𐰆𐰞𐰲𐰆𐰑𐰀: 𐰆𐰍𐰕: 𐰋𐰃𐰼𐰠𐰀: 𐰾𐰇𐰭𐱁𐰓𐰢𐰕: 𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐰕𐰢𐰣𐰴𐰍: 𐰋𐰃𐰤𐰯: 𐱅𐰏𐰓𐰃: 𐰽𐰨𐰑𐰃: 𐰾𐰇𐰾𐰃𐰤: 𐰽𐰨𐰑𐰢𐰕: 𐰃𐰠𐰃𐰤: 𐰞𐱃𐰢𐰕: 𐱅𐰇𐰼𐱅𐰨: 𐰲𐰆𐱁: 𐰉𐱁𐰃𐰦𐰀: 𐰾𐰇𐰭𐱁𐰓𐰢𐰕: 𐱅𐰇𐰼𐰰:",
+  "lit": "TqZ: rg: gre: TqIDI: dZ: BODN: JA: ölti: üçC: BOLÇUDA: OGZ: birle: süHşdmZ: kültign: ZMNKG: binp: tgdi: SCDI: süsin: SCDMZ: ilin: LTMZ: türtC: ÇUŞ: BŞIJA: süHşdmZ: türX:",
+  "tc": "TOKuZ: eRiG: eGiRE: TOKIDI: eDiZ: BODuN: aNDA: ÖLTİ: ÜÇüNÇ: BOLÇUDA: OGuZ: BİRLE: SÜŊüŞDüMüZ: KÖLTİGiN: aZMaNKaG: BİNiP: TeGDİ: SaNÇDI: SÜSİN: SaNÇDıMıZ: İLİN: aLTıMıZ: TÖRTüNÇ: ÇUŞ: BaŞINDA: SÜŊüŞDüMüZ: TÜRK:",
+  "tr": "Dokuz eri eğirip [çevreleyip] vurdu. Ediz boyları [o] anda öldü. Üçüncü[sü] Bolçu'da Oğuz ile savaştık. Kül Tigin Azman [at]'a binip [yağıya] değdi, sançtı. Erini sançtık. İlini aldık. Dördüncüsü Çuş Başı'nda süngüşdük. Türk"
+ },
+ {
+  "id": "K7",
+  "code": "kt-3-k-13-07",
+  "runes": "𐰉𐰆𐰑𐰣: 𐰑𐰴: 𐰴𐰢𐱁𐱃𐰑𐰃: 𐰖𐰉𐰞𐰴: 𐰉𐰆𐰡𐰀𐰲𐰃: 𐰀𐰼𐱅𐰃: 𐰆𐰕𐰀: 𐰚𐰠𐰢𐰾: 𐰾𐰇𐰾𐰃𐰤: 𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐰍𐱃𐰯: 𐱃𐰆𐰭𐰺𐰀: 𐰋𐰃𐰼: 𐰆𐰍𐱁: 𐰞𐰯𐰍𐰆: 𐰆𐰣: 𐰼𐰏: 𐱃𐰆𐰭𐰀𐱅𐰃𐰏𐰤: 𐰖𐰆𐰍𐰃𐰦𐰀: 𐰏𐰼𐰯: 𐰇𐰠𐰼𐱅𐰢𐰕: 𐰋𐰃𐰾𐰨: 𐰕𐰏𐰤𐱅𐰃: 𐰴𐰑𐰕𐰓𐰀: 𐰆𐰍𐰕: 𐰋𐰃𐰼𐰠𐰀: 𐰾𐰇𐰭𐱁𐰓𐰢𐰕: 𐰚𐰇𐰠𐱅𐰃𐰏𐰤:",
+  "lit": "BODN: DK: KMŞTDI: YBLK: BOVAÇI: Erti: OZA: klms: süsin: költign: GTP: TOHRA: bir: OGŞ: LPGU: ON: rg: TOHAtign: YUGIJA: grp: ülrtmZ: bisC: Zgnti: KDZde: OGZ: birle: süHşdmZ: kültign:",
+  "tc": "BODuN: aDaK: KaMŞaTDI: YaBLaK: BOLDAÇI: ERTİ: OZA: KeLMiŞ: SÜSİN: KÖLTİGiN: aGTıP: TOŊRA: BİR: OGuŞ: aLPagU: ON: eRiG: TOŊATİGiN: YUGINDA: eGiRiP: ÖLüRTüMüZ: BiŞiNÇ: eZGiNTİ: KaDıZDA: OGuZ: BİRLE: SÜŊüŞDüMüZ: KÖLTİGiN:",
+  "tr": "boyları ayak kamşatti (titredi). Kötü olacak idi. Üzerimize gelmiş erini Kül Tigin püskürtüp Tongra'dan bir boyu, yiğit on eri, Tonga Tigin'in yas töreninde çevirip öldürdük. Beşincisi Ezginti Kadız'da Oğuz ile savaştık. Kül Tigin"
+ },
+ {
+  "id": "K8",
+  "code": "kt-3-k-13-08",
+  "runes": "𐰕: 𐰖𐰍𐰕𐰃𐰤: 𐰋𐰃𐰤𐰯: 𐱅𐰏𐰓𐰃: 𐰚𐰃: 𐰼𐰏: 𐰽𐰨𐰑𐰃: 𐰉𐰞𐰃𐰶𐰀: 𐰉𐰺𐰢𐰑𐰃: 𐰆𐰞: 𐰾𐰇: 𐰦𐰀: 𐰇𐰠𐱅𐰃: 𐰢𐰍𐰀: 𐰴𐰆𐰺𐰍𐰣: 𐰴𐰃𐱁𐰞𐰯: 𐰖𐰕𐰃𐰭𐰀: 𐰆𐰍𐰕𐰍𐰺𐰆: 𐰾𐰇: 𐱃𐱁𐰴𐰑𐰢𐰕: 𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐰋𐰏: 𐰉𐱁𐰞𐰖𐰆: 𐰴𐰃𐱃𐰢𐰕: 𐰆𐰍𐰕: 𐰖𐰍𐰃: 𐰆𐰺𐰑𐰆𐰍: 𐰉𐰽𐰑𐰃: 𐰚𐰇𐰠𐱅𐰃𐰏𐰤:",
+  "lit": "Z: YGZin: binp: tgdi: ki: rg: SCDI: BLIQA: BRMDI: OL: sü: JA: ölti: MGA: KORGN: KIŞLP: YZIHA: OGZGRU: sü: TŞKDMZ: kültign: bg: BŞLYU: KITMZ: OGZ: YGI: ORDUG: BSDI: kültign:",
+  "tc": "aZ: YaGıZIN: BİNiP: TeGDİ: iKİ: eRiG: SaNÇDI: BaLIKA: BaRMaDI: OL: SÜ: aNDA: ÖLTİ: aMGA: KORGaN: KIŞLaP: YaZIŊA: OGuZGaRU: SÜ: TaŞıKDıMıZ: KÖLTİGiN: BeG: BaŞLaYU: KITıMıZ: OGuZ: YaGI: ORDUG: BaSDI: KÖLTİGiN:",
+  "tr": "Az yağızına binip [yağıya] değdi. İki eri sançtı. Kente varmadı. O ordu [o] anda öldü. Amga Kurgan'da kışlayıp yazında Oğuz'a doğru süledik. Kül Tigin Bey başta [iken] Oğuz düşman ordusu [bizi] bastı. Kül Tigin"
+ },
+ {
+  "id": "K9",
+  "code": "kt-3-k-13-09",
+  "runes": "𐰇𐰏𐰾𐰕: 𐰴𐰃𐰤: 𐰋𐰃𐰤𐰯: 𐱃𐰸𐰆𐰕: 𐰼𐰤: 𐰽𐰨𐰑𐰃: 𐰆𐰺𐰑𐰆𐰍: 𐰋𐰃𐰼𐰢𐰓𐰃: 𐰇𐰏𐰢: 𐰴𐱃𐰆𐰣: 𐰆𐰞𐰖𐰆: 𐰇𐰏𐰠𐰼𐰢: 𐰚𐰠𐰼𐰢: 𐰚𐰠𐰭𐰇𐰤𐰢: 𐰸𐰆𐰨𐰖𐰞𐰺𐰢: 𐰉𐰆𐰨𐰀: 𐰘𐰢𐰀: 𐱅𐰃𐰼𐰏𐰃: 𐰚𐰇𐰭: 𐰉𐰆𐰡𐰲𐰃: 𐰼𐱅𐰃: 𐰇𐰠𐰏𐰃: 𐰖𐰆𐰺𐱃𐰑𐰀: 𐰖𐰆𐰞𐱃𐰀: 𐰖𐱃𐰆: 𐰴𐰡𐰲𐰃: 𐰼𐱅𐰏𐰕:",
+  "lit": "ügsZ: Kin: binp: TquZ: rn: SCDI: URDUG: birmdi: ögm: KTUN: ULYU: öglrm: klrm: klHünm: qOCYLRM: BUCa: yme: tirgi: küH: BOVÇI: rti: ülgi: YORTDA: YOLTA: YTU: KVÇI: rtgZ:",
+  "tc": "ÖGSüZ: aKIN: BİNiP: TOKUZ: eRiN: SaNÇDI: ORDUG: BİRMeDİ: ÖGüM: KATuN: ULaYU: ÖGLeRiM: eKeLeRiM: KeLiŊÜNüM: KONÇuYLaRıM: BUNÇA: YiME: TİRiGİ: KÜNG: BOLDaÇI: eRTİ: ÖLüGİ: YURTDA: YOLTA: YaTU: KaLDaÇI: eRTiGiZ:",
+  "tr": "Ögsüz Ak [at]'a binip dokuz erini sançtı, orduyu vermedi. Anam hatun, öbür analarım, ablalarım, gelinlerim, kağan kızlarım bunca yine yaşayanlar odalık olacak idi. Ölenleriniz yurtta, yolda yatıp kalacak idiniz."
+ },
+ {
+  "id": "K10",
+  "code": "kt-3-k-13-10",
+  "runes": "𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐰖𐰸: 𐰼𐰾𐰼: 𐰸𐰆𐰯: 𐰇𐰠𐱅𐰲𐰃: 𐰼𐱅𐰏𐰕: 𐰃𐰤𐰢: 𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐰚𐰼𐰏𐰚: 𐰉𐰆𐰡𐰃: 𐰇𐰕𐰢: 𐰽𐰴𐰦𐰢: 𐰚𐰇𐰼𐰇𐰼: 𐰚𐰇𐰕𐰢: 𐰚𐰇𐰼𐰢𐰕: 𐱅𐰏: 𐰋𐰃𐰠𐰼: 𐰋𐰃𐰠𐰏𐰢: 𐰋𐰃𐰠𐰢𐰕: 𐱅𐰏: 𐰉𐰆𐰡𐰃: 𐰇𐰕𐰢: 𐰽𐰴𐰦𐰢: 𐰇𐰓: 𐱅𐰭𐰼𐰃: 𐰖𐰽𐰺: 𐰚𐰃𐰾𐰃: 𐰆𐰍𐰞𐰃: 𐰸𐰆𐰯: 𐰇𐰠𐰏𐰠𐰃: 𐱅𐰇𐰼𐰇𐰢𐰾:",
+  "lit": "kültign: Yq: rsr: qop: öltçi: rtgZ: inm: kültign: krgk: BOVI: ÖZM: SKJM: kürür: küZM: kürmZ: tg: bilr: bilgm: bilmZ: tg: BOVI: ÖZM: SKJM: öd: tHri: YSR: kisi: OGLI: qop: ülgli: türüms:",
+  "tc": "KÖLTİGiN: YOK: eRSeR: KOP: ÖLTeÇİ: eRTiGiZ: İNiM: KÖLTİGiN: KeRGeK: BOLDI: ÖZüM: SaKıNDıM: KÖRÜR: KÖZüM: KÖRMeZ: TeG: BİLiR: BİLiGiM: BİLMeZ: TeG: BOLDI: ÖZüM: SaKıNDıM: ÖD: TeŊRİ: YaŞaR: KİŞİ: OGLI: KOP: ÖLGeLİ: TÖRÜMiŞ:",
+  "tr": "Kül Tigin yok ise hep ölecek idiniz. Kardeşim Kül Tigin kergek oldu (öldü). Özüm sakındım. Gören gözüm görmez gibi (oldu), bildiğim bilgim bilinmez gibi (oldu). Özüm sakındım. Sonsuzluğu Tanrı yaşar, insanoğlu hep ölümlü türemiş."
+ },
+ {
+  "id": "K11",
+  "code": "kt-3-k-13-11",
+  "runes": "𐰨𐰀: 𐰽𐰴𐰦𐰢: 𐰚𐰇𐰕𐰓𐰀: 𐰖𐱁: 𐰚𐰠𐰾𐰼: 𐱅𐰃𐰑𐰀: 𐰚𐰇𐰭𐰠𐱅𐰀: 𐰾𐰃𐰍𐱃: 𐰚𐰠𐰾𐰼: 𐰖𐰦𐰺𐰆: 𐰽𐰴𐰦𐰢: 𐰴𐱃𐰍𐰓𐰃: 𐰽𐰴𐰦𐰢: 𐰚𐰃: 𐱁𐰑: 𐰆𐰞𐰖𐰆: 𐰃𐰤𐰃: 𐰘𐰏𐰇𐰤𐰢: 𐰆𐰍𐰞𐰣𐰢: 𐰋𐰏𐰠𐰼𐰢: 𐰉𐰆𐰑𐰣𐰢: 𐰚𐰇𐰕𐰃: 𐰴𐱁𐰃: 𐰖𐰉𐰞𐰴: 𐰉𐰆𐰡𐰲𐰃: 𐱅𐰃𐰯: 𐰽𐰴𐰦𐰢: 𐰖𐰆𐰍𐰲𐰃: 𐰾𐰃𐰍𐱃𐰲𐰃: 𐰶𐰃𐱃𐰪: 𐱃𐱃𐰉𐰃: 𐰉𐰆𐰑𐰣: 𐰉𐱁𐰞𐰖𐰆:",
+  "lit": "Ca: SKJM: küZde: YŞ: klsr: tIDA: küHlte: sIGT: klsr: YJRU: SKJM: KTGdi: SKJM: ki: ŞD: ULYU: ini: ygünm: OGLNM: bglrm: BODNM: kÜZİ: KŞI: YBLK: BOVÇI: tip: SKJM: YOGçI: sIGTÇI: QITF: TTBI: BODN: BŞLYU:",
+  "tc": "aNÇA: SaKıNDıM: KÖZDE: YaŞ: KeLSeR: TIDA: KÖŊüLTE: SIGıT: KeLSeR: YaNDuRU: SaKıNDıM: KaTıGDI: SaKıNDıM: iKİ: ŞaD: ULaYU: İNİ: YeGÜNüM: OGLaNıM: BeGLeRiM: BODuNuM: KÖZİ: KaŞI: YaBLaK: BOLDaÇI: TİP: SaKıNDıM: YUGÇI: SIGıTÇI: KITaNY: TaTaBI: BODuN: BaŞLaYU:",
+  "tr": "Öyle sakındım. Gözden yaş gelse silip, gönülden ağıt gelse yan durup sakındım. Katıca sakındım. İki şad ile kardeş yeğenimin, oğlumun, beylerimin, boylarımın gözü kaşı kötü olacak deyip sakındım. Yasçı, ağlayıcı Kıtay, Tatabı boylarından başta"
+ },
+ {
+  "id": "K12",
+  "code": "kt-3-k-13-12",
+  "runes": "𐰆𐰑𐰺: 𐰾𐰭𐰇𐰤: 𐰚𐰠𐱅𐰃: 𐱃𐰉𐰍𐰲: 𐰴𐰍𐰦𐰀: 𐰃𐰾𐰘𐰃: 𐰠𐰃𐰚𐰭: 𐰴𐰞𐱃𐰃: 𐰋𐰃𐰼: 𐱅𐰇𐰢𐰤: 𐰍𐰃: 𐰞𐱃𐰆𐰣: 𐰚𐰇𐰢𐱁: 𐰚𐰼𐰏𐰚𐰾𐰕: 𐰚𐰠𐰇𐰼𐱅𐰃: 𐱅𐰇𐰯𐰇𐱅: 𐰴𐰍𐰦𐰀: 𐰋𐰇𐰠𐰤: 𐰚𐰠𐱅𐰃: 𐰴𐰆𐰺𐰖𐰀: 𐰚𐰇𐰤: 𐰉𐱃𐰽𐰴𐰑𐰴𐰃: 𐰽𐰆𐰍𐰑: 𐰋𐰼𐰲𐰚: 𐰼: 𐰉𐰆𐰴𐰺𐰴: 𐰆𐰞𐰾: 𐰉𐰆𐰑𐰦𐰀: 𐰤𐰭: 𐰾𐰭𐰇𐰤: 𐰆𐰍𐰞: 𐱃𐰺𐰴𐰣: 𐰚𐰠𐱅𐰃:",
+  "lit": "ODR: sHün: klti: TBGÇ: KGJA: isyi: likH: KLTİ: bir: tümn: GI: LTUN: kümş: krgksZ: klürti: tüpüt: KGJA: böln: klti: KURYA: kün: BTSKDKI: SOGD: brçk: r: BUKRK: oLs: BODJA: nH: sHün: OGL: TRKN: klti:",
+  "tc": "UDaR: SeŊÜN: KeLTİ: TaBGaÇ: KaGaNDA: İSiyİ: LİKeŊ: KeLTİ: BİR: TÜMeN: aGI: aLTUN: KÜMüŞ: KeRGeSİZ: KeLÜRTİ: TÜPÜT: KaGaNDA: BÖLüN: KeLTİ: KURıYA: KÜN: BaTSıKDaKI: SOGD: BeRÇiK: eR: BUKaRaK: ULuŞ: BODuNDA: NeŊ: SeŊÜN: OGuL: TaRKaN: KeLTİ:",
+  "tr": "Udar Paşa geldi. Çin kağanından İsiyi Likeng geldi. Bir tümeni aşan altun, gümüş, gereğinden artık getirdi. Tibet kağanından buyrukçu geldi. Batıdan, gün batısındaki Soğd Berçik Er, Buhara ulusu boylarından Neng Paşa (ile) Oğul Tarkan geldi."
+ },
+ {
+  "id": "K13",
+  "code": "kt-3-k-13-13",
+  "runes": "𐰆𐰣𐰸: 𐰆𐰍𐰞𐰢: 𐱅𐰇𐰼𐰏𐰾: 𐰴𐰍𐰦𐰀: 𐰢𐰚𐰼𐰲: 𐱃𐰢𐰍𐰲𐰃: 𐰆𐰍𐰕: 𐰋𐰃𐰠𐰏𐰀: 𐱃𐰢𐰍𐰲𐰃: 𐰚𐰠𐱅𐰃: 𐰶𐰃𐰺𐰴𐰕: 𐰴𐰍𐰦𐰀: 𐱃𐰺𐰑𐰆𐱁: 𐰃𐰣𐰨𐰆: 𐰲𐰆𐰺: 𐰚𐰠𐱅𐰃: 𐰉𐰺𐰴: 𐰃𐱅𐰏𐰇𐰲𐰃: 𐰋𐰓𐰕: 𐰖𐰺𐱃𐰍𐰢𐰀: 𐰋𐰃𐱅𐰏: 𐱃𐱁: 𐰃𐱅𐰏𐰇𐰲𐰃: 𐱃𐰉𐰍𐰲: 𐰴𐰍𐰣: 𐰲𐰃𐰴𐰣𐰃: 𐰲𐰭: 𐰾𐰭𐰇𐰤: 𐰚𐰠𐱅𐰃:",
+  "lit": "oNq: OGLM: türgs: KGJA: mkrç: TMGÇI: OGZ: bilge: TMGÇI: klti: QIRKZ: KGJA: TRDUŞ: INCU: ÇOR: klti: BRK: itgüçi: bdZ: YRTGMA: bitg: TŞ: itgüçi: TBGÇ: KGN: ÇIKNI: çH: sHün: klti:",
+  "tc": "ON OK: OGLuM: TÜRGiŞ: KaGaNDA: MaKaRaÇ: TaMGaÇI: OGuZ: BİLGE: TaMGaÇI: KeLTİ: KIRKıZ: KaGaNDA: TaMGaÇI: INaNÇU: ÇOR: KeLTİ: BaRK: İTGÜÇİ: BeDiZ: YaRaTıGMA: BİTiK: TaŞ: İTGÜÇİ: TaBGaÇ: KaGaN: ÇIKaNI: ÇaŊ: SeŊÜN: KeLTİ:",
+  "tr": "On Ok oğlum Türgiş kağanından Makaraç Damgacı, Oğuz Bilge Damgacı geldi. Kırgız kağanından damgacı Inançu Çor geldi. Bark edici (yapıcı), süs yaratıcısı, yazılı taş edici, Çin kağanının yeğeni Çang Paşa geldi."
+ },
+ {
+  "id": "KD1",
+  "code": "kt-4-kd-1-01",
+  "runes": "𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐰸𐰆𐰪: 𐰘𐰃𐰞𐰴𐰀: 𐰘𐰃𐱅𐰃: 𐰘𐰏𐰼𐰢𐰚𐰀: 𐰆𐰲𐰑𐰃: 𐱃𐰆𐰴𐰕𐰨: 𐰖: 𐰘𐱅𐰃: 𐰆𐱃𐰕𐰴𐰀: 𐰖𐰆𐰍: 𐰼𐱅𐰇𐰼𐱅𐰢𐰕: 𐰉𐰺𐰴𐰃𐰤: 𐰋𐰓𐰕𐰃𐰤: 𐰋𐰃𐱅𐰏: 𐱃𐱁𐰃𐰤: 𐰣: 𐰋𐰃𐰲𐰃𐰤: 𐰘𐰃𐰞𐰴𐰀: 𐰘𐰃𐱅𐰨: 𐰖: 𐰘𐰃𐱅𐰃: 𐰆𐱃𐰕𐰴𐰀: 𐰴𐰆𐰯: 𐰞𐰴𐰑𐰢𐰕: 𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐰇𐰕𐰃: 𐰶𐰃𐰺𐰴: 𐰺𐱃𐰸𐰃: 𐰘𐰃𐱅𐰃: 𐰖𐱁𐰍: 𐰉𐰆𐰞𐰃𐱃: 𐱃𐱁[...]: 𐰉𐰆𐰨𐰀: 𐰋𐰓𐰕𐰲𐰃𐰏: 𐱃𐰆𐰖𐰍𐰣: 𐰠𐱅𐰋𐰼: 𐰚𐰠𐰇𐰼𐱅𐰃:",
+  "lit": "kültign: qoF: yILKA: yiti: ygrmke: UÇDI: ToKZC: Y: yti: OTZKA: YOG: rtürtmZ: BRKin: bdZin: bitg: TŞin: N: biçin: yILKA: yitC: Y: yiti: OTZKA: KOP: LKDMZ: kültign: üZİ: QIRK: RTqI: yiti: YŞG: BOLIT: TŞ[...]: BUCA: bdZçig: TOYGN: ltbr: klürti:",
+  "tc": "KÖLTİGiN: KOYN: YILKA: YİTİ: YiGiRMiKE: UÇDI: TOKuZuNÇ: aY: YiTİ: OTuZKA: YUG: eRTÜRTüMüZ: BaRKIN: BeDiZİN: BİTiG: TaŞIN: aN: BİÇİN: YILKA: YİTiNÇ: aY: YİTİ: OTuZKA: KOP: aLKDıMıZ: KÖLTİGiN: ÖZİ: KIRK: aRTUKI: YİTİ: YaŞıG: BOLIT: TaŞ[...]: BuNÇA: BeDiZÇİG: TOYGuN: iLTeBeR: KeLÜRTİ:",
+  "tr": "Kül Tigin Koyun yılının [Birinci ayının] on yedisinde uçtu (öldü). Dokuzuncu ayın yirmi yedisinde yoğ (tören) düzenledik. Anıtını, süslemesini, yazılı taşını o Biçin (Maymun) yılının Yedinci ayının yirmi yedisinde hep bitirdik. Kül Tigin'in özü kırk yedi yaşında bulut [oldu] (öldü). Taş[...] Bunca süslemeciyi Toygun paşası getirdi."
+ },
+ {
+  "id": "GD1",
+  "code": "kt-5-gd-1-01",
+  "runes": "𐰉𐰆𐰨𐰀: 𐰋𐰃𐱅𐰏: 𐰋𐰃𐱅𐰏𐰢𐰀: 𐰚𐰇𐰠𐱅𐰃𐰏𐰤: 𐱃𐰃𐰾𐰃: 𐰖𐰆𐰞𐰍𐱅𐰃𐰏𐰤: 𐰋𐰃𐱅𐰃𐰓𐰢: 𐰘𐰃𐰏𐰼𐰢𐰃: 𐰚𐰇𐰤: 𐰆𐰞𐰺𐰯: 𐰉𐰆: 𐱃𐱁𐰴𐰀: 𐰉𐰆: 𐱃𐰢𐰴𐰀: 𐰴𐰆𐰯: 𐰖𐰆𐰞𐰍𐱅𐰃𐰏𐰤: 𐰋𐰃𐱅𐰃𐰓𐰢: 𐰃𐰍𐰺: 𐰆𐰍𐰞𐰣𐰭𐰕𐰑𐰀: 𐱃𐰖𐰍𐰆𐰣𐰭𐰕𐰑𐰀: 𐰘𐰏𐰓𐰀: 𐰃𐰏𐰓𐰇𐰼: 𐰼𐱅𐰏𐰕: 𐰆𐰲𐰀: 𐰉𐰺𐰑𐰍𐰕: 𐱅𐰏𐰼𐰃: 𐱅𐰃𐰼𐰏𐰓𐰃𐰲𐰀 :[...]",
+  "lit": "BOCA: bitg: bitgme: kültign: TIsI: YOLGtign: bitidm: yigrmi: kün: OLRP: BU: TŞKA: BU: TMKA: KOP: YOLGtign: bitidm: IGR: OGLNHZDA: TYGUNHZDA: ygdE: igdür: rtgZ: UÇA: BRDGZ: tgri: tirgdiçe:",
+  "tc": "BUNÇA: BİTiG: BİTiGME: KÖLTİGiN: aTISI: YOLuGTİGiN: BİTİDiM: YİGiRMİ: KÜN: OLuRuP: BU: TaŞKA: BU: TaMKA: KOP: YOLuGTİGiN: BİTİDiM: IGaR: OGLaNıŊuZDA: TaYGUNuŊuZDA: YiGDE: İGiDÜR: eRTiGiZ: UÇA: BaRDıGıZ: TeŊRi: TİRiGDİÇE: [...]",
+  "tr": "Bunca yazı yazmayı Kül Tigin'in yeğeni Yoluğ Tigin [olarak] yazdım. Yirmi gün oturup bu taşa, bu anıta hep Yoluğ Tigin [olarak] yazdım. Değerli oğullarınızdan, kızlarınızdan çok daha iyi bakarsınız [diye]. Uçuverdiniz. Tanrıdakı yaşamanızda[...]"
+ },
+ {
+  "id": "GB1",
+  "code": "kt-6-gb-1-01",
+  "runes": "𐰚𐰇𐰠𐱅𐰃𐰏𐰤𐰭: 𐰞𐱃𐰆𐰣𐰃𐰣: 𐰚𐰇𐰢𐱁𐰃𐰤: 𐰍𐰃𐱁𐰃𐰣: 𐰉𐰺𐰢𐰃𐰣: 𐱅𐰇𐰼𐰰: 𐰲𐰃𐰍𐰪: 𐰴𐰺𐰣𐰃𐰣: 𐰖𐰍𐰢𐰀: 𐱃𐰆𐰖𐰍: 𐱃𐰉𐰆: [...]𐰋𐰏𐰢: 𐱅𐰃𐰏𐰤: 𐰘𐰇𐰚𐰼𐰇: 𐱅𐰭𐰼𐰃: [...]𐱃𐱁: 𐰋𐰃𐱅𐰓𐰢: 𐰖𐰆𐰞𐰞𐰍: 𐱅𐰃𐰏𐰤:",
+  "lit": "költignH: LTUNIN: kümşin: GIŞIN: BRMIN: türX: ÇIGF: KRNIN: YGMA: TOYG: TBU: [...]bgm: tign: yükrü: tHri: [...]TŞ: bitdm: YOLLG: tign:",
+  "tc": "KÖLTİGiNiŊ: aLTUNIN: KÜMiŞİN: aGIŞIN: BaRıMIN: TÜRK: aÇIGıYN: KaRNIN: YaGMA: TOYuG: TaBU: [...]BeGiM: TİGiN: YÜKeRÜ: TeŊRİ: [...]TaŞ: BİTiDiM: YOLLuG: TİGiN:",
+  "tr": "Kül Tigin'in altını, gümüşü, hazineleri [ve] varlığ[ıyla] Türk açıgınyını? karnını, yağma diye tapu [...] beyim tigin, yukarıdaki Tanrı [...]taş yazdım. Yolluğ Tigin."
+ },
+ {
+  "id": "B1",
+  "code": "kt-7-b-1-01",
+  "runes": "𐰸𐰆𐰺𐰑𐰣𐰍[...]𐰃𐰤𐰢: 𐰰𐰇𐰠𐱅𐰃𐰏𐰤: 𐰇𐰠𐱅𐰃[...]: 𐰃𐰾𐰏: 𐰰𐰇𐰲𐰏: 𐰋𐰃𐰼𐱅𐰰: 𐰇𐰲𐰤: 𐱅𐰇𐰼𐰰: 𐰋𐰃𐰠𐰏𐰀: 𐰴𐰍𐰣: 𐰖𐰸𐰃𐰴𐰀: 𐰃𐰤𐰢: 𐰰𐰇𐰠𐱅𐰃𐰏𐰤𐰏: 𐰰𐰇𐰕𐰓𐰇: 𐰆𐰞𐰺𐱃[...]: 𐰃𐰤𐰨𐰆: 𐰯𐰀: 𐰖𐰺𐰍𐰣: 𐱃𐰺𐰴𐰣: 𐰀𐱃𐰍: 𐰋𐰃𐰼𐰓𐰢: 𐰣𐰃: 𐰇𐰏𐱅𐰼𐱅𐰓𐰢:",
+  "lit": "qURDNG[...]inm: Xöltign: ölti[...]: isg: Xüçg: birtX: üçn: türX: bilge: KGN: YqIKA: inm: Xöltigng: XüZdü: OLRT[...]: inCU: PA: YRGN: TRKN: ATG: birdm: NI: ügtrtdm:",
+  "tc": "KORuDuNuG[...]İNiM: KÖLTİGiN: ÖLTİ[...]: İŞiG: KÜÇüG: BİRTÜK: ÜÇüN: TÜRK: BİLGE: KaGaN: aYUKIKA: İNiM: KÖLTİGiNiG: KÖZeDÜ: OLuRT[...]: INaNÇU: aPA: YaRGaN: TaRKaN: ATıG: BİRDiM: aNI: ÖGTüRTDiM:",
+  "tr": "Koruduğundan[...] kardeşim Kül Tigin [...] için öle yite işi gücü verdik [bunun] için Türk Bilge Kağan'ın buyruğu geçer oldu. Kardeşim Kül Tigin'i gözeterek oturt[...] [Ona] Inançu Apa Yargan Tarkan adını verdim. Onu öğdürttüm."
+ }
+]
