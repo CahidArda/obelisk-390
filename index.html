@@ -9,11 +9,12 @@
 <title>Dikilitaş</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Noto+Sans+Egyptian+Hieroglyphs&family=Noto+Serif+JP:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&text=%EA%9C%A3%EA%9C%A5%EA%9C%A2%EA%9C%A4&display=swap" rel="stylesheet">
 <style>
 :root{--paper:#f2ecdf;--ink:#2b2420;--muted:#7a6d61;--hair:rgba(43,36,32,.22);--glyph:#5a2c20;--hl:rgba(238,192,70,.28)}
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{height:100%;overscroll-behavior:none}
-body{background:var(--paper);color:var(--ink);font-family:"EB Garamond","Noto Serif JP",Georgia,serif;-webkit-font-smoothing:antialiased;overflow:hidden;-webkit-tap-highlight-color:transparent}
+body{background:var(--paper);color:var(--ink);font-family:"EB Garamond","Noto Serif","Noto Serif JP",Georgia,serif;-webkit-font-smoothing:antialiased;overflow:hidden;-webkit-tap-highlight-color:transparent}
 button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;-webkit-appearance:none;appearance:none}
 .frame{position:fixed;inset:7px;border:1px solid var(--ink);pointer-events:none;z-index:9}
 .frame::after{content:"";position:absolute;inset:3px;border:.5px solid var(--hair)}
@@ -51,7 +52,11 @@ body.carded .specs{display:none}
 #card .t{font-size:18px;font-weight:500;line-height:1.25;margin-top:2px}
 #card .tr{font-style:italic;color:var(--muted);font-size:14.5px;margin-top:2px}
 #card .tr:empty{display:none}
-#card .more{margin-top:7px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;border-bottom:.5px solid var(--ink);padding:2px 0}
+#card .row{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:7px;margin-right:-26px}
+#card .nav{display:flex;gap:6px;flex:none}
+#card .nav button{width:38px;height:34px;border:1px solid var(--ink);background:var(--paper);font-size:21px;line-height:1;padding-bottom:3px}
+#card .nav button:disabled{opacity:.25}
+#card .more{font-size:11px;letter-spacing:.16em;text-transform:uppercase;border-bottom:.5px solid var(--ink);padding:2px 0}
 #card .x{position:absolute;top:6px;right:6px;width:30px;height:30px;font-size:14px;color:var(--muted)}
 @media (min-width:960px){#card{display:none!important}}
 #tip{position:absolute;pointer-events:none;max-width:min(260px,calc(100% - 20px));background:var(--paper);border:1px solid var(--ink);padding:7px 10px 8px;font-size:15.5px;line-height:1.3;max-width:260px;opacity:0;transition:opacity .15s;box-shadow:3px 3px 0 rgba(43,36,32,.1);z-index:3}
@@ -188,7 +193,7 @@ html[lang=ja] .insen{font-style:normal;font-size:15.5px;line-height:1.8}
     </div>
     <div class="info">
     <div class="cap"><div class="f" id="faceCap"></div><div class="h" id="hint"></div></div>
-      <div id="card"><button class="x" aria-label="Close">✕</button><div class="ref"></div><div class="t"></div><div class="tr"></div><button class="more"></button></div>
+      <div id="card"><button class="x" aria-label="Close">✕</button><div class="ref"></div><div class="t"></div><div class="tr"></div><div class="row"><button class="more"></button><div class="nav"><button class="pv" aria-label="Previous">‹</button><button class="nx" aria-label="Next">›</button></div></div></div>
     <div class="specs" id="specs"></div>
     </div>
   </section>
@@ -661,7 +666,7 @@ function setActive(f, s, side, src){
   restoreActiveClass();
   highlightModel(f, s, side);
   updateCard();
-  if ((src === 'read' || src === 'hover') && isWide()){
+  if (((src === 'read' || src === 'hover') && isWide()) || src === 'step'){
     stopAuto();
     if (side >= 0){ if (region !== 'ped' || frontFace() !== side >> 1){ goTo(side >> 1, 2.6, PED_Y); region = 'ped'; } }
     else if (f >= 0){
@@ -702,9 +707,15 @@ function updateCard(){
     card.querySelector('.tr').textContent = '';
   }
   card.querySelector('.more').textContent = `${U('read')} \u2192`;
+  const i = actIdx(); card.querySelector('.pv').disabled = i <= 0; card.querySelector('.nx').disabled = i >= ORDER.length - 1;
   card.classList.add('show');
 }
 card.querySelector('.x').onclick = () => setActive(-1, -1, -1, 'model');
+const ORDER = [...faces.flatMap((F, f) => F.segs.map((_, s) => ({ f, s, side: -1 }))), ...[0, 1, 2, 3, 4, 5, 6, 7].map(side => ({ f: -1, s: -1, side }))];
+const actIdx = () => ORDER.findIndex(o => o.f === act.f && o.s === act.s && o.side === act.side);
+const stepCard = d => { const o = ORDER[actIdx() + d]; if (o) setActive(o.f, o.s, o.side, 'step'); };
+card.querySelector('.pv').onclick = () => stepCard(-1);
+card.querySelector('.nx').onclick = () => stepCard(1);
 card.querySelector('.more').onclick = () => {
   const el = act.f >= 0 ? document.getElementById(`p${act.f}-${act.s}`) : document.getElementById(`ps${act.side}`);
   setMode('read'); requestAnimationFrame(() => scrollToEl(el, false));
