@@ -20,7 +20,7 @@ window.I18N = {
       legend: "How sure the reading is",
       c_read: "Read", c_probable: "Probable", c_partial: "Partial", c_unread: "Not read",
       c_read_d: "standard formula, read in full", c_probable_d: "read, a few words doubtful", c_partial_d: "key phrases read, gaps remain", c_unread_d: "not legible in the photographs",
-      foot1: "The reading was made from photographs of the document behind glass, not from the original. Formulaic parts — the opening formula, the Qur’anic verse, the closing and the date — are secure; much of the body is partial. <b>[?]</b> marks a doubtful word, <b>…</b> a passage not yet read. Corrections are welcome.",
+      foot1: "The reading was made from photographs of the document behind glass, not from the original. Each passage is labelled with how sure its reading is, and <b>…</b> marks words not yet read. The opening formula, the Qur’anic verse, the closing and the date are secure; much of the middle is partial, and the names in it are tentative. Corrections are welcome.", part: "Part {n}",
       foot2: "Translations follow the reading: where it is partial, so are they. The Ottoman text is shown in modern typeset Naskh, not as written.",
       photo: "Photo", prev: "Previous", next: "Next", close: "Close"
     },
@@ -43,7 +43,7 @@ window.I18N = {
       legend: "Okumanın kesinliği",
       c_read: "Okundu", c_probable: "Büyük ölçüde", c_partial: "Kısmen", c_unread: "Okunamadı",
       c_read_d: "kalıp ifade, tamamen okundu", c_probable_d: "okundu, birkaç kelime şüpheli", c_partial_d: "ana ifadeler okundu, boşluklar var", c_unread_d: "fotoğraflarda okunaklı değil",
-      foot1: "Okuma, belgenin aslından değil, cam arkasındaki belgenin fotoğraflarından yapıldı. Kalıp kısımlar — giriş kalıbı, ayet, kapanış ve tarih — sağlam; metnin gövdesinin çoğu kısmi. <b>[?]</b> şüpheli kelimeyi, <b>…</b> henüz okunamayan kısmı gösterir. Düzeltmeler memnuniyetle karşılanır.",
+      foot1: "Okuma, belgenin aslından değil, cam arkasındaki belgenin fotoğraflarından yapıldı. Her bölümün okumasının ne kadar kesin olduğu etiketle belirtildi; <b>…</b> henüz okunamayan kelimeleri gösterir. Giriş kalıbı, ayet, kapanış ve tarih sağlam; ortadaki kısmın çoğu kısmi, içindeki isimler ihtiyatlıdır. Düzeltmeler memnuniyetle karşılanır.", part: "{n}. bölüm",
       foot2: "Çeviriler okumayı izler: okuma kısmi olduğunda çeviri de kısmidir. Osmanlıca metin yazıldığı gibi değil, günümüz nesih harfleriyle dizilmiştir.",
       photo: "Fotoğraf", prev: "Önceki", next: "Sonraki", close: "Kapat"
     },
@@ -66,7 +66,7 @@ window.I18N = {
       legend: "Degré de certitude de la lecture",
       c_read: "Lu", c_probable: "Probable", c_partial: "Partiel", c_unread: "Non lu",
       c_read_d: "formule consacrée, lue en entier", c_probable_d: "lu, quelques mots douteux", c_partial_d: "phrases clés lues, lacunes", c_unread_d: "illisible sur les photographies",
-      foot1: "La lecture a été faite d’après des photographies du document derrière une vitre, non d’après l’original. Les parties formulaires — formule d’ouverture, verset coranique, clôture et date — sont sûres ; une bonne part du corps du texte est partielle. <b>[?]</b> signale un mot douteux, <b>…</b> un passage non encore lu. Les corrections sont bienvenues.",
+      foot1: "La lecture a été faite d’après des photographies du document derrière une vitre, non d’après l’original. Chaque passage porte une étiquette indiquant le degré de certitude, et <b>…</b> signale les mots non encore lus. La formule d’ouverture, le verset coranique, la clôture et la date sont sûrs ; une bonne part du milieu est partielle, et les noms y sont provisoires. Les corrections sont bienvenues.", part: "Partie {n}",
       foot2: "Les traductions suivent la lecture : là où elle est partielle, elles le sont aussi. Le texte ottoman est composé en naskhi moderne, non tel qu’il est écrit.",
       photo: "Photo", prev: "Précédent", next: "Suivant", close: "Fermer"
     },
@@ -89,7 +89,7 @@ window.I18N = {
       legend: "読みの確かさ",
       c_read: "判読", c_probable: "ほぼ判読", c_partial: "部分判読", c_unread: "未読",
       c_read_d: "定型句、全文判読", c_probable_d: "判読、数語に疑問", c_partial_d: "要所は判読、欠落あり", c_unread_d: "写真では判読できない",
-      foot1: "この読みは原本ではなく、ガラス越しに撮影した写真から行ったものである。定型部分――冒頭の定型句、クルアーンの章句、結び、日付――は確実だが、本文の多くは部分的な読みにとどまる。<b>[?]</b> は疑わしい語、<b>…</b> は未読の箇所を示す。訂正を歓迎する。",
+      foot1: "この読みは原本ではなく、ガラス越しに撮影した写真から行ったものである。各箇所には読みの確かさを示すラベルを付け、<b>…</b> は未読の語を示す。冒頭の定型句、クルアーンの章句、結び、日付は確実だが、中ほどの多くは部分的で、人名は仮のものである。訂正を歓迎する。", part: "第{n}部",
       foot2: "訳文は読みに従う。読みが部分的なところでは訳も部分的である。オスマン語本文は原文の筆跡ではなく、現代のナスフ体活字で示している。",
       photo: "写真", prev: "前へ", next: "次へ", close: "閉じる"
     }
