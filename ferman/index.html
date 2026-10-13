@@ -29,10 +29,11 @@ html[lang=ja] .plate h1{letter-spacing:.08em}
 #osd{position:absolute;inset:0}
 #osd .openseadragon-canvas{outline:none}
 #ov{pointer-events:none;overflow:visible}
-#ov g path{fill:transparent;stroke:transparent;transition:fill .2s,stroke .2s}
-#ov g.hov path{fill:rgba(238,192,70,.2)}
-#ov g.on path{fill:rgba(238,192,70,.3);stroke:rgba(90,44,32,.55);stroke-width:1.2px;vector-effect:non-scaling-stroke}
-#ov g.soft path{fill:rgba(238,192,70,.16)}
+#ov g path{fill:transparent;stroke:transparent;transition:fill .18s,stroke .18s}
+#ov g.soft path{fill:rgba(238,192,70,.13)}
+#ov g.hov path{fill:rgba(238,192,70,.2);stroke:rgba(90,44,32,.28);stroke-width:1px;vector-effect:non-scaling-stroke}
+#ov g.on path{fill:rgba(238,192,70,.27);stroke:rgba(90,44,32,.55);stroke-width:1.2px;vector-effect:non-scaling-stroke}
+#ov g path.cur{fill:rgba(238,192,70,.42)}
 .zb{position:absolute;top:6px;right:4px;display:flex;flex-direction:column;gap:6px;z-index:2}
 .zb button{width:34px;height:34px;border:1px solid var(--ink);background:var(--paper);font-size:17px;line-height:1;display:grid;place-items:center}
 .cap{text-align:center;pointer-events:none;padding-top:8px}
@@ -198,10 +199,12 @@ viewer.addHandler('open',()=>{viewer.addOverlay({element:svg,location:new OpenSe
 ['canvas-drag','canvas-scroll','canvas-pinch','canvas-double-click'].forEach(ev=>viewer.addHandler(ev,()=>{lastUser=Date.now()}));
 const hitOrder=['l1','l2','l3','l4','l5','l6','l7','nisan','place','tugra','davet'];
 function pip(x,y,p){let c=false;for(let i=0,j=p.length-1;i<p.length;j=i++){const a=p[i],b=p[j];if(((a[1]>y)!==(b[1]>y))&&(x<(b[0]-a[0])*(y-a[1])/(b[1]-a[1])+a[0]))c=!c}return c}
-function hit(x,y){for(const id of hitOrder){const r=D.regions[id];if(!r)continue;const b=r.bbox;if(x<b[0]||x>b[2]||y<b[1]||y>b[3])continue;for(const p of r.polys)if(pip(x,y,p))return id}return null}
+let hitCi=-1;
+function hit(x,y){hitCi=-1;for(const id of hitOrder){const r=D.regions[id];if(!r)continue;const b=r.bbox;if(x<b[0]||x>b[2]||y<b[1]||y>b[3])continue;for(let i=0;i<r.polys.length;i++)if(pip(x,y,r.polys[i])){hitCi=i;return id}}return null}
 function imgAt(pos){return viewer.viewport.viewerElementToImageCoordinates(pos)}
 let hov=null;
-function setHover(id,pos){if(hov&&G[hov])G[hov].classList.remove('hov');hov=id;const tip=$('#tip');
+function setHover(id,pos){if(hov&&G[hov]){G[hov].classList.remove('hov');G[hov].querySelectorAll('.cur').forEach(p=>p.classList.remove('cur'))}hov=id;const tip=$('#tip');
+  if(id&&hitCi>=0&&G[id].children[hitCi])G[id].children[hitCi].classList.add('cur');
   if(id){G[id].classList.add('hov');const e=byId[id];tip.innerHTML='<small>'+esc(L(e.ref))+'</small>'+esc(L(e.title));
     const st=$('#stage').getBoundingClientRect();let x=pos.x+16,y=pos.y+16;tip.classList.add('show');const tw=tip.offsetWidth,th=tip.offsetHeight;
     if(x+tw>st.width-6)x=pos.x-tw-12;if(y+th>st.height-6)y=pos.y-th-12;tip.style.left=Math.max(4,x)+'px';tip.style.top=Math.max(4,y)+'px';
