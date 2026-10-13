@@ -123,6 +123,8 @@ html[lang=ja] .en{font-size:16px;line-height:1.75}
 html[lang=ja] .note{font-size:14.5px;line-height:1.75}
 .see{display:inline-flex;align-items:center;gap:6px;margin-top:10px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);padding:3px 0}
 .see:hover{color:var(--ink)}
+.acts{display:flex;gap:22px}
+a.see{text-decoration:none}
 .foot{margin-top:26px;padding-top:14px;padding-bottom:calc(env(safe-area-inset-bottom) + 110px);border-top:.5px solid var(--ink);font-size:14px;line-height:1.55;color:var(--muted)}
 .foot p+p{margin-top:8px}
 #loader{position:fixed;inset:0;display:grid;place-items:center;font-style:italic;color:var(--muted);z-index:8;background:var(--paper);transition:opacity .4s}
@@ -246,7 +248,7 @@ function renderRead(){const sp=[['kIssued','vIssued'],['kDate','vDate'],['kPlace
   h+='<div class="legend"><b>'+esc(t('legend'))+'</b>'+['read','probable','partial','unread'].map(c=>'<span class="conf c-'+c+'">'+esc(t('c_'+c))+'</span>'+esc(t('c_'+c+'_d'))).join('<br>')+'</div>';
   for(const e of E){h+='<article class="p txt" id="p-'+e.id+'" data-id="'+e.id+'" data-ink="'+e.ink+'"><div class="ref"><span class="dot '+e.ink.replace(' & ',' ')+'"></span>'+esc(L(e.ref))+' <span class="conf c-'+e.conf+'">'+esc(t('c_'+e.conf))+'</span></div>';
     h+='<h3>'+esc(L(e.title))+'</h3>';if(e.ota)h+='<div class="ota" lang="ota">'+esc(e.ota)+'</div>';if(e.tl)h+='<div class="tl">'+esc(e.tl)+'</div>';
-    h+='<p class="en">'+esc(L(e.text))+'</p><p class="note">'+esc(L(e.note))+'</p><button class="see" data-see="'+e.id+'">'+eye+esc(t('see'))+'</button></article>'}
+    h+='<p class="en">'+esc(L(e.text))+'</p><p class="note">'+esc(L(e.note))+'</p><div class="acts"><button class="see" data-see="'+e.id+'">'+eye+esc(t('see'))+'</button>'+(e.photo?'<a class="see" href="'+esc(e.photo)+'" target="_blank" rel="noopener">'+esc(t('photo'))+'</a>':'')+'</div></article>'}
   h+='<div class="foot"><p>'+t('foot1')+'</p><p>'+t('foot2')+'</p></div></div>';
   $('#rs').innerHTML=h;mark();observe()}
 $('#rs').addEventListener('click',e=>{const b=e.target.closest('[data-see]');if(!b)return;const id=b.dataset.see;
