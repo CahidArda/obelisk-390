@@ -143,8 +143,6 @@ a.see{text-decoration:none}
 }
 /* boxes, rows, parts */
 #ov g path{fill:transparent;stroke:transparent;transition:fill .18s,stroke .18s}
-#ov g.sf path{fill:rgba(238,192,70,.08)}
-#ov g.ln path{fill:rgba(238,192,70,.12);stroke:rgba(90,44,32,.22);stroke-width:1px;vector-effect:non-scaling-stroke}
 #ov g path.sft{fill:rgba(238,192,70,.26)}
 #ov g path.cur{fill:rgba(238,192,70,.34);stroke:rgba(90,44,32,.45);stroke-width:1px;vector-effect:non-scaling-stroke}
 #ov g path.on{fill:rgba(238,192,70,.42);stroke:rgba(90,44,32,.75);stroke-width:1.5px;vector-effect:non-scaling-stroke}
@@ -259,8 +257,6 @@ $('#home').onclick=()=>{viewer.viewport.fitBounds(new OpenSeadragon.Rect(0,0,1,H
 const same=(a,b)=>a&&b&&a[0]===b[0]&&a[1]===b[1];
 function paint(){
   for(const id in G){const g=G[id];const lineOf=u=>u&&u[0]===id;
-    g.classList.toggle('ln',lineOf(sel)||lineOf(hovU));
-    g.classList.toggle('sf',!lineOf(sel)&&lineOf(soft));
     [...g.children].forEach((p,i)=>{const u=[id,i];p.classList.toggle('on',same(u,sel));p.classList.toggle('cur',same(u,hovU));p.classList.toggle('sft',same(u,soft)&&!same(u,sel))})}
   $$('.r').forEach(r=>{const u=[r.dataset.id,+r.dataset.c];r.classList.toggle('on',same(u,sel));r.classList.toggle('hv',same(u,hovU));r.classList.toggle('sf',same(u,soft)&&!same(u,sel))});
 }
