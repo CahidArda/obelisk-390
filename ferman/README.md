@@ -29,12 +29,13 @@ OpenSeadragon, EB Garamond, Amiri and Noto Serif JP load from CDNs. The image ti
 
 ## How the replica was made
 
-23 phone photographs, taken through the display glass, run through `scripts/` in an Upstash Box:
+23 phone photographs (plus 2 close-ups of the gold invocation), taken through the display glass, run through `scripts/` in an Upstash Box:
 
 1. `s1_register.py` flattens the one straight-on photograph of the whole document into a rectangle (from its four corners) and registers every other photograph to it with SIFT + MAGSAC homographies.
 2. `s2_blend.py` warps each photograph onto an 8000 × 17131 canvas, corrects the remaining misalignment from the wrinkled paper with dense optical flow against the growing mosaic, matches lighting, down-weights glare, and blends by resolution, so the closest shots win.
 3. `s3_flatten.py` evens out the lamp light and the frame’s shadow.
-4. `regions.py` traces each line’s outline from the ink for the hover highlights; `dzi.py` cuts the Deep Zoom tile pyramid. `strip.py` unrolls a curved line into a straight strip, which is how the lines were read.
+4. `gold_reg.py` + `gold_blend.py` stitch in two raking-light close-ups of the gold invocation at the top. The light flips the gold from bright to dark, so they are placed from hand-picked landmarks (`grids.py` draws matching grids) and refined by block matching on gold-presence maps, then flat-fielded and feathered in.
+5. `regions.py` traces each line’s outline from the ink for the hover highlights; `dzi.py` cuts the Deep Zoom tile pyramid. `chunks.py` splits each line into word-group boxes. `strip.py` unrolls a curved line into a straight strip, and `boxcrops.py` renders every box straightened, which is how the lines were read: each box in `data.js` carries its own Ottoman text and transliteration (`entries[].chunks`, in the same order as `regions[id].polys`), and the app links boxes and phrases both ways.
 
 The photographs are not in the repository. Requirements: Python 3 with `opencv-contrib-python-headless`, `numpy`, `scipy`, `pillow`.
 

@@ -56,8 +56,12 @@ body.carded .cap{display:none}
   #card{position:absolute;left:16px;right:16px;bottom:8px;margin:0;max-height:min(60vh,calc(100dvh - 120px));overflow-y:auto;box-shadow:0 -4px 0 var(--paper),3px 3px 0 rgba(43,36,32,.1)}
 }
 @media (min-width:960px){#card{display:none!important}}
-#tip{position:absolute;pointer-events:none;max-width:280px;background:var(--paper);border:1px solid var(--ink);padding:7px 10px 8px;font-size:15.5px;line-height:1.3;opacity:0;transition:opacity .15s;box-shadow:3px 3px 0 rgba(43,36,32,.1);z-index:3}
+#tip{position:absolute;pointer-events:none;max-width:340px;background:var(--paper);border:1px solid var(--ink);padding:7px 10px 8px;font-size:15.5px;line-height:1.3;opacity:0;transition:opacity .15s;box-shadow:3px 3px 0 rgba(43,36,32,.1);z-index:3}
 #tip.show{opacity:1}
+#tip .tota{font-family:Amiri,serif;direction:rtl;text-align:right;font-size:19px;line-height:1.7;margin-top:2px}
+#tip .ttl{font-style:italic;color:var(--muted);font-size:14px;line-height:1.35;margin-top:1px}
+.ck{border-radius:3px;transition:background .15s;cursor:pointer;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.ck.on,.ck:hover{background:rgba(238,192,70,.45)}
 #tip small{display:block;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
 .dot{width:7px;height:7px;border-radius:50%;display:inline-block;flex:none}
 .dot.black{background:var(--ink)}.dot.red{background:var(--red)}.dot.gold{background:var(--gold)}.dot.gold.red{background:linear-gradient(90deg,var(--gold) 50%,var(--red) 50%)}
@@ -205,9 +209,14 @@ let hitCi=-1;
 function hit(x,y){hitCi=-1;for(const id of hitOrder){const r=D.regions[id];if(!r)continue;const b=r.bbox;if(x<b[0]||x>b[2]||y<b[1]||y>b[3])continue;for(let i=0;i<r.polys.length;i++)if(pip(x,y,r.polys[i])){hitCi=i;return id}}return null}
 function imgAt(pos){return viewer.viewport.viewerElementToImageCoordinates(pos)}
 let hov=null;
+function spanOn(id,ci){document.querySelectorAll('.ck.on').forEach(x=>x.classList.remove('on'));if(id&&ci>=0)document.querySelectorAll('.ck[data-id="'+id+'"][data-c="'+ci+'"]').forEach(x=>x.classList.add('on'))}
+function boxOn(id,ci){for(const k in G){G[k].classList.remove('hov');G[k].querySelectorAll('.cur').forEach(p=>p.classList.remove('cur'))}if(id&&G[id]){G[id].classList.add('hov');if(G[id].children[ci])G[id].children[ci].classList.add('cur')}}
+function focusBox(id,ci){const p=D.regions[id]&&D.regions[id].polys[ci];if(!p)return;let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9;for(const q of p){x0=Math.min(x0,q[0]);y0=Math.min(y0,q[1]);x1=Math.max(x1,q[0]);y1=Math.max(y1,q[1])}const pad=Math.max(x1-x0,y1-y0)*.25+80;viewer.viewport.fitBounds(viewer.viewport.imageToViewportRectangle(x0-pad,y0-pad,x1-x0+2*pad,y1-y0+2*pad))}
 function setHover(id,pos){if(hov&&G[hov]){G[hov].classList.remove('hov');G[hov].querySelectorAll('.cur').forEach(p=>p.classList.remove('cur'))}hov=id;const tip=$('#tip');
+  spanOn(id,hitCi);
   if(id&&hitCi>=0&&G[id].children[hitCi])G[id].children[hitCi].classList.add('cur');
-  if(id){G[id].classList.add('hov');const e=byId[id];tip.innerHTML='<small>'+esc(L(e.ref))+'</small>'+esc(L(e.title));
+  if(id){G[id].classList.add('hov');const e=byId[id];const ck=e.chunks&&e.chunks[hitCi];const nck=e.chunks?e.chunks.length:0;
+    tip.innerHTML='<small>'+esc(L(e.ref))+(nck>1?' · '+(hitCi+1)+'/'+nck:'')+'</small>'+esc(L(e.title))+(ck&&ck.ota&&ck.ota!=='…'?'<div class="tota">'+esc(ck.ota)+'</div><div class="ttl">'+esc(ck.tl)+'</div>':'');
     const st=$('#stage').getBoundingClientRect();let x=pos.x+16,y=pos.y+16;tip.classList.add('show');const tw=tip.offsetWidth,th=tip.offsetHeight;
     if(x+tw>st.width-6)x=pos.x-tw-12;if(y+th>st.height-6)y=pos.y-th-12;tip.style.left=Math.max(4,x)+'px';tip.style.top=Math.max(4,y)+'px';
     viewer.canvas.style.cursor='pointer'}
@@ -247,11 +256,14 @@ function renderRead(){const sp=[['kIssued','vIssued'],['kDate','vDate'],['kPlace
   h+='<p class="intro">'+t('intro')+'</p><div class="specs">'+sp.map(([k,v])=>'<div><span class="k">'+esc(t(k))+'</span><span class="v">'+esc(t(v))+'</span></div>').join('')+'</div>';
   h+='<div class="legend"><b>'+esc(t('legend'))+'</b>'+['read','probable','partial','unread'].map(c=>'<span class="conf c-'+c+'">'+esc(t('c_'+c))+'</span>'+esc(t('c_'+c+'_d'))).join('<br>')+'</div>';
   for(const e of E){h+='<article class="p txt" id="p-'+e.id+'" data-id="'+e.id+'" data-ink="'+e.ink+'"><div class="ref"><span class="dot '+e.ink.replace(' & ',' ')+'"></span>'+esc(L(e.ref))+' <span class="conf c-'+e.conf+'">'+esc(t('c_'+e.conf))+'</span></div>';
-    h+='<h3>'+esc(L(e.title))+'</h3>';if(e.ota)h+='<div class="ota" lang="ota">'+esc(e.ota)+'</div>';if(e.tl)h+='<div class="tl">'+esc(e.tl)+'</div>';
+    h+='<h3>'+esc(L(e.title))+'</h3>';const sp=(f)=>e.chunks&&e.chunks.length>1?e.chunks.map((c,i)=>'<span class="ck" data-id="'+e.id+'" data-c="'+i+'">'+esc(c[f])+'</span>').join(' '):esc(e[f]);
+    if(e.ota)h+='<div class="ota" lang="ota">'+sp('ota')+'</div>';if(e.tl)h+='<div class="tl">'+sp('tl')+'</div>';
     h+='<p class="en">'+esc(L(e.text))+'</p><p class="note">'+esc(L(e.note))+'</p><div class="acts"><button class="see" data-see="'+e.id+'">'+eye+esc(t('see'))+'</button>'+(e.photo?'<a class="see" href="'+esc(e.photo)+'" target="_blank" rel="noopener">'+esc(t('photo'))+'</a>':'')+'</div></article>'}
   h+='<div class="foot"><p>'+t('foot1')+'</p><p>'+t('foot2')+'</p></div></div>';
   $('#rs').innerHTML=h;mark();observe()}
-$('#rs').addEventListener('click',e=>{const b=e.target.closest('[data-see]');if(!b)return;const id=b.dataset.see;
+$('#rs').addEventListener('mouseover',e=>{const c=e.target.closest('.ck');if(!c)return;const id=c.dataset.id,ci=+c.dataset.c;spanOn(id,ci);boxOn(id,ci)});
+$('#rs').addEventListener('mouseout',e=>{const c=e.target.closest('.ck');if(!c)return;if(e.relatedTarget&&e.relatedTarget.closest&&e.relatedTarget.closest('.ck')===c)return;spanOn(null);boxOn(null)});
+$('#rs').addEventListener('click',e=>{const c=e.target.closest('.ck');if(c){const id=c.dataset.id,ci=+c.dataset.c;lastUser=0;if(!wide()){setView('doc');setTimeout(()=>{select(id,{from:'read'});focusBox(id,ci);boxOn(id,ci)},60)}else{sel=id;mark();focusBox(id,ci);boxOn(id,ci)}return}const b=e.target.closest('[data-see]');if(!b)return;const id=b.dataset.see;
   if(!wide()){setView('doc');setTimeout(()=>select(id,{focus:true,from:'read'}),60);showCard(id)}else{lastUser=0;select(id,{focus:true,from:'read'})}});
 let io=null,suppress=0,followT=0;
 function observe(){if(io)io.disconnect();io=new IntersectionObserver(es=>{if(!wide()||Date.now()-suppress<900)return;
