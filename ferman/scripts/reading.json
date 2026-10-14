@@ -53,10 +53,10 @@
 "ja": "経緯"
 },
 "intro": {
-"en": "The business of the document. The sweeping service is divided into shares paid by the treasury and the endowments; one share has fallen vacant, and the officials in charge report it in writing and ask that it be granted. This is the least certain part of the reading, and the names in it are tentative. The service was divided into 99 shares, one for each of God’s names, and shares were reckoned in kırat (carats).",
-"tr": "Belgenin asıl konusu. Ferâşet hizmeti hazine ve vakıflardan ödenen hisselere bölünmüştür; bir hisse münhal olmuş, sorumlu görevliler durumu takrirle bildirip tevcihini istemiştir. Okumanın en belirsiz kısmı budur; içindeki isimler ihtiyatlıdır. Hizmet, Allah’ın isimlerine karşılık 99 hisseye bölünmüştü; hisseler kıratla hesaplanırdı.",
-"fr": "L’objet du document. Le service du balayage est divisé en parts payées par le trésor et les fondations ; une part est devenue vacante, et les responsables l’exposent par écrit et demandent qu’elle soit attribuée. C’est la partie la moins sûre de la lecture, et les noms y sont provisoires. Le service était divisé en 99 parts, une pour chacun des noms de Dieu, et les parts se comptaient en kırat (carats).",
-"ja": "文書の本題。掃除の奉仕は国庫とワクフから支払われる持ち分に分けられている。その一つが空位となり、担当の役人が書面で報告して授与を願い出る。読みのうち最も不確かな部分で、人名は仮のものである。 奉仕は神の名にちなんで99の持ち分に分けられ、持ち分はキラート(クルラト)で数えられた。"
+"en": "The business of the document. The sweeping service is divided into shares paid by the treasury and the endowments. One kırat of it goes to Şefîk Bey, superintendent of the sultan’s Privy Treasury, who asked for it; the superintendent of the imperial endowments, ‘Alî Rızâ, reports the request in writing. This is the least certain part of the reading, and both names are probable readings, not certain ones. The service was divided into 99 shares, one for each of God’s names, and shares were reckoned in kırat (carats).",
+"tr": "Belgenin asıl konusu. Ferâşet hizmeti hazine ve vakıflardan ödenen hisselere bölünmüştür. Bunun bir kıratı, onu isteyen padişahın Hazîne-i Hâssa nâzırı Şefîk Bey’e verilir; Evkâf-ı Hümâyûn nâzırı ‘Alî Rızâ talebi takrirle bildirir. Okumanın en belirsiz kısmı budur; iki isim de kesin değil, muhtemel okumalardır. Hizmet, Allah’ın isimlerine karşılık 99 hisseye bölünmüştü; hisseler kıratla hesaplanırdı.",
+"fr": "L’objet du document. Le service du balayage est divisé en parts payées par le trésor et les fondations. Un kırat en revient à Şefîk Bey, surintendant du Trésor privé du sultan, qui l’a demandé ; le surintendant des fondations impériales, ‘Alî Rızâ, expose la demande par écrit. C’est la partie la moins sûre de la lecture, et les deux noms sont des lectures probables, non certaines. Le service était divisé en 99 parts, une pour chacun des noms de Dieu, et les parts se comptaient en kırat (carats).",
+"ja": "文書の本題。掃除の奉仕は国庫とワクフから支払われる持ち分に分けられている。そのうち1キラートが、それを願い出たスルタンの内帑監督官シェフィーク・ベイに与えられ、帝室ワクフ監督官アリー・ルザーがその願いを書面で報告する。読みのうち最も不確かな部分で、二つの人名はいずれも確実ではなく蓋然的な読みである。奉仕は神の名にちなんで99の持ち分に分けられ、持ち分はキラート(クルラト)で数えられた。"
 }
 },
 {
@@ -83,8 +83,8 @@
 "chunks": {
 "davet": [
 {
-"conf": "probable",
-"ota": "ذکر الله تعالی اعلی و بالتّقدیم احقّ و الیق و اولی",
+"conf": "partial",
+"ota": "ذکر الله تعالی اعلی و بالتقدیم احق و الیق و اولی",
 "tl": "Zekera’llâhu te‘âlâ a‘lâ ve bi’t-takdîmi ehakka ve elyaka ve evlâ",
 "text": {
 "en": "To remember God the Exalted is highest; and to put Him first is most right, most fitting and most proper.",
@@ -109,44 +109,55 @@
 ],
 "nisan": [
 {
-"conf": "read",
-"ota": "نشان شریف عالیشان سامی مکان و طغرای غرّای جهانستان خاقانی",
-"tl": "Nişân-ı şerîf-i ‘âlî-şân-ı sâmî-mekân ve tuğrâ-yı garrâ-yı cihân-sitân-ı hâkânî",
+"conf": "partial",
+"ota": "نشان شریف عالیشان سامی مکان سلطانی و طغرای غرای جهانستان خاقانی",
+"tl": "Nişân-ı şerîf-i ‘âlî-şân-ı sâmî-mekân-ı sultânî ve tuğrâ-yı garrâ-yı cihân-sitân-ı hâkânî",
 "text": {
-"en": "The noble, glorious, high-placed sign and the radiant, world-conquering imperial tuğra —",
-"tr": "Yüce, şanlı, yüksek makamlı nişan ve dünyayı fetheden parlak hakanî tuğra —",
-"fr": "Le noble signe, glorieux et élevé, et la radieuse tuğra impériale, conquérante du monde —",
-"ja": "高貴にして栄光ある崇高なる印、世界を征する輝かしき皇帝のトゥグラ――"
+"en": "The noble, glorious, high-placed sultanic sign and the radiant, world-conquering imperial tuğra —",
+"tr": "Yüce, şanlı, yüksek makamlı sultanî nişan ve dünyayı fetheden parlak hakanî tuğra —",
+"fr": "Le noble signe sultanien, glorieux et élevé, et la radieuse tuğra impériale, conquérante du monde —",
+"ja": "高貴にして栄光ある崇高なるスルタンの印、世界を征する輝かしき皇帝のトゥグラ――"
 }
 },
 {
-"conf": "read",
-"ota": "نفذ بالعون الربّانی والعنایة الصمدانیه حکمی اولدر که",
-"tl": "nefeze bi’l-‘avni’r-Rabbânî ve’l-‘inâyeti’s-Samedâniyye hükmü oldur ki",
+"conf": "partial",
+"ota": "نفذ بالعون الربانی والمنّ الصمدانی حکمی اولدر که",
+"tl": "nefeze bi’l-‘avni’r-Rabbânî ve’l-mennü’s-Samedânî hükmü oldur ki",
 "text": {
-"en": "may it be carried out with the help of the Lord and the grace of the Eternal — its command is this:",
-"tr": "Rabbin yardımı ve Samed’in inayetiyle yürürlükte olsun — hükmü şudur ki:",
-"fr": "qu’il s’accomplisse avec l’aide du Seigneur et la grâce de l’Éternel — son commandement est celui-ci :",
-"ja": "主の助けと永遠なる者の恩寵により執行されんことを――その命ずるところは次のとおり。"
+"en": "has been carried out with the help of the Lord and the favour of the Eternal — its command is this:",
+"tr": "Rabbin yardımı ve Samed’in lütfuyla yürürlüğe girmiştir — hükmü şudur ki:",
+"fr": "s’est accompli avec l’aide du Seigneur et la faveur de l’Éternel — son commandement est celui-ci :",
+"ja": "主の助けと永遠なる者の恩恵により執行された――その命ずるところは次のとおり。"
 }
 }
 ],
 "l1": [
 {
-"conf": "partial",
-"ota": "چونکه حضرت واهب العطایا والجود فرمانفرمای نظم مبین",
-"tl": "Çünki Hazret-i Vâhibü’l-atâyâ ve’l-cûd, fermân-fermâ-yı nazm-ı mübîn-i",
+"conf": "probable",
+"ota": "چونکه حضرت واهب العطایا و الجود",
+"tl": "Çünki Hazret-i Vâhibü’l-atâyâ ve’l-cûd",
 "text": {
-"en": "Since the Bestower of gifts and bounty, who decreed the clear verse",
-"tr": "Çünkü ihsan ve cömertlik sahibi, şu apaçık ayeti buyuran Allah",
-"fr": "Puisque le Dispensateur des dons et des largesses, qui a prononcé le verset clair",
-"ja": "恵みと寛大さを授ける御方、明らかな章句を下された御方が"
+"en": "Since the Bestower of gifts and bounty",
+"tr": "Çünkü ihsan ve cömertlik sahibi [Allah]",
+"fr": "Puisque le Dispensateur des dons et des largesses",
+"ja": "恵みと寛大さを授ける御方が"
 }
 },
 {
 "conf": "read",
-"ota": "«وطهّر بیتی للطّائفین والقائمین والرّکّع",
-"tl": "«ve tahhir beytiye li’t-tâifîne ve’l-kâimîne ve’r-rukka‘i",
+"ota": "فرمانفرمای نظم مبین",
+"tl": "fermân-fermâ-yı nazm-ı mübîn-i",
+"text": {
+"en": "who decreed the clear verse",
+"tr": "şu apaçık ayeti buyuran",
+"fr": "qui a prononcé le verset clair",
+"ja": "明らかな章句を下された御方"
+}
+},
+{
+"conf": "read",
+"ota": "وطهّر بیتی للطّائفین والقائمین والرّکّع",
+"tl": "«ve tahhir beytiye li’t-tâifîne ve’l-kâimîne ve’r-rukke‘i",
 "text": {
 "en": "“and purify My House for those who circle it, who stand, and who bow",
 "tr": "«Evimi tavaf edenler, ayakta duranlar, rükû edenler",
@@ -155,9 +166,9 @@
 }
 },
 {
-"conf": "read",
-"ota": "السّجود» محض امر الٰهی و لطف نامتناهی",
-"tl": "’s-sücûd», mahz-ı emr-i ilâhî ve lutf-ı nâ-mütenâhî",
+"conf": "probable",
+"ota": "السّجود محض امر الهی و لطف نامتناهی",
+"tl": "’s-sücûd» mahz-ı emr-i ilâhî ve lutf-ı nâ-mütenâhî",
 "text": {
 "en": "and prostrate” — by pure divine command and boundless grace",
 "tr": "ve secde edenler için temizle» — salt ilahî emir ve sonsuz lütuf",
@@ -166,411 +177,576 @@
 }
 },
 {
-"conf": "probable",
-"ota": "سببیله منشور خلافتمزی منشور سلطنتمزی عنوان فخیمه",
-"tl": "sebebiyle menşûr-ı hilâfetimizi, menşûr-ı saltanatımızı ‘unvân-ı fahîme",
+"conf": "partial",
+"ota": "سببیله منشور خلافتی منشور سلطنتی",
+"tl": "sebebiyle menşûr-ı hilâfeti menşûr saltanatı",
 "text": {
-"en": "has [adorned] the charter of our caliphate and the charter of our sultanate with the noble title",
-"tr": "sebebiyle hilafetimizin ve saltanatımızın beratını şu yüce unvanla",
-"fr": "a [orné] la charte de notre califat et la charte de notre sultanat du noble titre",
-"ja": "によって、我らのカリフ位の勅書とスルタン位の勅書を、高貴な称号"
+"en": "on account of which the decree of [my] caliphate, the decree of [my] sultanate",
+"tr": "sebebiyle hilafetimin menşuru, saltanatımın menşuru",
+"fr": "grâce auxquels le diplôme de [mon] califat, le diplôme de [mon] sultanat",
+"ja": "それによって、わがカリフ位の勅書、わがスルタン位の勅書は"
+}
+},
+{
+"conf": "unread",
+"ota": "عنوان فخیمه …",
+"tl": "‘unvân-ı fahîme …",
+"text": {
+"en": "[bears] the august title …",
+"tr": "yüce … unvanını [taşır]",
+"fr": "[porte] le titre auguste …",
+"ja": "崇高な称号……を[掲げ]"
+}
+},
+{
+"conf": "probable",
+"ota": "خادم الحرمین الشریفین",
+"tl": "«Hâdimü’l-Haremeyni’ş-Şerîfeyn»",
+"text": {
+"en": "“Servant of the Two Noble Sanctuaries”",
+"tr": "«Haremeyn-i Şerifeyn’in Hizmetkârı»",
+"fr": "« Serviteur des Deux Nobles Sanctuaires »",
+"ja": "「二聖都の奉仕者」"
 }
 },
 {
 "conf": "partial",
-"ota": "«خادم الحرمین الشّریفین» لقبیله ابدی تتویج و تزیین و بیت معظّمه …",
-"tl": "«Hâdimü’l-Haremeyni’ş-Şerîfeyn» lakabıyla ebedî tetvîc ve tezyîn ve Beyt-i Mu‘azzama …",
+"ota": "البدیع و رتبه و کعبه معظمه",
+"tl": "el-bedî‘ ve rütbe ve Ka‘be-i Mu‘azzama",
 "text": {
-"en": "“Servant of the Two Noble Sanctuaries”, crowning and adorning it forever; and the Great House …",
-"tr": "«Haremeyn-i Şerifeyn’in Hizmetkârı» lakabıyla ebediyen taçlandırıp süsleyerek; ve Kâbe-i Muazzama …",
-"fr": "« Serviteur des Deux Saints Sanctuaires », le couronnant et l’ornant à jamais ; et la Grande Maison …",
-"ja": "「二聖都の守護者」で永遠に冠し飾り、また大いなる館(カアバ)を……"
+"en": "the wondrous [honour] and rank; and the [service of the] exalted Kaaba",
+"tr": "eşsiz [şeref] ve rütbe; ve [hizmeti] yüce Kâbe’nin",
+"fr": "l’[honneur] merveilleux et le rang ; et [le service de] la Kaaba vénérée",
+"ja": "比類なき[栄誉]と位階、そして尊きカアバ[への奉仕]"
 }
 }
 ],
 "l2": [
 {
-"conf": "probable",
-"ota": "تربهٔ مطهّرهٔ حبیب اکرمک کماینبغی خدمتنه و العبادة",
-"tl": "türbe-i mutahhara-i Habîb-i Ekrem’in kemâ-yenbagî hıdmetine ve’l-‘ibâde",
+"conf": "partial",
+"ota": "تربهٔ مطهّرهٔ حبیب اکرمک کماینبغی خدمتنه والعبادة",
+"tl": "türbe-i mutahhara-i Habîb-i Ekrem’in kemâ-yenbagî hıdmetine ve'l-'ibâde",
 "text": {
-"en": "and the purified tomb of the Most Noble Beloved, to serve it as is fitting, and the worship",
-"tr": "ve Habîb-i Ekrem’in tertemiz türbesine layıkıyla hizmet ve ibadet",
-"fr": "et le tombeau purifié du Bien-Aimé très noble, pour le servir comme il convient, et le culte",
-"ja": "そして最も高貴なる愛されし者の清らかな廟にふさわしく仕えること、そして礼拝"
+"en": "the purified tomb of the Most Noble Beloved, to serve it as is fitting, and the worship",
+"tr": "Habîb-i Ekrem’in tertemiz türbesine layıkıyla hizmet ve ibadet",
+"fr": "le tombeau purifié du Bien-Aimé très noble, pour le servir comme il convient, et le culte",
+"ja": "最も高貴なる愛されし者の清らかな廟にふさわしく仕えること、そして礼拝"
 }
 },
 {
 "conf": "partial",
-"ota": "اللّازمه … و حرمین الجلیله …",
-"tl": "el-lâzıme … ve Haremeyn el-celîle …",
+"ota": "اللازمه و حرمین الجلیله تعالی",
+"tl": "el-lâzıme ve Haremeyn el-celîle te‘âlâ",
 "text": {
-"en": "that is due … and the glorious Two Sanctuaries …",
-"tr": "gereken … ve yüce Haremeyn …",
-"fr": "qui est dû … et les glorieux Deux Sanctuaires …",
-"ja": "なすべき……そして栄光ある二聖都……"
+"en": "that is due, and the glorious Two Sanctuaries … [God] Most High",
+"tr": "gereken, ve yüce Haremeyn … [Allah] Teâlâ",
+"fr": "qui est dû, et les glorieux Deux Sanctuaires … [Dieu] le Très-Haut",
+"ja": "なすべき、そして栄光ある二聖都……至高なる[神]"
 }
 },
 {
 "conf": "partial",
-"ota": "… دولت معدلت سمات …",
-"tl": "… devlet-i ma‘delet-simât …",
+"ota": "وفقا … دولت معدلت سمات",
+"tl": "vefkan … devlet-i ma‘delet-simât",
 "text": {
-"en": "… [our] state that bears the marks of justice …",
-"tr": "… adalet nişanlı devlet[imiz] …",
-"fr": "… [notre] État empreint de justice …",
-"ja": "……正義の徴を帯びた[我らの]国家……"
-}
-},
-{
-"conf": "probable",
-"ota": "… فوقیه سماویه و الطاف بلانهایه و تعطّفات سبحانیه",
-"tl": "… fevkiyye semâviyye ve eltâf-ı bilâ-nihâye ve teattufât-ı sübhâniyye",
-"text": {
-"en": "… heavenly [favours] from on high, endless graces and the compassions of the All-Glorious",
-"tr": "… yüce semavî [lütuflar], sonsuz ihsanlar ve Sübhân’ın şefkatleri",
-"fr": "… [faveurs] célestes d’en haut, grâces sans fin et compassions du Très-Glorieux",
-"ja": "……天上の高き[恵み]、限りない恩恵、栄光ある御方の慈しみ"
-}
-},
-{
-"conf": "probable",
-"ota": "سنه مظهر و قرین بیوردیغی ابد دولته و روضهٔ",
-"tl": "-sine mazhar ve karîn buyurduğu ebed-devlete ve Ravza-i",
-"text": {
-"en": "which He has granted and joined to our everlasting state; and the Purified",
-"tr": "-ne mazhar ve karîn kıldığı ebedî devletimize; ve Ravza-i",
-"fr": "dont Il a fait bénéficier notre État éternel ; et le Jardin",
-"ja": "を我らの永遠の国家に授け与えられた。そして清浄なる"
+"en": "in accordance with … [our] state that bears the marks of justice",
+"tr": "… uyarınca adalet nişanlı devlet[imiz]",
+"fr": "conformément à … [notre] État empreint de justice",
+"ja": "……に従い、正義の徴を帯びた[我らの]国家"
 }
 },
 {
 "conf": "partial",
-"ota": "مطهّرهٔ جناب سیّد الکونینه حرم … لاانقضا",
-"tl": "Mutahhara-i Cenâb-ı Seyyidü’l-Kevneyn’e harem … lâ-inkızâ",
+"ota": "… الهیه توفیقات صمدانیه و الطاف بلانهایه",
+"tl": "… ilâhiyye tevfîkât-ı samedâniyye ve eltâf-ı bilâ-nihâye",
 "text": {
-"en": "Garden of His Excellency the Lord of the Two Worlds, the sanctuary … without end",
-"tr": "Mutahhara’sı, iki cihanın efendisinin haremi … bitmeksizin",
-"fr": "purifié de Son Excellence le Seigneur des deux mondes, le sanctuaire … sans fin",
-"ja": "庭(ラウザ)、二つの世界の主の聖域……尽きることなく"
+"en": "… divine, the successes [granted] by the Eternal [God] and [His] endless graces",
+"tr": "… ilahî, Samed [olan Allah’ın] başarı ihsanları ve sonsuz lütufları",
+"fr": "… divines, les assistances du [Dieu] éternel et [Ses] bienfaits sans fin",
+"ja": "……神の、永遠なる[神]の導きと限りなき恩寵"
+}
+},
+{
+"conf": "partial",
+"ota": "و تعطفات سبحانیه سنه مظهر و قرین بیوردیغی ابددولته",
+"tl": "ve teattufât-ı sübhâniyye-sine mazhar ve karîn buyurduğu ebed-devlete",
+"text": {
+"en": "and the compassions of the Glorious [God], to [our] everlasting state which [He] has made their recipient and companion",
+"tr": "ve Sübhân [olan Allah’ın] şefkatlerine mazhar ve yakın kıldığı ebedî devlet[imiz]e",
+"fr": "et les tendresses du [Dieu] glorieux, à [notre] État éternel qu’[Il] en a fait le dépositaire et le compagnon",
+"ja": "そして讃えられるべき[神]の慈しみ、それらを受け、それらと共にあるようにされた永遠の[我らの]国家に"
+}
+},
+{
+"conf": "partial",
+"ota": "و روضهٔ مطهره جناب سید الکونینه",
+"tl": "ve Ravza-i Mutahhara-i Cenâb-ı Seyyidü’l-Kevneyn’e",
+"text": {
+"en": "and the purified Garden of His Excellency the Lord of the Two Worlds",
+"tr": "ve İki Cihan’ın Efendisi Hazretleri’nin tertemiz Ravza’sına",
+"fr": "et le Jardin purifié de Son Excellence le Seigneur des deux mondes",
+"ja": "そして両世界の主たる御方の清らかな園"
+}
+},
+{
+"conf": "partial",
+"ota": "صل تجدید ابقا",
+"tl": "sal tecdîd ibkâ",
+"text": {
+"en": "may [God] bless [him] … renewal [and] confirmation",
+"tr": "salla[llâhu aleyhi ve sellem] … yenileme [ve] sürdürme",
+"fr": "que [Dieu] le bénisse … renouvellement [et] maintien",
+"ja": "[神が彼を]祝福されますように……更新[と]存続"
 }
 }
 ],
 "l3": [
 {
-"conf": "probable",
-"ota": "لله الحمد والمنّه … فیما بعد الی یوم الآخر",
-"tl": "li’llâhi’l-hamd ve’l-minne … fîmâ ba‘d ile’l-yevmi’l-âhir",
+"conf": "partial",
+"ota": "لله الحمد والمنه … انشا الله تعالی",
+"tl": "li'llâhi'l-hamd ve'l-minne … inşâ'llâhu te‘âlâ",
 "text": {
-"en": "praise and thanks be to God … henceforth until the Last Day",
-"tr": "hamd ve minnet Allah’a … bundan böyle kıyamet gününe dek",
-"fr": "louange et grâce à Dieu … désormais jusqu’au Dernier Jour",
-"ja": "讃美と感謝は神に……今後、終末の日に至るまで"
+"en": "praise and thanks be to God … God Most High willing",
+"tr": "hamd ve minnet Allah’a … Allah Teâlâ dilerse",
+"fr": "louange et grâce à Dieu … s’il plaît à Dieu Très-Haut",
+"ja": "讃美と感謝は神に……至高なる神の御心ならば"
 }
 },
 {
 "conf": "probable",
-"ota": "حرم محترم و حجرهٔ مجیده و عموم العتبات فرّاشلری شریفه",
-"tl": "Harem-i muhterem ve Hücre-i mecîde ve ‘umûmu’l-‘atebât ferrâşları şerîfe",
+"ota": "الی یوم الآخره",
+"tl": "ilâ yevmi'l-âhire",
 "text": {
-"en": "the sacred Sanctuary, the glorious Chamber and all the thresholds — their noble sweepers",
-"tr": "muhterem Harem, yüce Hücre ve bütün eşikler — şerefli ferraşları",
-"fr": "le Sanctuaire vénéré, la glorieuse Chambre et tous les seuils — leurs nobles balayeurs",
-"ja": "尊き聖域、栄光ある御室(ヒュジュレ)、そしてすべての門口――その高貴な掃除人たち"
-}
-},
-{
-"conf": "probable",
-"ota": "ترتیب و تنظیمنه حمداً ثمّ حمداً موفّقیتمه مخصوص سریر پادشاهانه‌م",
-"tl": "tertîb ve tanzîmine hamden sümme hamden muvaffakıyetime mahsûs serîr-i pâdişâhânem",
-"text": {
-"en": "to order and arrange them — praise, and again praise — my imperial throne, granted the success of it",
-"tr": "tertip ve tanzimine — hamd, yine hamd — muvaffakiyetime mahsus padişahlık tahtım",
-"fr": "à les ordonner et les régler — louange, et encore louange — mon trône impérial, à qui ce succès est accordé",
-"ja": "整え定めること――讃美、さらに讃美――その成功を賜ったわが帝座"
+"en": "until the Last Day",
+"tr": "kıyamet gününe dek",
+"fr": "jusqu’au Dernier Jour",
+"ja": "終末の日に至るまで"
 }
 },
 {
 "conf": "partial",
-"ota": "بو کرّه مفتخر … وقوع بولدیغی … و افاده حالا حصّهٔ عینیه",
-"tl": "bu kerre müftehir … vukû‘ bulduğu … ve ifâde hâlâ hisse-i ‘ayniyye",
+"ota": "حرم محترم و وحی مهبط",
+"tl": "Harem-i muhterem ve vahy mehbit",
 "text": {
-"en": "now taking pride … as it came about … and reported: at present the in-kind share",
-"tr": "bu kez iftiharla … vuku bulduğu … ve bildirilerek, hâlen aynî hisse",
-"fr": "s’honorant à présent … comme il est survenu … et exposé : actuellement la part en nature",
-"ja": "このたび誇りとし……生じたところ……報告によれば、現在その現物の持ち分"
-}
-},
-{
-"conf": "probable",
-"ota": "مرتّبه حالا خزینهٔ خاصّم",
-"tl": "mürettebe hâlâ Hazîne-i Hâssam",
-"text": {
-"en": "allotted [to it], [held] now by my Privy Treasury",
-"tr": "tahsisli, hâlen Hazîne-i Hâssam",
-"fr": "allouée, [tenue] à présent par mon Trésor privé",
-"ja": "割り当てられた[分]、現在わが内帑の"
+"en": "the sacred Sanctuary and the place where revelation descended",
+"tr": "muhterem Harem ve vahyin indiği yer",
+"fr": "le Sanctuaire vénéré et le lieu où descendit la révélation",
+"ja": "尊き聖域、そして啓示の降りた地"
 }
 },
 {
 "conf": "partial",
-"ota": "ناظری … بو بابده توقیع رفیع خاقانی",
-"tl": "nâzırı … bu bâbda tevkî‘-i refî‘-i hâkânî",
+"ota": "عموم العتبات فراشت شریفه",
+"tl": "‘umûmu'l-‘atebât ferâşet-i şerîfe",
 "text": {
-"en": "its superintendent … on this matter, the exalted imperial signature",
-"tr": "nâzırı … bu hususta yüce hakanî tevki",
-"fr": "son surintendant … à ce sujet, le haut seing impérial",
-"ja": "の監督官……この件につき、崇高なる皇帝の署名"
+"en": "all the thresholds — [their] noble sweeping",
+"tr": "bütün eşikler — [onların] şerefli ferraşlığı",
+"fr": "tous les seuils — [leur] noble balayage",
+"ja": "すべての門口――[その]高貴な掃除の務め"
+}
+},
+{
+"conf": "probable",
+"ota": "ترتیب و تنظیمنه",
+"tl": "tertîb ve tanzîmine",
+"text": {
+"en": "to its ordering and arranging",
+"tr": "tertip ve tanzimine",
+"fr": "à son ordonnance et à son règlement",
+"ja": "それを整え定めることに"
+}
+},
+{
+"conf": "partial",
+"ota": "حمداً ثم حمداً موفقیتنه",
+"tl": "hamden sümme hamden muvaffakıyetine",
+"text": {
+"en": "praise, then praise — for the success of it",
+"tr": "hamd, sonra yine hamd — onun muvaffakiyetine",
+"fr": "louange, puis encore louange — pour ce succès",
+"ja": "讃美、さらに讃美――その成功に"
+}
+},
+{
+"conf": "partial",
+"ota": "مخلصا کبریا لازم",
+"tl": "muhlisen kibriyâ lâzım",
+"text": {
+"en": "sincerely, [as] befits [His] majesty",
+"tr": "ihlasla, [O’nun] kibriyasına lâyık olduğu üzere",
+"fr": "sincèrement, [comme il] sied à [Sa] majesté",
+"ja": "誠心をもって、[神の]威厳にふさわしく"
+}
+},
+{
+"conf": "partial",
+"ota": "بو کره مغفره قرین وقوع",
+"tl": "bu kerre mağfiret karîn vukû‘",
+"text": {
+"en": "this time, [by] the occurrence joined with forgiveness",
+"tr": "bu kere, mağfirete yakın vuku",
+"fr": "cette fois, [par] l’événement joint au pardon",
+"ja": "このたび、赦しを伴う出来事[によって]"
+}
+},
+{
+"conf": "partial",
+"ota": "ایله واقع حالا حصه علیه مرتبه",
+"tl": "ıyla vâki‘ hâlâ hisse-i ‘aliyye mürettebe",
+"text": {
+"en": "having so occurred, the exalted share at present assigned",
+"tr": "vuku bulmasıyla, hâlen tertip edilmiş yüce hisse",
+"fr": "cela étant advenu, la part élevée présentement assignée",
+"ja": "それが生じたことにより、現在定められた高き持分"
+}
+},
+{
+"conf": "partial",
+"ota": "حالا خزینه خاصم ناظری",
+"tl": "hâlâ Hazîne-i Hâssam nâzırı",
+"text": {
+"en": "the present superintendent of my Privy Treasury",
+"tr": "hâlen Hazine-i Hassa’mın nazırı",
+"fr": "l’actuel intendant de mon Trésor privé",
+"ja": "現任のわが帝室財庫(ハズィネ・イ・ハーッサ)の監督官"
+}
+},
+{
+"conf": "partial",
+"ota": "ایشبو رافع توقیع رفیع الشان خاقانی",
+"tl": "işbu râfi‘-i tevkî‘-i refî‘ü’ş-şân-ı hâkânî",
+"text": {
+"en": "the bearer of this exalted imperial signature",
+"tr": "işbu yüce şanlı padişah tuğrasını getiren",
+"fr": "le porteur de ce noble seing impérial à l’éminente gloire",
+"ja": "この高き栄誉ある帝王の御璽を携える者"
 }
 }
 ],
 "l4": [
 {
-"conf": "probable",
-"ota": "افتخار الاعالی والاعاظم شفیق بک دام علوّه",
+"conf": "partial",
+"ota": "افتخار الاعالی و الاعاظم شفیق بک دام علوه",
 "tl": "iftihârü’l-e‘âlî ve’l-e‘âzım Şefîk Bey dâme ‘ulüvvühû",
 "text": {
 "en": "the pride of the high and the great, Şefik Bey (name tentative) — may his eminence endure —",
-"tr": "yücelerin ve büyüklerin iftiharı Şefik Bey (isim ihtiyatlı) —yüceliği daim olsun—",
-"fr": "la fierté des hauts et des grands, Şefik Bey (nom provisoire) — que sa grandeur dure —",
-"ja": "高位なる者と偉大なる者の誇り、シェフィク・ベイ(名は仮)――その高位の続かんことを――"
+"tr": "yücelerin ve büyüklerin iftiharı Şefik Bey (isim belirsiz) —yüceliği daim olsun—",
+"fr": "la fierté des hauts et des grands, Şefik Bey (nom incertain) — que sa grandeur dure —",
+"ja": "高位なる者と偉大なる者の誇り、シェフィク・ベイ(名前は不確か)――その高位の続かんことを――"
 }
 },
 {
 "conf": "partial",
-"ota": "… فراشت شریفه … بر قیراط …",
-"tl": "… ferâşet-i şerîfe … bir kırât …",
+"ota": "فراغنه فراشت شریفه‌ده بر قیراط عهده‌سنه توجیهنی",
+"tl": "ferâğına ferâşet-i şerîfede bir kırât ‘uhdesine tevcîhini",
 "text": {
-"en": "… the noble sweeping service … one carat (kırat) …",
-"tr": "… şerefli ferâşet … bir kırat …",
-"fr": "… le noble service du balayage … un carat (kırat) …",
-"ja": "……高貴な掃除の奉仕……一キラート(クルラト)……"
+"en": "[upon] the resignation [of it], the conferring on him of one carat (kırat) in the noble sweeping service",
+"tr": "ferâğına, şerefli ferâşette bir kıratın üzerine tevcihini",
+"fr": "[sur] la résignation [de celle-ci], l'attribution à lui d'un carat (kırat) dans le noble service du balayage",
+"ja": "[その]放棄に[基づき]、高貴な掃除の奉仕における一キラート(クルラト)を彼に授けることを"
 }
 },
 {
 "conf": "partial",
-"ota": "… الکعبه … بر وجه حسبی …",
-"tl": "… el-Ka‘be … ber-vech-i hasebî …",
+"ota": "طلب و استدعا ایلدیکنه بنا",
+"tl": "taleb ve istid‘â eylediğine binâ’en",
 "text": {
-"en": "… the Kaaba … as an honorary share …",
-"tr": "… Kâbe … ber-vech-i hasebî …",
-"fr": "… la Kaaba … à titre honorifique …",
-"ja": "……カアバ……名誉の持ち分として……"
+"en": "because he requested and petitioned [it],",
+"tr": "talep ve istida ettiğine binaen,",
+"fr": "parce qu'il [l']a demandé et sollicité,",
+"ja": "彼が[それを]求め、請願したことに基づき、"
 }
 },
 {
-"conf": "probable",
-"ota": "بر قیراط فراشت شریفه … عهده‌سنه توجیهی خصوصنه",
-"tl": "bir kırât ferâşet-i şerîfe … ‘uhdesine tevcîhi husûsuna",
+"conf": "partial",
+"ota": "بروجه حسبی بر قیراط فراشت شریفه سنی",
+"tl": "ber-vech-i hasebî bir kırât ferâşet-i şerîfe-sini",
 "text": {
-"en": "one carat of the noble sweeping service … for the matter of granting it into his charge",
-"tr": "bir kırat şerefli ferâşet … uhdesine tevcihi hususuna",
-"fr": "un carat du noble service du balayage … pour qu’il soit remis à sa charge",
-"ja": "高貴な掃除の奉仕一キラートを……彼の責任に授与する件について"
+"en": "the one carat (kırat) of the noble sweeping service, as an honorary share,",
+"tr": "ber-vech-i hasebî bir kırat şerefli ferâşeti",
+"fr": "le carat (kırat) du noble service du balayage, à titre honorifique,",
+"ja": "名誉の持ち分として、高貴な掃除の奉仕の一キラート(クルラト)を"
 }
 },
 {
-"conf": "unread",
-"ota": "… اللّازم …",
-"tl": "… el-lâzım …",
+"conf": "partial",
+"ota": "عهده‌سنه توجیهی خصوصنه مساعده علیه‌م شایان اولدیغی حالده",
+"tl": "‘uhdesine tevcîhi husûsuna müsâ‘ade-i ‘aliyyem şâyân olduğı hâlde",
 "text": {
-"en": "… that is due …",
-"tr": "… gereken …",
-"fr": "… qui est dû …",
-"ja": "……なすべき……"
+"en": "since the matter of its conferring on him is worthy of my exalted permission,",
+"tr": "üzerine tevcihi hususu yüce müsaademe layık olduğu halde,",
+"fr": "puisque l'affaire de son attribution à lui est digne de ma haute permission,",
+"ja": "それを彼に授ける件が朕の高き許可に値するゆえ、"
+}
+},
+{
+"conf": "partial",
+"ota": "اول بابده لازم کلن …",
+"tl": "ol bâbda lâzım gelen …",
+"text": {
+"en": "in that matter the necessary …",
+"tr": "o hususta gereken …",
+"fr": "en cette affaire le nécessaire …",
+"ja": "その件において必要な……"
 }
 }
 ],
 "l5": [
 {
-"conf": "probable",
-"ota": "… اصداری خصوصی منحلّ اولمغله",
-"tl": "… ısdârı husûsu münhal olmağla",
+"conf": "partial",
+"ota": "بیله تفضل الصلای خصوصی",
+"tl": "bile tefaddul es-salâ-yı husûsı",
 "text": {
-"en": "… the matter of its issue having fallen vacant",
-"tr": "… ısdarı hususu münhal olmakla",
-"fr": "… son attribution étant devenue vacante",
-"ja": "……その発給が空位となったので"
+"en": "likewise, the matter of the favour of the salâ",
+"tr": "keza salânın tefaddulü hususu",
+"fr": "de même, l’affaire de la faveur de la salâ",
+"ja": "同様に、サラーの恩恵の件"
+}
+},
+{
+"conf": "partial",
+"ota": "منحل ده بحال حصه عتبه مرتبه",
+"tl": "münhal de bi-hâl hisse ‘atebe mertebe",
+"text": {
+"en": "being vacant too, as it stands, the share [of] the rank of the threshold",
+"tr": "münhal de olup hâliyle, eşik mertebesinin hissesi",
+"fr": "étant vacante elle aussi, en l’état, la part [du] rang du seuil",
+"ja": "これも空位で、現状のまま、門閾の位の持ち分"
 }
 },
 {
 "conf": "probable",
-"ota": "حالا حصّهٔ … اوقاف همایونم ناظری افتخار الاعالی",
-"tl": "hâlâ hisse-i … Evkâf-ı Hümâyûnum nâzırı iftihârü’l-e‘âlî",
+"ota": "حالا اوقاف همایونم ناظری افتخار الاعالی",
+"tl": "hâlâ Evkâf-ı hümâyûnum nâzırı iftihârü’l-e‘âlî",
 "text": {
-"en": "the share of … now, the Superintendent of my Imperial Endowments, the pride of the high",
-"tr": "hâlen hissesi … Evkâf-ı Hümâyûnum nâzırı, yücelerin iftiharı",
-"fr": "la part de … à présent, le Surintendant de mes Fondations impériales, fierté des hauts",
-"ja": "現在その持ち分……わが帝室ワクフ監督官、高位なる者の誇り"
+"en": "now, the Superintendent of my Imperial Endowments, the pride of the high",
+"tr": "hâlen Evkâf-ı Hümâyûnum nâzırı, yücelerin iftiharı",
+"fr": "à présent, le Surintendant de mes Fondations impériales, fierté des hauts",
+"ja": "現在、わが帝室ワクフ監督官、高位なる者の誇り"
+}
+},
+{
+"conf": "partial",
+"ota": "والاعاظم … علی رضا دام علوّه",
+"tl": "ve’l-e‘âzım … ‘Alî Rızâ dâme ‘ulüvvühû",
+"text": {
+"en": "and the great, … Ali Rıza (name tentative) — may his eminence endure —",
+"tr": "ve büyüklerin iftiharı … Ali Rıza (isim belirsiz) —yüceliği daim olsun—",
+"fr": "et des grands, … Ali Rıza (nom incertain) — que sa grandeur dure —",
+"ja": "と偉大なる者の誇り……アリー・ルザ(名前は不確か)――その高位の続かんことを――"
+}
+},
+{
+"conf": "read",
+"ota": "طرفندن بالتقریر افاده اولنوب",
+"tl": "tarafından bi’t-takrîr ifâde olunup",
+"text": {
+"en": "having reported it in writing",
+"tr": "tarafından takrirle bildirilip",
+"fr": "l’ayant exposé par écrit",
+"ja": "によって書面で申し立てられ"
 }
 },
 {
 "conf": "probable",
-"ota": "والاعاظم علی رضا دام علوّه طرفندن بالتّقریر افاده",
-"tl": "ve’l-e‘âzım ‘Alî Rızâ dâme ‘ulüvvühû tarafından bi’t-takrîr ifâde",
+"ota": "بر منوال محرر توجیهی التماس خصوصنه",
+"tl": "ber-minvâl-i muharrer tevcîhi iltimâs husûsuna",
 "text": {
-"en": "and the great, Ali Rıza (name tentative) — may his eminence endure — having reported it in writing",
-"tr": "ve büyüklerin iftiharı Ali Rıza (isim ihtiyatlı) —yüceliği daim olsun— tarafından takrirle bildirilip",
-"fr": "et des grands, Ali Rıza (nom provisoire) — que sa grandeur dure — l’ayant exposé par écrit",
-"ja": "と偉大なる者の誇りアリー・ルザ(名は仮)――その高位の続かんことを――が書面で申し立て"
+"en": "to the matter of the request for its grant in the manner written above",
+"tr": "yukarıda yazıldığı üzere tevcihinin istenmesi hususuna",
+"fr": "à l’affaire de la demande de son attribution de la manière écrite ci-dessus",
+"ja": "上に記した通りのその授与の請願の件に"
 }
 },
 {
-"conf": "probable",
-"ota": "اولنوب بر منوال محرّر توجیهی التماس …",
-"tl": "olunup ber-minvâl-i muharrer tevcîhi iltimâs …",
+"conf": "partial",
+"ota": "… عنایت عمیم ارزانی قلنه‌رق",
+"tl": "… ‘inâyet-i ‘amîm erzânî kılınarak",
 "text": {
-"en": "and asked that it be granted as written above …",
-"tr": "yukarıda yazıldığı üzere tevcihini rica ederek …",
-"fr": "et ayant demandé qu’elle soit attribuée comme il est écrit ci-dessus …",
-"ja": "上記のとおり授与するよう願い出て……"
+"en": "… [my] all-embracing favour having been bestowed",
+"tr": "… [benim] umumi lütfum ihsan edilerek",
+"fr": "… [ma] faveur universelle ayant été accordée",
+"ja": "……[わが]遍き恩寵が授けられて"
 }
 },
 {
-"conf": "probable",
-"ota": "عنایتم ارزانی قلنه‌رق بو برات همایونی ویردم",
-"tl": "‘inâyetim erzânî kılınarak bu berât-ı hümâyûnu verdim",
+"conf": "partial",
+"ota": "بو منسوبا … بری … ربع الاول",
+"tl": "bu mensûben … -birî … Rebî‘ü’l-evvel",
 "text": {
-"en": "my favour being bestowed, I have given this imperial berat",
-"tr": "inayetim ihsan olunarak bu berât-ı hümâyunu verdim",
-"fr": "ma faveur étant accordée, j’ai donné ce berat impérial",
-"ja": "わが恩寵を授け、この勅許状を与えた"
-}
-},
-{
-"conf": "unread",
-"ota": "… سنه … ربیع الاوّل …",
-"tl": "… sene … Rebî‘ü’l-evvel …",
-"text": {
-"en": "… the year … Rebîülevvel … (probably the date from which the grant runs)",
-"tr": "… sene … Rebîülevvel … (büyük ihtimalle tevcihin geçerli olduğu tarih)",
-"fr": "… l’an … Rebîülevvel … (sans doute la date d’effet de l’attribution)",
-"ja": "……年……ラビー・アル=アウワル月……(おそらく授与の発効日)"
+"en": "with reference to this … -first … [of] Rebîülevvel",
+"tr": "buna nispetle … -birinci … Rebîülevvel[in]",
+"fr": "en référence à ceci … -premier … [de] Rebîülevvel",
+"ja": "これに関して……第……一……ラビー・アウワル[月の]"
 }
 }
 ],
 "l6": [
 {
-"conf": "probable",
-"ota": "اول جهتدن … صادر اولان فرمان عالیشانم موجبنجه",
-"tl": "ol cihetten … sâdır olan fermân-ı ‘âlî-şânım mûcebince",
+"conf": "partial",
+"ota": "اوچنجی کونی صادر اولان فرمان عالیشانم موجبنجه",
+"tl": "üçüncü güni sâdır olan fermân-ı ‘âlî-şânım mûcebince",
 "text": {
-"en": "For that reason … in keeping with my exalted decree that was issued",
-"tr": "O cihetten … çıkan yüce fermanım gereğince",
-"fr": "C’est pourquoi … conformément à mon glorieux firman émis",
-"ja": "その理由により……発せられたわが崇高なる勅令に従い"
+"en": "[on] the third day, in keeping with my exalted decree that was issued",
+"tr": "üçüncü günü çıkan yüce fermanım gereğince",
+"fr": "le troisième jour, conformément à mon glorieux firman émis",
+"ja": "三日目に発せられたわが崇高なる勅令に従い"
+}
+},
+{
+"conf": "partial",
+"ota": "… بله مومی الیه",
+"tl": "… -ile mûmâ ileyh",
+"text": {
+"en": "… with the said person",
+"tr": "… adı geçen ile",
+"fr": "… avec ladite personne",
+"ja": "……当該の者と共に"
+}
+},
+{
+"conf": "partial",
+"ota": "بر وجه حسبی کعبه ربع",
+"tl": "ber-vech-i hasebî Ka‘be rub‘",
+"text": {
+"en": "as an honorary share, a quarter [of the service] of the Kaaba",
+"tr": "ber-vech-i hasebî, Kâbe'nin [hizmetinin] dörtte biri",
+"fr": "à titre honorifique, un quart [du service] de la Kaaba",
+"ja": "名誉の持ち分として、カアバの[奉仕の]四分の一"
 }
 },
 {
 "conf": "unread",
-"ota": "… مرقوم …",
-"tl": "… merkûm …",
+"ota": "… بر قیراط ما …",
+"tl": "… bir kırât mâ …",
 "text": {
-"en": "… the said person …",
-"tr": "… adı geçen …",
-"fr": "… ladite personne …",
-"ja": "……当該の者……"
+"en": "… … one carat …",
+"tr": "… … bir kırat …",
+"fr": "… … un carat …",
+"ja": "…………一キラート……"
 }
 },
 {
 "conf": "partial",
-"ota": "… بر وجه حسبی … بر قیراط … فراشت شریفه",
-"tl": "… ber-vech-i hasebî … bir kırât … ferâşet-i şerîfe",
+"ota": "فراشت شریفه الحق … ابدی",
+"tl": "ferâşet-i şerîfe el-hakk … ebedî",
 "text": {
-"en": "… as an honorary share … one carat … of the noble sweeping service",
-"tr": "… ber-vech-i hasebî … bir kırat … şerefli ferâşet",
-"fr": "… à titre honorifique … un carat … du noble service du balayage",
-"ja": "……名誉の持ち分として……一キラート……高貴な掃除の奉仕"
+"en": "of the noble sweeping service, in truth … … forever",
+"tr": "şerefli ferâşetin, hakkıyla … … ebedî olarak",
+"fr": "du noble service du balayage, en vérité … … à jamais",
+"ja": "高貴な掃除の奉仕の、まことに……永久に"
 }
 },
 {
 "conf": "partial",
-"ota": "شریفه‌یی … الحق … عهده‌سنه … ابدیه …",
-"tl": "şerîfeyi … el-hakk … ‘uhdesine … ebediyye …",
+"ota": "کمال تعظیم و تکریم",
+"tl": "kemâl-i ta‘zîm ve tekrîm",
 "text": {
-"en": "the noble [service] … rightly … into his charge … forever …",
-"tr": "şerifeyi … hakkıyla … uhdesine … ebedî …",
-"fr": "le noble [service] … à bon droit … à sa charge … à jamais …",
-"ja": "高貴な[奉仕]を……正しく……彼の責任に……永遠に……"
+"en": "with perfect reverence and honour",
+"tr": "tam bir saygı ve ikram ile",
+"fr": "avec un parfait respect et une parfaite vénération",
+"ja": "完全なる畏敬と尊崇をもって"
 }
 },
 {
 "conf": "probable",
-"ota": "… کمال تعظیم و تکریم و آداب",
-"tl": "… kemâl-i ta‘zîm ve tekrîm ve âdâb",
+"ota": "آداب و نهایت حیا و حجاب",
+"tl": "âdâb ve nihâyet-i hayâ ve hicâb",
 "text": {
-"en": "… with the utmost reverence, honour and good manners",
-"tr": "… kemâl-i tazim, tekrim ve âdâb ile",
-"fr": "… avec la plus grande révérence, l’honneur et les bonnes manières",
-"ja": "……この上ない敬意と礼と作法をもって"
+"en": "[with] decorum and the utmost modesty and reserve",
+"tr": "edep ve son derece haya ve hicab [ile]",
+"fr": "[avec] bienséance et la plus grande pudeur et retenue",
+"ja": "礼節と、この上ない恥じらいと慎みと[をもって]"
 }
 },
 {
-"conf": "probable",
-"ota": "و نهایت حیا و حجاب و نظافت البسه و ثیاب",
-"tl": "ve nihâyet-i hayâ ve hicâb ve nezâfet-i elbise ve siyâb",
+"conf": "partial",
+"ota": "نظافت البسه و ثیاب ایله",
+"tl": "nezâfet-i elbise ve siyâb ile",
 "text": {
-"en": "and the utmost modesty and decorum, in clean clothes and garments",
-"tr": "ve nihayet-i haya ve hicâb ve elbise ve siyâbın temizliğiyle",
-"fr": "et la plus grande pudeur et retenue, en habits et vêtements propres",
-"ja": "そしてこの上ない恥じらいと慶みをもって、清潔な衣服をまとい"
+"en": "with cleanliness of garments and clothes",
+"tr": "giysi ve elbisenin temizliği ile",
+"fr": "avec la propreté des habits et des vêtements",
+"ja": "衣服と装束の清潔さをもって"
 }
 }
 ],
 "l7": [
 {
-"conf": "partial",
-"ota": "… خمسه … و موجبنجه",
-"tl": "… hamse … ve mûcebince",
+"conf": "probable",
+"ota": "بلکه مسك ناب و العنبر الطیوب",
+"tl": "belki misk nâb ve el-‘anber et-tuyûb",
 "text": {
-"en": "… [at the] five [prayer times] … and accordingly",
-"tr": "… beş [vakitte] … ve gereğince",
-"fr": "… [aux] cinq [heures de prière] … et en conséquence",
-"ja": "……五[回の礼拝]……それに従って"
+"en": "nay rather [with] pure musk and ambergris, the [finest of] perfumes",
+"tr": "hatta saf misk ve kokuların [en güzeli olan] amber [ile]",
+"fr": "bien plus, [avec] le musc pur et l’ambre gris, [le meilleur des] parfums",
+"ja": "さらには純なる麝香と、香りの[最上なる]龍涎香[をもって]"
+}
+},
+{
+"conf": "partial",
+"ota": "فی كعبه ابدی عمر و شوکتم",
+"tl": "fî Ka‘be ebedî ‘ömr ü şevketim",
+"text": {
+"en": "in the Kaaba, [for the] eternal [lasting of] my life and my majesty",
+"tr": "Kâbe’de, ömrümün ve şevketimin ebedî [devamı]",
+"fr": "dans la Kaaba, [pour la durée] éternelle de ma vie et de ma majesté",
+"ja": "カアバにおいて、わが命と威光の永久[なる長久]"
 }
 },
 {
 "conf": "probable",
-"ota": "دوام عمر و شوکتم و مظفّریتم",
-"tl": "devâm-ı ‘ömr ü şevketim ve muzafferiyetim",
+"ota": "و مظفریتم ترقیاتم دعوات خیریه‌سنه",
+"tl": "ve muzafferiyetim terakkiyâtım da‘avât-ı hayriyyesine",
 "text": {
-"en": "for the lasting of my life, my majesty and my victories",
-"tr": "ömrümün, şevketimin ve zaferlerimin devamı",
-"fr": "pour la durée de ma vie, de ma majesté et de mes victoires",
-"ja": "わが命と威光と勝利の長からんことを"
+"en": "and of my victories [and] my advancements, in prayers for good",
+"tr": "ve zaferlerimin [ve] ilerlemelerimin hayır dualarına",
+"fr": "et de mes victoires [et] de mes progrès, aux prières de bien",
+"ja": "とわが勝利[と]発展のための善き祈りに"
 }
 },
 {
-"conf": "read",
-"ota": "… دعوات خیریه‌سنه اشتغال و مواظبت",
-"tl": "… da‘avât-ı hayriyyesine iştigâl ve muvâzabet",
+"conf": "probable",
+"ota": "اشتغال و مواظبه ایلیه",
+"tl": "iştigâl ve muvâzabet eyleye.",
 "text": {
-"en": "… let him be busy and constant in prayers for good",
-"tr": "… hayır dualarıyla meşgul olup devam",
-"fr": "… qu’il s’applique avec constance aux prières de bien",
-"ja": "……の祈りに励み、怠らず"
+"en": "let him be busy and constant.",
+"tr": "meşgul olup devam etsin.",
+"fr": "qu’il s’y applique avec constance.",
+"ja": "励み、怠らぬように。"
 }
 },
 {
-"conf": "read",
-"ota": "ایلیه. شویله بیله‌لر، علامت شریفه‌یه اعتماد قیله‌لر. تحریراً فی الیوم الثامن من",
-"tl": "eyleye. Şöyle bileler, ‘alâmet-i şerîfeye i‘timâd kılalar. Tahrîren fi’l-yevmi’s-sâmin min",
+"conf": "partial",
+"ota": "شویله بیله‌لر علامت شریفه‌یه اعتماد قیله‌لر",
+"tl": "Şöyle bileler, ‘alâmet-i şerîfeye i‘timâd kılalar.",
 "text": {
-"en": "So let them know, and let them trust the noble sign. Written on the eighth day of",
-"tr": "etsin. Böyle bilsinler, şerefli alamete itimat etsinler. Yazıldı, sekizinci gününde",
-"fr": "Qu’ils le sachent ainsi, et qu’ils se fient au noble signe. Écrit le huitième jour du",
-"ja": "かく知るべし、高貴なる印を信ずべし。……月の第八日に記す"
+"en": "Thus let them know, [and] place trust in the noble sign.",
+"tr": "Şöyle bilsinler, şerif alâmete itimat etsinler.",
+"fr": "Qu’ils le sachent ainsi, [et] qu’ils se fient au noble signe.",
+"ja": "かく知るべし、高貴なる印を信ずべし。"
 }
 },
 {
-"conf": "read",
-"ota": "شهر ربیع الاوّل سنه سبع و ستّین و مائتین و الف",
-"tl": "şehr-i Rebî‘i’l-evvel sene seb‘ ve sittîn ve mieteyn ve elf",
+"conf": "probable",
+"ota": "تحریراً فی الیوم الثامن من شهر ربیع الاول",
+"tl": "Tahrîren fi’l-yevmi’s-sâmin min şehr-i Rebî‘i’l-evvel",
 "text": {
-"en": "the month of Rebîülevvel, the year 1267 (11 January 1851)",
-"tr": "Rebîülevvel ayının, 1267 senesi (11 Ocak 1851)",
-"fr": "mois de Rebîülevvel, l’an 1267 (11 janvier 1851)",
-"ja": "ラビー・アル=アウワル月、1267年(1851年1月11日)"
+"en": "Written on the eighth day of the month of Rebiülevvel",
+"tr": "Rebiülevvel ayının sekizinci gününde yazıldı",
+"fr": "Écrit le huitième jour du mois de Rebiülevvel",
+"ja": "ラビーウ・アル＝アウワル月の第八日に記す"
+}
+},
+{
+"conf": "partial",
+"ota": "سنه سبع و ستین و مائتین و الف",
+"tl": "sene seb‘ ve sittîn ve mi’eteyn ve elf",
+"text": {
+"en": "[in the] year seven and sixty and two hundred and one thousand",
+"tr": "bin iki yüz altmış yedi senesi",
+"fr": "[en l’]an mil deux cent soixante-sept",
+"ja": "千二百六十七年"
 }
 }
 ],

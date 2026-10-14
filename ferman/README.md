@@ -39,8 +39,12 @@ OpenSeadragon, EB Garamond, Amiri and Noto Serif JP load from CDNs. The image ti
 
 The photographs are not in the repository. Requirements: Python 3 with `opencv-contrib-python-headless`, `numpy`, `scipy`, `pillow`.
 
+## Reading v2: words first, then boxes
+
+The current reading was made word by word (`scripts/v2_*.py`, instructions in `READING-V2.md`): `v2_lines.py` unrolls each curved line along a fitted centreline, and `v2_words.py` cuts it into candidate words from the ink. Each line was then read by one agent, its words re-read blind by others, and every disagreement settled by a third from the letter shapes (`v2_brief.py`, `v2_final.py`). The readers then grouped the verified words into phrases, and `v2_boxes.py` builds each box's outline from the ink of exactly those words and checks it (all of its own ink inside, almost none of its neighbours'). The word-level results, with each word's outline and confidence, are in `scripts/reading-words.json`; the working files (crops, readings, disputes) go to `ferman/work/`, which is not committed.
+
 ## Sources and caveats
 
 - Title, date, materials and description are from the museum’s label.
-- **The reading is provisional.** It was made from the photographs, not the original. The opening formula, the Qur’anic verse (22:26), the closing and the date are secure. Much of the body is partial: `[?]` marks a doubtful word, `…` a passage not yet read. The two personal names in lines 4–5 are tentative. The small gold composition at the top is not read: the photographs don’t resolve it.
+- **The reading is provisional.** It was made from the photographs, not the original. The opening formula, the Qur’anic verse (22:26), the closing and the date are secure. Much of the body is partial: each box’s confidence comes from its words, and `…` marks a word not read. The two personal names in lines 4–5 (Şefîk Bey, ‘Alî Rızâ) are probable readings, not certain ones. The small gold invocation at the top follows the ferâşet formula; several of its interlaced words are guesses.
 - The Ottoman text is shown typeset in Naskh, not as written in dîvânî.

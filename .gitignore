@@ -7,3 +7,4 @@ scripts/video/node_modules/
 scripts/video/*.sprites/
 scripts/video/*.filter.txt
 ferman/work/
+ferman/scripts/__pycache__/
