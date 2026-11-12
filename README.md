@@ -2,7 +2,7 @@
 
 An interactive, print-style reading of the **Obelisk of Theodosius** (Dikilitaş) in Istanbul's Hippodrome: the red granite obelisk of Thutmose III, carved for Karnak c. 1450 B.C. and raised here by Theodosius I in A.D. 390.
 
-**Live:** [obelisk-390.vercel.app](https://obelisk-390.vercel.app) · **Demo:** [10-second video](docs/demo-10s-en.mp4) · **How it was made:** [blog post](https://cahidarda.github.io/articles/dikilitas)
+**Live:** [obelisk-390.cahidarda.com](https://obelisk-390.cahidarda.com) · **Demo:** [10-second video](docs/demo-10s-en.mp4) · **How it was made:** [blog post](https://cahidarda.github.io/articles/dikilitas)
 
 The obelisk and its pedestal are a rotatable 3D model drawn in the flat, ink-outlined style of a printed technical plate. Next to it, a reading page sets each face's hieroglyphic column beside its transliteration, translation and notes.
 
